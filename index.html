@@ -33,10 +33,15 @@
         font-weight: 400;
       }
 
-      .notice img {
+      .pictureFrame {
         width: 300px;
-        height: auto;
-        border: 1px solid black;
+        height: 300px;
+        overflow: hidden;
+      }
+
+      .pictureFrame img {
+        width: 100%;
+        height: 100%;
       }
     </style>
   </head>
@@ -44,7 +49,9 @@
     <div class="container">
       <div class="notice">
         <h1>Lucy Helder</h1>
-        <img src="lucy.jpg">
+        <div class="pictureFrame">
+          <img src="lucy.jpg">
+        </div>
         <h3>In opbouw</h3>
       </div>
     </div>
