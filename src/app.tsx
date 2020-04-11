@@ -9,6 +9,8 @@ import {
 import Navigation, { INavLink } from './navigation';
 import Page from './page';
 
+import './core.sass';
+
 interface IRoute extends INavLink {
   component: any,
   exact?: boolean,
