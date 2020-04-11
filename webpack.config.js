@@ -3,11 +3,14 @@ const path = require('path');
 module.exports = {
   mode: 'development',
   devtool: 'source-map',
-  entry: './src/app.tsx',
+  context: path.resolve(__dirname, 'src'),
+  entry: {
+    app: './app.tsx',
+  },
+  target: 'web',
   output: {
-    path: path.join(__dirname, 'dist'),
-    filename: 'app.js',
-    publicPath: path.join(__dirname, 'public'),
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
@@ -20,5 +23,6 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
+    publicPath: '/dist/',
   }
 }
