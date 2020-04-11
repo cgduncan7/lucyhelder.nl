@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 
 import Navigation, { INavLink } from './navigation';
+import Page from './page';
 
 interface IRoute extends INavLink {
   component: any,
@@ -20,10 +21,10 @@ class App extends React.Component<{}, {}> {
     super(props);
 
     this.routes = [
-      { path: '/', label: 'Hoofdpagina', component: <div>Hoofdpagina</div>, exact: true },
-      { path: '/taal-cafe', label: 'Taalcafé', component: <div>Taalcafé</div> },
-      { path: '/korte-verhalen', label: 'Korte Verhalen', component: <div>Korte verhalen</div> },
-      { path: '/debatclub', label: 'Debatclub', component: <div>Debatclub</div> },
+      { path: '/', label: 'Hoofdpagina', component: <Page title="Hoofdpagina">Deze is de hoofdpagina</Page>, exact: true },
+      { path: '/taal-cafe', label: 'Taalcafé', component: <Page title="Taalcafé">Deze gaat over de taalcafé</Page> },
+      { path: '/korte-verhalen', label: 'Korte Verhalen', component: <Page title="Korte verhalen">Hier staan korte verhalen</Page> },
+      { path: '/debatclub', label: 'Debatclub', component: <Page title="Debatclub">D E B A T C L U B</Page> },
     ]
   }
 
