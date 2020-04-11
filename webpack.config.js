@@ -5,8 +5,9 @@ module.exports = {
   devtool: 'source-map',
   entry: './src/app.tsx',
   output: {
-    path: path.join(__dirname, 'public'),
-    filename: 'dist/app.js',
+    path: path.join(__dirname, 'dist'),
+    filename: 'app.js',
+    publicPath: path.join(__dirname, 'public'),
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
@@ -18,6 +19,6 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: path.join(__dirname, 'public'),
+    historyApiFallback: true,
   }
 }

@@ -9,7 +9,8 @@ import {
 import Navigation, { INavLink } from './navigation';
 
 interface IRoute extends INavLink {
-  component: any
+  component: any,
+  exact?: boolean,
 }
 
 class App extends React.Component<{}, {}> {
@@ -19,10 +20,10 @@ class App extends React.Component<{}, {}> {
     super(props);
 
     this.routes = [
+      { path: '/', label: 'Hoofdpagina', component: <div>Hoofdpagina</div>, exact: true },
       { path: '/taal-cafe', label: 'Taalcafé', component: <div>Taalcafé</div> },
       { path: '/korte-verhalen', label: 'Korte Verhalen', component: <div>Korte verhalen</div> },
       { path: '/debatclub', label: 'Debatclub', component: <div>Debatclub</div> },
-      { path: '/', label: 'Hoofdpagina', component: <div>Hoofdpagina</div> },
     ]
   }
 
@@ -32,12 +33,15 @@ class App extends React.Component<{}, {}> {
         <Navigation links={this.routes}/>
         <Switch>
           {
-            this.routes.map(({ path, component }, index) => (
-                <Route path={path} key={index}>
+            this.routes.map(({ path, component, exact = false }, index) => (
+                <Route exact={exact} path={path} key={index}>
                   { component }
                 </Route>
             ))
           }
+          <Route path='*' key='404'>
+            404 - Page not found.
+          </Route>
         </Switch>
       </Router>
     )
