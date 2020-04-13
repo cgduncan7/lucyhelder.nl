@@ -37424,11 +37424,7 @@ var App = /** @class */ (function (_super) {
     App.prototype.render = function () {
         return (React.createElement(react_router_dom_1.BrowserRouter, null,
             React.createElement(react_router_dom_1.Switch, null,
-                React.createElement(react_router_dom_1.Route, { path: "/en" },
-                    React.createElement(react_router_dom_1.Switch, null,
-                        React.createElement(react_router_dom_1.Route, { exact: true, path: "/en" }, "Home page"),
-                        React.createElement(react_router_dom_1.Route, { path: "/en/debate-club" }, "Debate club"),
-                        React.createElement(react_router_dom_1.Route, { path: "*" }, "Page not found"))),
+                React.createElement(react_router_dom_1.Route, { path: "/en" }, "We gaan eerst Nederlands doen, balen."),
                 React.createElement(react_router_dom_1.Route, { path: "/" },
                     React.createElement(react_router_dom_1.Switch, null,
                         React.createElement(react_router_dom_1.Route, { exact: true, path: "/" }, "Hoofdpagina"),

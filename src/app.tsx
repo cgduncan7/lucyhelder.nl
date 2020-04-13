@@ -15,17 +15,7 @@ export default class App extends React.Component<{}, {}> {
       <Router>
         <Switch>
           <Route path="/en">
-            <Switch>
-              <Route exact path="/en">
-                Home page
-              </Route>
-              <Route path="/en/debate-club">
-                Debate club
-              </Route>
-              <Route path="*">
-                Page not found
-              </Route>
-            </Switch>
+            We gaan eerst Nederlands doen, balen.
           </Route>
           <Route path="/">
             <Switch>
