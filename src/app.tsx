@@ -42,7 +42,7 @@ export default class App extends React.Component<{}, {}> {
             ))
           }
           <Route path='*' key='404'>
-            <FourOhFour title='Niet gevonden' />
+            <FourOhFour title='404' />
           </Route>
         </Switch>
       </Router>
