@@ -1,5 +1,4 @@
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
 import {
   BrowserRouter as Router,
   Route,
@@ -7,16 +6,16 @@ import {
 } from 'react-router-dom';
 
 import Navigation, { INavLink } from './navigation';
-import Page from './page';
 
-import './core.sass';
+import Page from './page';
+import FourOhFour from './fourohfour';
 
 interface IRoute extends INavLink {
   component: any,
   exact?: boolean,
 }
 
-class App extends React.Component<{}, {}> {
+export default class App extends React.Component<{}, {}> {
   private routes: IRoute[] = []
 
   constructor(props: any) {
@@ -43,15 +42,10 @@ class App extends React.Component<{}, {}> {
             ))
           }
           <Route path='*' key='404'>
-            404 - Page not found.
+            <FourOhFour title='Niet gevonden' />
           </Route>
         </Switch>
       </Router>
     )
   }
 }
-
-ReactDOM.render(
-  <App />,
-  document.getElementById('app')
-);
