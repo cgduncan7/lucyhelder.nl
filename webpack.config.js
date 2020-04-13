@@ -5,7 +5,7 @@ module.exports = {
   devtool: 'source-map',
   context: path.resolve(__dirname, 'src'),
   entry: {
-    app: './app.tsx',
+    app: './index.tsx',
   },
   target: 'web',
   output: {
