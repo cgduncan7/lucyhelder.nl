@@ -18,7 +18,7 @@ export default class Page extends React.Component<IPageProps, {}> {
             if (ready) {
               return (
                 <div>
-                  <h1>{ t('404') }</h1>
+                  <h1>{ t(this.props.title) }</h1>
                   <div className="content">
                     { this.props.children }
                   </div>
