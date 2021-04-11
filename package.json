@@ -25,6 +25,7 @@
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
     "@types/react-responsive": "^8.0.2",
+    "@types/react-router-config": "^5.0.2",
     "@types/react-router-dom": "^5.1.7",
     "css-loader": "^5.2.1",
     "node-sass": "^5.0.0",
@@ -43,6 +44,7 @@
     "react-dom": "^17.0.2",
     "react-i18next": "^11.8.12",
     "react-responsive": "^8.2.0",
+    "react-router-config": "^5.1.1",
     "react-router-dom": "^5.2.0"
   }
 }

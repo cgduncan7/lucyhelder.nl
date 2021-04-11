@@ -1,71 +1,37 @@
 import * as React from 'react';
 import {
   BrowserRouter as Router,
-  Route,
-  Switch,
 } from 'react-router-dom';
-import Navigation, { INavLink } from './navigation';
+import { renderRoutes, RouteConfig } from 'react-router-config';
+
+import Navigation from './navigation';
 
 export default class App extends React.Component<{}, {}> {
-  private readonly links: INavLink[]
+  private readonly routes: RouteConfig[]
   constructor(props: any) {
     super(props);
-    this.links = [
+    this.routes = [
       {
-        label: 'Hoofdpagina',
-        path: '/',
+        component: () => <div>Home</div>,
+        exact: true,
+        path: "/",
+        title: "Home",
       },
       {
-        label: 'Info',
-        path: '/info'
-      },
-      {
-        label: 'Taal Cafe',
-        path: '/taal-cafe'
-      },
-      {
-        label: 'Stukjes',
-        path: '/stukjes'
-      },
-      {
-        label: 'Debatclub',
-        path: '/debatclub'
-      },
+        component: () => <div>About</div>,
+        exact: true,
+        path: "/about",
+        title: "About",
+      }
     ]
   }
 
   render() {
     return (
       <Router>
-        <Navigation links={this.links}>
+        <Navigation routes={this.routes}>
         </Navigation>
-        <Switch>
-          <Route path="/en">
-            We gaan eerst Nederlands doen, balen.
-          </Route>
-          <Route path="/">
-            <Switch>
-              <Route exact path="/">
-                Hoofdpagina
-              </Route>
-              <Route path="/info">
-                Info
-              </Route>
-              <Route path="/taal-cafe">
-                Taal cafe
-              </Route>
-              <Route path="/stukjes">
-                Stukjes
-              </Route>
-              <Route path="/debatclub">
-                Debatclub
-              </Route>
-              <Route path="*">
-                Pagina niet gevonden
-              </Route>
-            </Switch>
-          </Route>
-        </Switch>
+        { renderRoutes(this.routes) }
       </Router>
     )
   }

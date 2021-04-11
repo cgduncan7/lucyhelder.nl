@@ -1,20 +1,17 @@
 import * as React from 'react';
+import { RouteConfig } from 'react-router-config';
 import {
   Link,
 } from 'react-router-dom';
 
-export interface INavLink {
-  path: string
-  label: string
-}
-
 export interface INavProps {
-  links: INavLink[]
+  routes: RouteConfig[]
 }
 
 export default class Navigation extends React.Component<INavProps, {}> {
   constructor(props: INavProps) {
     super(props);
+    console.log(props);
   }
 
   render() {
@@ -22,11 +19,16 @@ export default class Navigation extends React.Component<INavProps, {}> {
       <nav>
         <ul>
           {
-            this.props.links.map(({ path, label }, index) => (
-              <li key={index}>
-                <Link to={path}>{ label }</Link>
-              </li>
-            ))
+            this.props.routes.map(({ path, title }, index) => {
+              if (typeof path === 'string') {
+                return (
+                  <li key={index}>
+                    <Link to={path}>{ title }</Link>
+                  </li>
+                )
+              }
+              return undefined
+            })
           }
         </ul>
       </nav>
