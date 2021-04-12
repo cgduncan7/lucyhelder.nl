@@ -18,10 +18,10 @@ export default class App extends React.Component<{}, {}> {
         title: "Home",
       },
       {
-        component: () => <div>About</div>,
+        component: () => <div>Stories</div>,
         exact: true,
-        path: "/about",
-        title: "About",
+        path: "/stories",
+        title: "stories",
       }
     ]
   }

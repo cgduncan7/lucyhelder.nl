@@ -15,11 +15,6 @@ About Lucy
 Dutch lessons (private/group/company)
 Way(s) to contact; email lucy***7@gmail.com
 
-### About/Lessons
-Studied Dutch
-Experienced with expats learning Dutch as a second language
-Located in Amsterdam
-
 ### Language Cafe
 Info about
 Location
