@@ -19,9 +19,8 @@ export default class App extends React.Component<{}, {}> {
       },
       {
         component: () => <div>Stories</div>,
-        exact: true,
         path: "/stories",
-        title: "stories",
+        title: "Stories",
       }
     ]
   }
@@ -31,7 +30,9 @@ export default class App extends React.Component<{}, {}> {
       <Router>
         <Navigation routes={this.routes}>
         </Navigation>
-        { renderRoutes(this.routes) }
+        <div className="content">
+          { renderRoutes(this.routes) }
+        </div>
       </Router>
     )
   }

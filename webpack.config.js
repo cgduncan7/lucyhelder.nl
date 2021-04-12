@@ -19,7 +19,8 @@ module.exports = {
     rules: [
       { test: /\.tsx?$/, loader: 'ts-loader' },
       { enforce: 'pre', test: /\.js$/, loader: 'source-map-loader' },
-      { test: /\.s[ac]ss$/, use: ['style-loader', 'css-loader', 'sass-loader'] }
+      { test: /\.s[ac]ss$/, use: ['style-loader', 'css-loader', 'sass-loader'] },
+      { test: /\.(jpg|svg)$/, use: ['file-loader', 'image-webpack-loader'] }
     ]
   },
   devServer: {

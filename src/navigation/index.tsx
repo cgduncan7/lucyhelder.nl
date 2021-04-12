@@ -4,6 +4,8 @@ import {
   Link,
 } from 'react-router-dom';
 
+const lucyProfile = require('../../public/lucy.jpg').default;
+
 export interface INavProps {
   routes: RouteConfig[]
 }
@@ -11,19 +13,28 @@ export interface INavProps {
 export default class Navigation extends React.Component<INavProps, {}> {
   constructor(props: INavProps) {
     super(props);
-    console.log(props);
+  }
+
+  resolvePath(path?: string | string[]) {
+    switch (typeof path) {
+      case 'string': return path
+      case 'object': return path[0]
+      default: return undefined
+    }
   }
 
   render() {
     return (
       <nav>
+        <img src={lucyProfile} />
         <ul>
           {
             this.props.routes.map(({ path, title }, index) => {
-              if (path) {
+              const resolvedPath = this.resolvePath(path)
+              if (resolvedPath) {
                 return (
                   <li key={index}>
-                    <Link to={path[0]}>{ title }</Link>
+                    <Link to={resolvedPath}>{ title }</Link>
                   </li>
                 )
               }
