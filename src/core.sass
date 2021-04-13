@@ -1,6 +1,7 @@
 @import './colors.sass'
 @import './typography.sass'
 @import './navigation/style.sass'
+@import './home/style.sass'
   
 *
   box-sizing: border-box
@@ -14,8 +15,14 @@ body
 
   #app
     width: 100%
+    height: 100%
 
     .content
       position: relative
       margin-left: 300px
-      margin-right: 300px
+
+      & > *
+        width: 100%
+        padding-top: 20%
+        padding-left: 50px
+        padding-right: 50px

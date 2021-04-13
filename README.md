@@ -3,7 +3,7 @@ Personal website for Lucy Helder
 
 ## Requirements
 - multi-language (nl/en)
-- about/lessons
+- lessons
 - language cafe / sign-up
 - short stories
   - browser

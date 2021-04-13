@@ -34,7 +34,7 @@ export default class Navigation extends React.Component<INavProps, {}> {
               if (resolvedPath) {
                 return (
                   <li key={index}>
-                    <Link to={resolvedPath}>{ title }</Link>
+                    <Link to={resolvedPath} className={"font-lg font-wgt-700 font-gray"}>{ title.toUpperCase() }</Link>
                   </li>
                 )
               }
@@ -42,6 +42,9 @@ export default class Navigation extends React.Component<INavProps, {}> {
             })
           }
         </ul>
+        <div className={"nav-lang-selector"}>
+          NL / EN
+        </div>
       </nav>
     );
   }
