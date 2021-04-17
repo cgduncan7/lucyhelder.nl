@@ -1,5 +1,10 @@
 {
   "404": "Page not found",
-  "home-about": "After I graduated from the University of Amsterdam with a degree in Dutch language in culture a few years ago, I've been teaching Dutch to expats, groups, and companies with the occasional private lesson. I like to spend my free time learning new languages (mainly practicing my Spanish) and organizing language cafes.",
-  "home-slug": "Dutch Teacher; Amsterdammer"
+  "about_me": {
+    "title": "About me",
+    "desc": "After I graduated from the University of Amsterdam with a degree in Dutch language in culture a few years ago, I've been teaching Dutch to expats, groups, and companies with the occasional private lesson. I like to spend my free time learning new languages (mainly practicing my Spanish) and organizing language cafes."
+  },
+  "dutch_teacher": "Dutch Teacher",
+  "language_lover": "Language lover",
+  "amsterdammer": "Amsterdammer"
 }

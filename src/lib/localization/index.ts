@@ -9,7 +9,7 @@ i18n
   .init({
     lng: 'nl',
     fallbackLng: 'en',
-    ns: ['common'],
+    ns: ['common', 'routes'],
     defaultNS: 'common',
     fallbackNS: 'common',
     debug: true,

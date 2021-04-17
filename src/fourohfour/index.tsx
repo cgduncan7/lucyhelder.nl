@@ -1,7 +1,13 @@
-import Page, { IPageProps } from '../page';
+import React from 'react';
 
-export default class FourOhFour extends Page {
-  constructor(props: IPageProps) {
-    super(props);
+export default class FourOhFour extends React.Component {
+  constructor() {
+    super({});
+  }
+
+  render() {
+    return (
+      <h1>Not found</h1>
+    )
   }
 }
