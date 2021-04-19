@@ -94,7 +94,7 @@ class App extends React.Component<WithTranslation, {}> {
     this.changeLanguage = this.changeLanguage.bind(this)
   }
 
-  changeLanguage(lang: 'en' | 'nl') {
+  changeLanguage(lang: string) {
     this.props.i18n.changeLanguage(lang)
   }
 
