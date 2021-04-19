@@ -1,29 +1,29 @@
 import React from 'react';
 import { Link, RouteComponentProps, withRouter } from 'react-router-dom';
-import { WithTranslation, withTranslation } from 'react-i18next';
+import { TFunction } from 'react-i18next';
 import { matchRoutes } from 'react-router-config';
 
 import { ExtendedRouteConfig } from '../lib/routes';
 
 const lucyProfile = require('../../public/lucy.jpg').default;
 
-export interface INavProps extends RouteComponentProps, WithTranslation {
+export interface INavProps extends RouteComponentProps {
   routes: ExtendedRouteConfig[]
+  t: TFunction
+  lng: string
+  changeLanguage: (lng: 'en' | 'nl') => void
 }
 
 class Navigation extends React.Component<INavProps, {}> {
   render() {
-    console.log(this.props.i18n.language)
-
     const changeLanguage = (lang: 'nl' | 'en') => {
-      console.log(this.props)
-      this.props.i18n.changeLanguage(lang)
+      this.props.changeLanguage(lang)
       const routes = matchRoutes(this.props.routes, this.props.location.pathname)
       if (routes.length === 1) {
         const route = routes[0]
         const newPathname = route.route.resolvePath && route.route.resolvePath(lang)
         if (newPathname && this.props.location.pathname !== newPathname) {
-          this.props.history.push(newPathname)
+          this.props.history.replace(newPathname)
         }
       }
     }
@@ -35,7 +35,7 @@ class Navigation extends React.Component<INavProps, {}> {
           {
             this.props.routes.filter(({ navigable }) => navigable)
               .map(({ titleKey, resolvePath = () => undefined }, index) => {
-                const resolvedPath = resolvePath(this.props.i18n.language || 'nl')
+                const resolvedPath = resolvePath(this.props.lng || 'nl')
                 if (resolvedPath) {
                   return (
                     <li key={index}>
@@ -55,4 +55,4 @@ class Navigation extends React.Component<INavProps, {}> {
   }
 }
 
-export default withTranslation()(withRouter(Navigation))
+export default withRouter(Navigation)
