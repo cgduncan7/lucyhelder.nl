@@ -1,11 +1,15 @@
-import * as React from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
 } from 'react-router-dom';
-import { renderRoutes, RouteConfig } from 'react-router-config';
+import { renderRoutes } from 'react-router-config';
+import { withTranslation, WithTranslation } from 'react-i18next';
 
 import Navigation from './navigation';
 import Home from './home';
+import Pieces from './pieces';
+import FourOhFour from './fourohfour';
+import RouteLocalizer from './routeLocalizer';
 
 import { ExtendedRouteConfig } from './lib/routes'
 
@@ -86,44 +90,27 @@ class App extends React.Component<WithTranslation, {}> {
   private readonly routes: ExtendedRouteConfig[]
   constructor(props: any) {
     super(props);
-    this.routes = [
-      {
-        component: () => <Home />,
-        exact: true,
-        path: "/",
-        title: "Home",
-      },
-      {
-        component: () => <div>Stukjes</div>,
-        path: "/stukjes",
-        title: "Stukjes",
-      },
-      {
-        component: () => <div>Lessen</div>,
-        path: "/les-nederlands",
-        title: "Lessen",
-      },
-      {
-        component: () => <div>Debaatclub</div>,
-        path: "/debaatclub",
-        title: "Debaatclub",
-      },
-      {
-        component: () => <div>Taal cafe</div>,
-        path: "/taal-cafe",
-        title: "Taal cafe",
-      }
-    ]
+    this.routes = routes
+    this.changeLanguage = this.changeLanguage.bind(this)
+  }
+
+  changeLanguage(lang: string) {
+    this.props.i18n.changeLanguage(lang)
   }
 
   render() {
+    const { t, i18n } = this.props
     return (
       <Router>
-        <Navigation routes={this.routes} />
-        <div className="content">
-          { renderRoutes(this.routes) }
-        </div>
+        <RouteLocalizer routes={this.routes} language={i18n.language} changeLanguage={this.changeLanguage}>
+          <Navigation routes={this.routes} t={t} lng={i18n.language} changeLanguage={this.changeLanguage} />
+          <div className='content'>
+            { renderRoutes(this.routes, { t }) }
+          </div>
+        </RouteLocalizer>
       </Router>
     )
   }
 }
+
+export default withTranslation()(App)

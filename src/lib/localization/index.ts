@@ -9,7 +9,7 @@ i18n
   .init({
     lng: 'nl',
     fallbackLng: 'en',
-    ns: ['common'],
+    ns: ['common', 'routes'],
     defaultNS: 'common',
     fallbackNS: 'common',
     debug: true,
@@ -17,8 +17,7 @@ i18n
       escapeValue: false,
     },
     react: {
-      wait: true,
-      useSuspense: false,
+      useSuspense: true,
     },
     resources: {
       en,
