@@ -30,25 +30,27 @@ class Navigation extends React.Component<INavProps, {}> {
 
     return (
       <nav>
-        <img src={lucyProfile} />
-        <ul>
-          {
-            this.props.routes.filter(({ navigable }) => navigable)
-              .map(({ titleKey, resolvePath = () => undefined }, index) => {
-                const resolvedPath = resolvePath(this.props.lng || 'nl')
-                if (resolvedPath) {
-                  return (
-                    <li key={index}>
-                      <Link to={resolvedPath} className={"font-lg font-wgt-700 font-gray"}>{ this.props.t(`routes:${titleKey}`) }</Link>
-                    </li>
-                  )
-                }
-                return undefined
-              })
-          }
-        </ul>
-        <div className={"nav-lang-selector"}>
-          <span onClick={() => changeLanguage('nl')}>NL</span> / <span onClick={() => changeLanguage('en')}>EN</span>
+        <div>
+          <img src={lucyProfile} />
+          <ul>
+            {
+              this.props.routes.filter(({ navigable }) => navigable)
+                .map(({ titleKey, resolvePath = () => undefined }, index) => {
+                  const resolvedPath = resolvePath(this.props.lng || 'nl')
+                  if (resolvedPath) {
+                    return (
+                      <li key={index}>
+                        <Link to={resolvedPath} className={"font-lg font-wgt-700 font-gray"}>{ this.props.t(`routes:${titleKey}`) }</Link>
+                      </li>
+                    )
+                  }
+                  return undefined
+                })
+            }
+          </ul>
+          <div className={"nav-lang-selector"}>
+            <span onClick={() => changeLanguage('nl')}>NL</span> / <span onClick={() => changeLanguage('en')}>EN</span>
+          </div>
         </div>
       </nav>
     );
