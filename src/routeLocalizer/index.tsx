@@ -1,8 +1,8 @@
-import React from 'react';
-import { matchRoutes } from 'react-router-config';
-import { useLocation } from 'react-router-dom';
+import React from 'react'
+import { matchRoutes } from 'react-router-config'
+import { useLocation } from 'react-router-dom'
 
-import { ExtendedRouteConfig } from '../lib/routes';
+import { ExtendedRouteConfig } from '../lib/routes'
 
 export interface RouteLocalizerProps {
   routes: ExtendedRouteConfig[]

@@ -18,7 +18,16 @@ module.exports = {
   module: {
     rules: [
       { test: /\.tsx?$/, loader: 'ts-loader' },
-      { enforce: 'pre', test: /\.js$/, loader: 'source-map-loader' },
+      {
+        enforce: 'pre',
+        test: /\.js?$/,
+        use: {
+          loader: 'source-map-loader',
+          options: {
+            filterSourceMappingUrl: (url, resourcePath) => !(/.*\/node_modules\/.*/.test(resourcePath))
+          }
+        },
+      },
       { test: /\.s[ac]ss$/, use: ['style-loader', 'css-loader', 'sass-loader'] },
       { test: /\.(jpg|svg)$/, use: ['file-loader', 'image-webpack-loader'] }
     ]

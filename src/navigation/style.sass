@@ -1,51 +1,77 @@
-@import '../colors.sass'
-  
+@import '../colors'
+@import '../responsive'
+@import '../typography'
+
 nav
   position: relative
   display: flex
-  flex-direction: column
+  flex-direction: row
   align-items: center
   justify-content: center
   background-color: $light-accent
 
-  & > div
-    position: fixed
-    top: 0
-    left: 0
-    height: 100%
-    width: 300px
+  & > .nav-title
+    position: absolute
     display: flex
     align-items: center
-    justify-content: center
-    flex-direction: column
+    height: 100%
 
-    & > img
-      position: absolute
-      top: 5%
-      width: 80%
-      height: auto
-      border-radius: 50%
-      border: 5px solid $dark-accent
-      box-shadow: 0 0 4px $dark-accent
+    left: 1%
 
-    & > .nav-lang-selector
-      position: absolute
-      bottom: 5%
+    @media screen and (min-width: $screen-md-min-width)
+      left: 2.5%
 
-    & > ul
-      display: flex
-      flex-direction: column
+    @media screen and (min-width: $screen-lg-min-width)
+      left: 5%
+    
+  
+  & > .nav-title > img
+    height: 50%
 
-      & > li
-        display: inline-flex
-        align-items: center
-        justify-content: center
-        margin: 8px 4px
+  & > .nav-lang-selector
+    position: absolute
+    @include font-size-medium
+    @include font-weight-extrabold
+    @extend .font-gray
+    cursor: default
+    
+    right: 1%
 
-        & > *
-          color: black
-          text-decoration: none
-          padding: 4px 4px
+    @media screen and (min-width: $screen-md-min-width)
+      right: 2.5%
 
-          &:hover
-            text-decoration: underline
+    @media screen and (min-width: $screen-lg-min-width)
+      right: 5%
+
+    & > span
+      cursor: pointer
+
+      &:hover
+        text-decoration: underline
+
+  & > ul
+    display: flex
+    flex-direction: row
+
+    & > li
+      display: inline-flex
+      align-items: center
+      justify-content: center
+      @include font-size-large
+      @include font-weight-extrabold
+      
+      margin: 4px 4px
+
+      @media screen and (min-width: $screen-md-min-width)
+        margin: 4px 16px
+
+      @media screen and (min-width: $screen-lg-min-width)
+        margin: 8px 32px
+
+      & > *
+        @extend .font-gray
+        text-decoration: none
+        padding: 4px 4px
+
+        &:hover
+          text-decoration: underline

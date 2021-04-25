@@ -1,15 +1,16 @@
-import React from 'react';
+import React from 'react'
 import {
   BrowserRouter as Router,
-} from 'react-router-dom';
-import { renderRoutes } from 'react-router-config';
-import { withTranslation, WithTranslation } from 'react-i18next';
+} from 'react-router-dom'
+import { renderRoutes } from 'react-router-config'
+import { withTranslation, WithTranslation } from 'react-i18next'
 
-import Navigation from './navigation';
-import Home from './home';
-import Pieces from './pieces';
-import FourOhFour from './fourohfour';
-import RouteLocalizer from './routeLocalizer';
+import Navigation from './navigation'
+import Home from './home'
+import Pieces from './pieces'
+import About from './about'
+import FourOhFour from './fourohfour'
+import RouteLocalizer from './routeLocalizer'
 
 import { ExtendedRouteConfig } from './lib/routes'
 
@@ -20,6 +21,14 @@ const routes: ExtendedRouteConfig[] = [
     path: '/',
     resolvePath: () => '/',
     titleKey: 'home',
+    navigable: false,
+  },
+  {
+    component: About,
+    path: ['/over-mij', '/about-me'],
+    resolvePath: (lang: string) => lang === 'en' ? '/about-me' : '/over-mij',
+    resolveLanguage: (path: string) => path === '/about-me' ? 'en' : 'nl',
+    titleKey: 'about',
     navigable: true,
   },
   {
@@ -89,7 +98,7 @@ const routes: ExtendedRouteConfig[] = [
 class App extends React.Component<WithTranslation, {}> {
   private readonly routes: ExtendedRouteConfig[]
   constructor(props: any) {
-    super(props);
+    super(props)
     this.routes = routes
     this.changeLanguage = this.changeLanguage.bind(this)
   }

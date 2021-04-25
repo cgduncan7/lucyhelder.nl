@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 export default class FourOhFour extends React.Component {
   constructor() {
-    super({});
+    super({})
   }
 
   render() {

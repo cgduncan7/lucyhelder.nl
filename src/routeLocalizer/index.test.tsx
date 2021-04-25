@@ -32,9 +32,9 @@ describe('routeLocalizer', () => {
         changeLanguage={changeLanguage}
         language={'en'}
       >
-        <div id="child">test</div>
+        <div id='child'>test</div>
       </RouteLocalizer>
-    );
+    )
     expect(wrapper).toBeDefined()
     expect(wrapper.find('#child')).toBeDefined()
   })
@@ -49,7 +49,7 @@ describe('routeLocalizer', () => {
       >
         <div>test</div>
       </RouteLocalizer>
-    );
+    )
     expect(changeLanguage).toHaveBeenCalledTimes(1)
     expect(changeLanguage).toHaveBeenCalledWith('en')
     expect(wrapper).toBeDefined()
@@ -65,7 +65,7 @@ describe('routeLocalizer', () => {
       >
         <div>test</div>
       </RouteLocalizer>
-    );
+    )
     expect(changeLanguage).toHaveBeenCalledTimes(0)
     expect(wrapper).toBeDefined()
   })

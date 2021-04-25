@@ -1,29 +1,65 @@
 @import './fonts/cormorant-garamond.sass'
 @import './colors.sass'
 
+@mixin font-garamond
+  font-family: 'Cormorant Garamond', serif
+
+@mixin font-size-xlarge
+  font-size: 3vmin
+
+@mixin font-size-large
+  font-size: 2vmin
+
+@mixin font-size-medium
+  font-size: 1.5vmin
+
+@mixin font-size-normal
+  font-size: 1vmin
+
+@mixin font-size-small
+  font-size: 0.75vmin
+
+@mixin font-weight-extrabold
+  font-weight: 700
+
+@mixin font-weight-bold
+  font-weight: 500
+
+@mixin font-weight-normal
+  font-weight: 400
+
+@mixin font-weight-light
+  font-weight: 300
+
 *
-  font-family: 'Cormorant Garamond', serif;
+  @include font-garamond
+
+.font-xlg
+  @include font-size-xlarge
 
 .font-lg
-  font-size: 2em
+  @include font-size-large
 
 .font-md
-  font-size: 1.4em
+  @include font-size-medium
+
+.font-nm
+  @include font-size-normal
 
 .font-sm
-  font-size: 1em
+  @include font-size-small
 
 .font-wgt-700
-  font-weight: 700
+  @include font-weight-extrabold
   
 .font-wgt-500
-  font-weight: 500
+  @include font-weight-bold
   
 .font-wgt-400
-  font-weight: 400
+  @include font-weight-normal
   
 .font-wgt-300
-  font-weight: 300
+  @include font-weight-light
 
 .font-gray
   color: $gray
