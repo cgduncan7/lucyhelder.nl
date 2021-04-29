@@ -21,10 +21,40 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n* {\n  font-family: 'Cormorant Garamond', serif; }\n\n* {\n  box-sizing: border-box; }\n\nbody {\n  border: 0;\n  margin: 0; }\n", "",{"version":3,"sources":["webpack://./fonts/cormorant-garamond.sass","webpack://./typography.sass","webpack://./core.sass"],"names":[],"mappings":"AAAA,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,yKAAyK,EAAA;;AAE3K,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,yKAAyK,EAAA;;AAE3K,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,yKAAyK,EAAA;;AAE3K,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,kMAAkM;EAClM,yKAAyK,EAAA;;AC5J3K;EACE,wCAAwC,EAAA;;ACD1C;EACE,sBAAsB,EAAA;;AAExB;EACE,SAAS;EACT,SAAS,EAAA","sourcesContent":["/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsw-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfug-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsQ-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsA-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfvg-IxBSL_g.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKky2F7i6C.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKky2F7i6C.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKky2F7i6C.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsw-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfug-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsQ-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsA-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfvg-IxBSL_g.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsw-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fug-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsQ-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsA-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fvg-IxBSL_g.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n","@import './fonts/cormorant-garamond.sass';\n\n* {\n  font-family: 'Cormorant Garamond', serif; }\n","@import './typography.sass';\n\n* {\n  box-sizing: border-box; }\n\nbody {\n  border: 0;\n  margin: 0; }\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n* {\n  font-family: 'Cormorant Garamond', serif; }\n\n.font-xlg {\n  font-size: 3vmin; }\n\n.font-lg {\n  font-size: 2vmin; }\n\n.font-md {\n  font-size: 1.5vmin; }\n\n.font-nm {\n  font-size: 1vmin; }\n\n.font-sm {\n  font-size: 0.75vmin; }\n\n.font-wgt-700 {\n  font-weight: 700; }\n\n.font-wgt-500 {\n  font-weight: 500; }\n\n.font-wgt-400 {\n  font-weight: 400; }\n\n.font-wgt-300 {\n  font-weight: 300; }\n\n.font-gray, nav, nav > .nav-lang-selector, nav > ul > li > * {\n  color: #283845; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n* {\n  font-family: 'Cormorant Garamond', serif; }\n\n.font-xlg {\n  font-size: 3vmin; }\n\n.font-lg {\n  font-size: 2vmin; }\n\n.font-md {\n  font-size: 1.5vmin; }\n\n.font-nm {\n  font-size: 1vmin; }\n\n.font-sm {\n  font-size: 0.75vmin; }\n\n.font-wgt-700 {\n  font-weight: 700; }\n\n.font-wgt-500 {\n  font-weight: 500; }\n\n.font-wgt-400 {\n  font-weight: 400; }\n\n.font-wgt-300 {\n  font-weight: 300; }\n\n.font-gray, nav, nav > .nav-lang-selector, nav > ul > li > * {\n  color: #283845; }\n\nnav {\n  position: relative;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: center;\n  background-color: #C46D5E; }\n  nav > .nav-title {\n    position: absolute;\n    display: flex;\n    align-items: center;\n    height: 100%;\n    left: 1%; }\n    @media screen and (min-width: 1200px) {\n      nav > .nav-title {\n        left: 2.5%; } }\n    @media screen and (min-width: 1920px) {\n      nav > .nav-title {\n        left: 5%; } }\n  nav > .nav-title > img {\n    height: 50%; }\n  nav > .nav-lang-selector {\n    position: absolute;\n    font-size: 1.5vmin;\n    font-weight: 700;\n    cursor: default;\n    right: 1%; }\n    @media screen and (min-width: 1200px) {\n      nav > .nav-lang-selector {\n        right: 2.5%; } }\n    @media screen and (min-width: 1920px) {\n      nav > .nav-lang-selector {\n        right: 5%; } }\n    nav > .nav-lang-selector > span {\n      cursor: pointer; }\n      nav > .nav-lang-selector > span:hover {\n        text-decoration: underline; }\n  nav > span {\n    font-size: 2vmin;\n    font-weight: 700; }\n  nav > ul {\n    display: flex;\n    flex-direction: row; }\n    @media screen and (max-width: 768px) {\n      nav > ul {\n        position: absolute;\n        flex-direction: column;\n        width: 100%;\n        top: 100%;\n        background: rgba(196, 109, 94, 0.8);\n        transform-origin: top;\n        transition: transform 0.5s ease; }\n        nav > ul.mobile.closed {\n          transform: scaleY(0); }\n        nav > ul.mobile.open {\n          transform: scaleY(1); } }\n    nav > ul > li {\n      display: inline-flex;\n      align-items: center;\n      justify-content: center;\n      font-size: 2vmin;\n      font-weight: 700;\n      margin: 4px 4px; }\n      @media screen and (min-width: 1200px) {\n        nav > ul > li {\n          margin: 4px 16px; } }\n      @media screen and (min-width: 1920px) {\n        nav > ul > li {\n          margin: 8px 32px; } }\n      nav > ul > li > * {\n        text-decoration: none;\n        padding: 4px 4px; }\n        nav > ul > li > *:hover {\n          text-decoration: underline; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n* {\n  font-family: 'Cormorant Garamond', serif; }\n\n.font-xlg {\n  font-size: 3vmin; }\n\n.font-lg {\n  font-size: 2vmin; }\n\n.font-md {\n  font-size: 1.5vmin; }\n\n.font-nm {\n  font-size: 1vmin; }\n\n.font-sm {\n  font-size: 0.75vmin; }\n\n.font-wgt-700 {\n  font-weight: 700; }\n\n.font-wgt-500 {\n  font-weight: 500; }\n\n.font-wgt-400 {\n  font-weight: 400; }\n\n.font-wgt-300 {\n  font-weight: 300; }\n\n.font-gray, nav, nav > .nav-lang-selector, nav > ul > li > * {\n  color: #283845; }\n\n.home {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: flex-start;\n  padding-top: 100px; }\n  .home > img {\n    width: 25%;\n    border-radius: 50%;\n    border: 5px solid #510D0A;\n    box-shadow: 0 0 4px #510D0A; }\n  .home > .separator {\n    height: 5vmin; }\n  .home > h1 {\n    font-size: 5vmin; }\n  .home > h4 {\n    font-size: 3vmin; }\n  .home > h5 {\n    font-size: 2vmin; }\n  .home > p {\n    font-size: 2vmin;\n    line-height: 5vmin;\n    width: 80%; }\n\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  background-color: #FFE1C6;\n  border: 0;\n  margin: 0; }\n  body #app {\n    width: 100%;\n    height: 100%;\n    display: grid;\n    grid-template-rows: 128px auto 64px;\n    grid-template-columns: 5px auto 5px; }\n    @media screen and (min-width: 1200px) {\n      body #app {\n        grid-template-rows: 100px auto 100px;\n        grid-template-columns: 100px auto 100px; } }\n    @media screen and (min-width: 1920px) {\n      body #app {\n        grid-template-rows: 150px auto 150px;\n        grid-template-columns: 150px auto 150px; } }\n    body #app nav {\n      grid-row: 1;\n      grid-column: 1 / span 3; }\n    body #app .content {\n      grid-row: 2 / span 2;\n      grid-column: 2; }\n      body #app .content > * {\n        height: 100%;\n        width: 100%; }\n", "",{"version":3,"sources":["webpack://./fonts/cormorant-garamond.sass","webpack://./typography.sass","webpack://./colors.sass","webpack://./navigation/style.sass","webpack://./home/style.sass","webpack://./core.sass"],"names":[],"mappings":"AAAA,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,yKAAyK,EAAA;;AAE3K,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,yKAAyK,EAAA;;AAE3K,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,yKAAyK,EAAA;;AAE3K,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,kMAAkM;EAClM,yKAAyK,EAAA;;AC7H3K;EA7BE,wCAAwC,EAAA;;AAgC1C;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,kBAAkB,EAAA;;AAgCpB;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,mBAAmB,EAAA;;AAgCrB;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,gBAAgB,EAAA;;AAgClB;EACE,cC7DY,EAAA;;AFHd,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,yKAAyK,EAAA;;AAE3K,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,yKAAyK,EAAA;;AAE3K,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,yKAAyK,EAAA;;AAE3K,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,kMAAkM;EAClM,yKAAyK,EAAA;;AC7H3K;EA7BE,wCAAwC,EAAA;;AAgC1C;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,kBAAkB,EAAA;;AAgCpB;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,mBAAmB,EAAA;;AAgCrB;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,gBAAgB,EAAA;;AAgClB;EACE,cC7DY,EAAA;;ACCd;EACE,kBAAkB;EAClB,aAAa;EACb,mBAAmB;EACnB,mBAAmB;EACnB,uBAAuB;EACvB,yBDToB,EAAA;ECGtB;IAUI,kBAAkB;IAClB,aAAa;IACb,mBAAmB;IACnB,YAAY;IAEZ,QAAQ,EAAA;IAER;MAjBJ;QAkBM,UAAU,EAAA,EAGG;IADf;MApBJ;QAqBM,QAAQ,EAAA,EAAK;EArBnB;IAwBI,WAAW,EAAA;EAxBf;IA2BI,kBAAkB;IFlBpB,kBAAkB;IASlB,gBAAgB;IEad,eAAe;IAEf,SAAS,EAAA;IAET;MAnCJ;QAoCM,WAAW,EAAA,EASwB;IAPrC;MAtCJ;QAuCM,SAAS,EAAA,EAM0B;IA7CzC;MA0CM,eAAe,EAAA;MA1CrB;QA6CQ,0BAA0B,EAAA;EA7ClC;IFME,gBAAgB;IAYhB,gBAAgB,EAAA;EElBlB;IAoDI,aAAa;IACb,mBAAmB,EAAA;IAEnB;MAvDJ;QAwDM,kBAAkB;QAClB,sBAAsB;QACtB,WAAW;QACX,SAAS;QACT,mCAA6C;QAC7C,qBAAqB;QACrB,+BAA+B,EAAA;QA9DrC;UAiEQ,oBAAoB,EAAA;QAjE5B;UAoEQ,oBAAoB,EAAA,EAAG;IApE/B;MAuEM,oBAAoB;MACpB,mBAAmB;MACnB,uBAAuB;MFnE3B,gBAAgB;MAYhB,gBAAgB;ME2DZ,eAAe,EAAA;MAEf;QA/EN;UAgFQ,gBAAgB,EAAA,EAWmB;MATrC;QAlFN;UAmFQ,gBAAgB,EAAA,EAQmB;MA3F3C;QAuFQ,qBAAqB;QACrB,gBAAgB,EAAA;QAxFxB;UA2FU,0BAA0B,EAAA;;AH/FpC,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,yKAAyK,EAAA;;AAE3K,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,yKAAyK,EAAA;;AAE3K,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,wMAAwM;EACxM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,sMAAsM;EACtM,yKAAyK,EAAA;;AAE3K,iBAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,sFAAsF,EAAA;;AAExF,aAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,4DAA4D,EAAA;;AAE9D,eAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,gHAAgH,EAAA;;AAElH,cAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,oMAAoM;EACpM,mHAAmH,EAAA;;AAErH,UAAA;AACA;EACE,iCAAiC;EACjC,kBAAkB;EAClB,gBAAgB;EAChB,kMAAkM;EAClM,yKAAyK,EAAA;;AC7H3K;EA7BE,wCAAwC,EAAA;;AAgC1C;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,kBAAkB,EAAA;;AAgCpB;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,mBAAmB,EAAA;;AAgCrB;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,gBAAgB,EAAA;;AAgClB;EA7BE,gBAAgB,EAAA;;AAgClB;EACE,cC7DY,EAAA;;AEAd;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,2BAA2B;EAC3B,kBAAkB,EAAA;EALpB;IAQI,UAAU;IACV,kBAAkB;IAClB,yBFXiB;IEYjB,2BFZiB,EAAA;EECrB;IAcI,aAAa,EAAA;EAdjB;IAiBI,gBAAgB,EAAA;EAjBpB;IAoBI,gBAAgB,EAAA;EApBpB;IAuBI,gBAAgB,EAAA;EAvBpB;IA0BI,gBAAgB;IAChB,kBAAkB;IAClB,UAAU,EAAA;;AHEd;EIvBE,sBAAsB;EACtB,SAAS;EACT,UAAU,EAAA;;AAEZ;EACE,yBHfY;EGgBZ,SAAS;EACT,SAAS,EAAA;EAHX;IAMI,WAAW;IACX,YAAY;IACZ,aAAa;IAEb,mCAAmC;IACnC,mCAAmC,EAAA;IAEnC;MAbJ;QAcM,oCAAoC;QACpC,uCAAuC,EAAA,EAgBnB;IAdtB;MAjBJ;QAkBM,oCAAoC;QACpC,uCAAuC,EAAA,EAYnB;IA/B1B;MAsBM,WAAW;MACX,uBAAuB,EAAA;IAvB7B;MA0BM,oBAAoB;MACpB,cAAc,EAAA;MA3BpB;QA8BQ,YAAY;QACZ,WAAW,EAAA","sourcesContent":["/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsw-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfug-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsQ-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsA-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfvg-IxBSL_g.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKky2F7i6C.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKky2F7i6C.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKky2F7i6C.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsw-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfug-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsQ-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsA-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfvg-IxBSL_g.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsw-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fug-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsQ-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsA-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fvg-IxBSL_g.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n","@import './fonts/cormorant-garamond.sass';\n@import './colors.sass';\n\n@mixin font-garamond {\n  font-family: 'Cormorant Garamond', serif; }\n\n@mixin font-size-xlarge {\n  font-size: 3vmin; }\n\n@mixin font-size-large {\n  font-size: 2vmin; }\n\n@mixin font-size-medium {\n  font-size: 1.5vmin; }\n\n@mixin font-size-normal {\n  font-size: 1vmin; }\n\n@mixin font-size-small {\n  font-size: 0.75vmin; }\n\n@mixin font-weight-extrabold {\n  font-weight: 700; }\n\n@mixin font-weight-bold {\n  font-weight: 500; }\n\n@mixin font-weight-normal {\n  font-weight: 400; }\n\n@mixin font-weight-light {\n  font-weight: 300; }\n\n* {\n  @include font-garamond; }\n\n.font-xlg {\n  @include font-size-xlarge; }\n\n.font-lg {\n  @include font-size-large; }\n\n.font-md {\n  @include font-size-medium; }\n\n.font-nm {\n  @include font-size-normal; }\n\n.font-sm {\n  @include font-size-small; }\n\n.font-wgt-700 {\n  @include font-weight-extrabold; }\n\n.font-wgt-500 {\n  @include font-weight-bold; }\n\n.font-wgt-400 {\n  @include font-weight-normal; }\n\n.font-wgt-300 {\n  @include font-weight-light; }\n\n.font-gray {\n  color: $gray; }\n","$base: #FFE1C6;\n$light-accent: #C46D5E;\n$dark-accent: #510D0A;\n$gray: #283845;\n","@import '../colors';\n@import '../responsive';\n@import '../typography';\n\nnav {\n  position: relative;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: center;\n  background-color: $light-accent;\n  @extend .font-gray;\n\n  & > .nav-title {\n    position: absolute;\n    display: flex;\n    align-items: center;\n    height: 100%;\n\n    left: 1%;\n\n    @media screen and (min-width: $screen-md-min-width) {\n      left: 2.5%; }\n\n    @media screen and (min-width: $screen-lg-min-width) {\n      left: 5%; } }\n\n  & > .nav-title > img {\n    height: 50%; }\n\n  & > .nav-lang-selector {\n    position: absolute;\n    @include font-size-medium;\n    @include font-weight-extrabold;\n    @extend .font-gray;\n    cursor: default;\n\n    right: 1%;\n\n    @media screen and (min-width: $screen-md-min-width) {\n      right: 2.5%; }\n\n    @media screen and (min-width: $screen-lg-min-width) {\n      right: 5%; }\n\n    & > span {\n      cursor: pointer;\n\n      &:hover {\n        text-decoration: underline; } } }\n\n  & > span {\n    @include font-size-large;\n    @include font-weight-extrabold; }\n\n  & > ul {\n    display: flex;\n    flex-direction: row;\n\n    @media screen and (max-width: $screen-sm-min-width) {\n      position: absolute;\n      flex-direction: column;\n      width: 100%;\n      top: 100%;\n      background: transparentize($light-accent, .2);\n      transform-origin: top;\n      transition: transform 0.5s ease;\n\n      &.mobile.closed {\n        transform: scaleY(0); }\n\n      &.mobile.open {\n        transform: scaleY(1); } }\n\n    & > li {\n      display: inline-flex;\n      align-items: center;\n      justify-content: center;\n      @include font-size-large;\n      @include font-weight-extrabold;\n\n      margin: 4px 4px;\n\n      @media screen and (min-width: $screen-md-min-width) {\n        margin: 4px 16px; }\n\n      @media screen and (min-width: $screen-lg-min-width) {\n        margin: 8px 32px; }\n\n      & > * {\n        @extend .font-gray;\n        text-decoration: none;\n        padding: 4px 4px;\n\n        &:hover {\n          text-decoration: underline; } } } } }\n","@import '../colors';\n@import '../typography';\n\n.home {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: flex-start;\n  padding-top: 100px;\n\n  & > img {\n    width: 25%;\n    border-radius: 50%;\n    border: 5px solid $dark-accent;\n    box-shadow: 0 0 4px $dark-accent; }\n\n  & > .separator {\n    height: 5vmin; }\n\n  & > h1 {\n    font-size: 5vmin; }\n\n  & > h4 {\n    font-size: 3vmin; }\n\n  & > h5 {\n    font-size: 2vmin; }\n\n  & > p {\n    font-size: 2vmin;\n    line-height: 5vmin;\n    width: 80%; } }\n","// core modules\n@import './colors';\n@import './responsive';\n@import './typography';\n\n// page styles\n@import './navigation/style';\n@import './home/style';\n\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  background-color: $base;\n  border: 0;\n  margin: 0;\n\n  #app {\n    width: 100%;\n    height: 100%;\n    display: grid;\n\n    grid-template-rows: 128px auto 64px;\n    grid-template-columns: 5px auto 5px;\n\n    @media screen and (min-width: $screen-md-min-width) {\n      grid-template-rows: 100px auto 100px;\n      grid-template-columns: 100px auto 100px; }\n\n    @media screen and (min-width: $screen-lg-min-width) {\n      grid-template-rows: 150px auto 150px;\n      grid-template-columns: 150px auto 150px; }\n\n    nav {\n      grid-row: 1;\n      grid-column: 1 / span 3; }\n\n    .content {\n      grid-row: 2 / span 2;\n      grid-column: 2;\n\n      & > * {\n        height: 100%;\n        width: 100%; } } } }\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
+
+/***/ }),
+
+/***/ "../public/lucy.jpg":
+/*!**************************!*\
+  !*** ../public/lucy.jpg ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "7cdf16c0b98326ac6f0be3c2c8b5f314.jpg");
+
+/***/ }),
+
+/***/ "../public/lucy.svg":
+/*!**************************!*\
+  !*** ../public/lucy.svg ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "e0d2ed7bf94fe9070eb1a0ecab81d561.svg");
 
 /***/ }),
 
@@ -1617,7 +1647,7 @@ function createMemoryHistory(props) {
 "use strict";
 
 
-var reactIs = __webpack_require__(/*! react-is */ "../node_modules/react-is/index.js");
+var reactIs = __webpack_require__(/*! react-is */ "../node_modules/hoist-non-react-statics/node_modules/react-is/index.js");
 
 /**
  * Copyright 2015, Yahoo! Inc.
@@ -1718,6 +1748,214 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 }
 
 module.exports = hoistNonReactStatics;
+
+
+/***/ }),
+
+/***/ "../node_modules/hoist-non-react-statics/node_modules/react-is/cjs/react-is.development.js":
+/*!*************************************************************************************************!*\
+  !*** ../node_modules/hoist-non-react-statics/node_modules/react-is/cjs/react-is.development.js ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+/** @license React v16.13.1
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+
+
+if (true) {
+  (function() {
+'use strict';
+
+// The Symbol used to tag the ReactElement-like types. If there is no native Symbol
+// nor polyfill, then a plain number is used for performance.
+var hasSymbol = typeof Symbol === 'function' && Symbol.for;
+var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
+var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
+var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
+var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
+var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
+var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
+var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
+// (unstable) APIs that have been removed. Can we remove the symbols?
+
+var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
+var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
+var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
+var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
+var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for('react.suspense_list') : 0xead8;
+var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
+var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
+var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for('react.block') : 0xead9;
+var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for('react.fundamental') : 0xead5;
+var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for('react.responder') : 0xead6;
+var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for('react.scope') : 0xead7;
+
+function isValidElementType(type) {
+  return typeof type === 'string' || typeof type === 'function' || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
+  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
+}
+
+function typeOf(object) {
+  if (typeof object === 'object' && object !== null) {
+    var $$typeof = object.$$typeof;
+
+    switch ($$typeof) {
+      case REACT_ELEMENT_TYPE:
+        var type = object.type;
+
+        switch (type) {
+          case REACT_ASYNC_MODE_TYPE:
+          case REACT_CONCURRENT_MODE_TYPE:
+          case REACT_FRAGMENT_TYPE:
+          case REACT_PROFILER_TYPE:
+          case REACT_STRICT_MODE_TYPE:
+          case REACT_SUSPENSE_TYPE:
+            return type;
+
+          default:
+            var $$typeofType = type && type.$$typeof;
+
+            switch ($$typeofType) {
+              case REACT_CONTEXT_TYPE:
+              case REACT_FORWARD_REF_TYPE:
+              case REACT_LAZY_TYPE:
+              case REACT_MEMO_TYPE:
+              case REACT_PROVIDER_TYPE:
+                return $$typeofType;
+
+              default:
+                return $$typeof;
+            }
+
+        }
+
+      case REACT_PORTAL_TYPE:
+        return $$typeof;
+    }
+  }
+
+  return undefined;
+} // AsyncMode is deprecated along with isAsyncMode
+
+var AsyncMode = REACT_ASYNC_MODE_TYPE;
+var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
+var ContextConsumer = REACT_CONTEXT_TYPE;
+var ContextProvider = REACT_PROVIDER_TYPE;
+var Element = REACT_ELEMENT_TYPE;
+var ForwardRef = REACT_FORWARD_REF_TYPE;
+var Fragment = REACT_FRAGMENT_TYPE;
+var Lazy = REACT_LAZY_TYPE;
+var Memo = REACT_MEMO_TYPE;
+var Portal = REACT_PORTAL_TYPE;
+var Profiler = REACT_PROFILER_TYPE;
+var StrictMode = REACT_STRICT_MODE_TYPE;
+var Suspense = REACT_SUSPENSE_TYPE;
+var hasWarnedAboutDeprecatedIsAsyncMode = false; // AsyncMode should be deprecated
+
+function isAsyncMode(object) {
+  {
+    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+      hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
+
+      console['warn']('The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
+    }
+  }
+
+  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
+}
+function isConcurrentMode(object) {
+  return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
+}
+function isContextConsumer(object) {
+  return typeOf(object) === REACT_CONTEXT_TYPE;
+}
+function isContextProvider(object) {
+  return typeOf(object) === REACT_PROVIDER_TYPE;
+}
+function isElement(object) {
+  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+}
+function isForwardRef(object) {
+  return typeOf(object) === REACT_FORWARD_REF_TYPE;
+}
+function isFragment(object) {
+  return typeOf(object) === REACT_FRAGMENT_TYPE;
+}
+function isLazy(object) {
+  return typeOf(object) === REACT_LAZY_TYPE;
+}
+function isMemo(object) {
+  return typeOf(object) === REACT_MEMO_TYPE;
+}
+function isPortal(object) {
+  return typeOf(object) === REACT_PORTAL_TYPE;
+}
+function isProfiler(object) {
+  return typeOf(object) === REACT_PROFILER_TYPE;
+}
+function isStrictMode(object) {
+  return typeOf(object) === REACT_STRICT_MODE_TYPE;
+}
+function isSuspense(object) {
+  return typeOf(object) === REACT_SUSPENSE_TYPE;
+}
+
+exports.AsyncMode = AsyncMode;
+exports.ConcurrentMode = ConcurrentMode;
+exports.ContextConsumer = ContextConsumer;
+exports.ContextProvider = ContextProvider;
+exports.Element = Element;
+exports.ForwardRef = ForwardRef;
+exports.Fragment = Fragment;
+exports.Lazy = Lazy;
+exports.Memo = Memo;
+exports.Portal = Portal;
+exports.Profiler = Profiler;
+exports.StrictMode = StrictMode;
+exports.Suspense = Suspense;
+exports.isAsyncMode = isAsyncMode;
+exports.isConcurrentMode = isConcurrentMode;
+exports.isContextConsumer = isContextConsumer;
+exports.isContextProvider = isContextProvider;
+exports.isElement = isElement;
+exports.isForwardRef = isForwardRef;
+exports.isFragment = isFragment;
+exports.isLazy = isLazy;
+exports.isMemo = isMemo;
+exports.isPortal = isPortal;
+exports.isProfiler = isProfiler;
+exports.isStrictMode = isStrictMode;
+exports.isSuspense = isSuspense;
+exports.isValidElementType = isValidElementType;
+exports.typeOf = typeOf;
+  })();
+}
+
+
+/***/ }),
+
+/***/ "../node_modules/hoist-non-react-statics/node_modules/react-is/index.js":
+/*!******************************************************************************!*\
+  !*** ../node_modules/hoist-non-react-statics/node_modules/react-is/index.js ***!
+  \******************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+if (false) {} else {
+  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "../node_modules/hoist-non-react-statics/node_modules/react-is/cjs/react-is.development.js");
+}
 
 
 /***/ }),
@@ -4752,7 +4990,7 @@ module.exports = checkPropTypes;
 
 
 
-var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/react-is/index.js");
+var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/prop-types/node_modules/react-is/index.js");
 var assign = __webpack_require__(/*! object-assign */ "../node_modules/object-assign/index.js");
 
 var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "../node_modules/prop-types/lib/ReactPropTypesSecret.js");
@@ -5352,7 +5590,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
  */
 
 if (true) {
-  var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/react-is/index.js");
+  var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/prop-types/node_modules/react-is/index.js");
 
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
@@ -5382,6 +5620,214 @@ if (true) {
 var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
+
+
+/***/ }),
+
+/***/ "../node_modules/prop-types/node_modules/react-is/cjs/react-is.development.js":
+/*!************************************************************************************!*\
+  !*** ../node_modules/prop-types/node_modules/react-is/cjs/react-is.development.js ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+/** @license React v16.13.1
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+
+
+if (true) {
+  (function() {
+'use strict';
+
+// The Symbol used to tag the ReactElement-like types. If there is no native Symbol
+// nor polyfill, then a plain number is used for performance.
+var hasSymbol = typeof Symbol === 'function' && Symbol.for;
+var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
+var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
+var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
+var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
+var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
+var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
+var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
+// (unstable) APIs that have been removed. Can we remove the symbols?
+
+var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
+var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
+var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
+var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
+var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for('react.suspense_list') : 0xead8;
+var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
+var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
+var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for('react.block') : 0xead9;
+var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for('react.fundamental') : 0xead5;
+var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for('react.responder') : 0xead6;
+var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for('react.scope') : 0xead7;
+
+function isValidElementType(type) {
+  return typeof type === 'string' || typeof type === 'function' || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
+  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
+}
+
+function typeOf(object) {
+  if (typeof object === 'object' && object !== null) {
+    var $$typeof = object.$$typeof;
+
+    switch ($$typeof) {
+      case REACT_ELEMENT_TYPE:
+        var type = object.type;
+
+        switch (type) {
+          case REACT_ASYNC_MODE_TYPE:
+          case REACT_CONCURRENT_MODE_TYPE:
+          case REACT_FRAGMENT_TYPE:
+          case REACT_PROFILER_TYPE:
+          case REACT_STRICT_MODE_TYPE:
+          case REACT_SUSPENSE_TYPE:
+            return type;
+
+          default:
+            var $$typeofType = type && type.$$typeof;
+
+            switch ($$typeofType) {
+              case REACT_CONTEXT_TYPE:
+              case REACT_FORWARD_REF_TYPE:
+              case REACT_LAZY_TYPE:
+              case REACT_MEMO_TYPE:
+              case REACT_PROVIDER_TYPE:
+                return $$typeofType;
+
+              default:
+                return $$typeof;
+            }
+
+        }
+
+      case REACT_PORTAL_TYPE:
+        return $$typeof;
+    }
+  }
+
+  return undefined;
+} // AsyncMode is deprecated along with isAsyncMode
+
+var AsyncMode = REACT_ASYNC_MODE_TYPE;
+var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
+var ContextConsumer = REACT_CONTEXT_TYPE;
+var ContextProvider = REACT_PROVIDER_TYPE;
+var Element = REACT_ELEMENT_TYPE;
+var ForwardRef = REACT_FORWARD_REF_TYPE;
+var Fragment = REACT_FRAGMENT_TYPE;
+var Lazy = REACT_LAZY_TYPE;
+var Memo = REACT_MEMO_TYPE;
+var Portal = REACT_PORTAL_TYPE;
+var Profiler = REACT_PROFILER_TYPE;
+var StrictMode = REACT_STRICT_MODE_TYPE;
+var Suspense = REACT_SUSPENSE_TYPE;
+var hasWarnedAboutDeprecatedIsAsyncMode = false; // AsyncMode should be deprecated
+
+function isAsyncMode(object) {
+  {
+    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+      hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
+
+      console['warn']('The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
+    }
+  }
+
+  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
+}
+function isConcurrentMode(object) {
+  return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
+}
+function isContextConsumer(object) {
+  return typeOf(object) === REACT_CONTEXT_TYPE;
+}
+function isContextProvider(object) {
+  return typeOf(object) === REACT_PROVIDER_TYPE;
+}
+function isElement(object) {
+  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+}
+function isForwardRef(object) {
+  return typeOf(object) === REACT_FORWARD_REF_TYPE;
+}
+function isFragment(object) {
+  return typeOf(object) === REACT_FRAGMENT_TYPE;
+}
+function isLazy(object) {
+  return typeOf(object) === REACT_LAZY_TYPE;
+}
+function isMemo(object) {
+  return typeOf(object) === REACT_MEMO_TYPE;
+}
+function isPortal(object) {
+  return typeOf(object) === REACT_PORTAL_TYPE;
+}
+function isProfiler(object) {
+  return typeOf(object) === REACT_PROFILER_TYPE;
+}
+function isStrictMode(object) {
+  return typeOf(object) === REACT_STRICT_MODE_TYPE;
+}
+function isSuspense(object) {
+  return typeOf(object) === REACT_SUSPENSE_TYPE;
+}
+
+exports.AsyncMode = AsyncMode;
+exports.ConcurrentMode = ConcurrentMode;
+exports.ContextConsumer = ContextConsumer;
+exports.ContextProvider = ContextProvider;
+exports.Element = Element;
+exports.ForwardRef = ForwardRef;
+exports.Fragment = Fragment;
+exports.Lazy = Lazy;
+exports.Memo = Memo;
+exports.Portal = Portal;
+exports.Profiler = Profiler;
+exports.StrictMode = StrictMode;
+exports.Suspense = Suspense;
+exports.isAsyncMode = isAsyncMode;
+exports.isConcurrentMode = isConcurrentMode;
+exports.isContextConsumer = isContextConsumer;
+exports.isContextProvider = isContextProvider;
+exports.isElement = isElement;
+exports.isForwardRef = isForwardRef;
+exports.isFragment = isFragment;
+exports.isLazy = isLazy;
+exports.isMemo = isMemo;
+exports.isPortal = isPortal;
+exports.isProfiler = isProfiler;
+exports.isStrictMode = isStrictMode;
+exports.isSuspense = isSuspense;
+exports.isValidElementType = isValidElementType;
+exports.typeOf = typeOf;
+  })();
+}
+
+
+/***/ }),
+
+/***/ "../node_modules/prop-types/node_modules/react-is/index.js":
+/*!*****************************************************************!*\
+  !*** ../node_modules/prop-types/node_modules/react-is/index.js ***!
+  \*****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+if (false) {} else {
+  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "../node_modules/prop-types/node_modules/react-is/cjs/react-is.development.js");
+}
 
 
 /***/ }),
@@ -32579,210 +33025,963 @@ function withTranslation(ns) {
 
 /***/ }),
 
-/***/ "../node_modules/react-is/cjs/react-is.development.js":
-/*!************************************************************!*\
-  !*** ../node_modules/react-is/cjs/react-is.development.js ***!
-  \************************************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ "../node_modules/react-responsive/dist/react-responsive.js":
+/*!*****************************************************************!*\
+  !*** ../node_modules/react-responsive/dist/react-responsive.js ***!
+  \*****************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-"use strict";
-/** @license React v16.13.1
- * react-is.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
+!function(root, factory) {
+     true ? module.exports = factory(__webpack_require__(/*! react */ "../node_modules/react/index.js")) : 0;
+}("undefined" != typeof self ? self : this, function(__WEBPACK_EXTERNAL_MODULE_1__) {
+    return function(modules) {
+        function __nested_webpack_require_451__(moduleId) {
+            if (installedModules[moduleId]) return installedModules[moduleId].exports;
+            var module = installedModules[moduleId] = {
+                i: moduleId,
+                l: !1,
+                exports: {}
+            };
+            return modules[moduleId].call(module.exports, module, module.exports, __nested_webpack_require_451__), 
+            module.l = !0, module.exports;
+        }
+        var installedModules = {};
+        return __nested_webpack_require_451__.m = modules, __nested_webpack_require_451__.c = installedModules, 
+        __nested_webpack_require_451__.d = function(exports, name, getter) {
+            __nested_webpack_require_451__.o(exports, name) || Object.defineProperty(exports, name, {
+                configurable: !1,
+                enumerable: !0,
+                get: getter
+            });
+        }, __nested_webpack_require_451__.n = function(module) {
+            var getter = module && module.__esModule ? function() {
+                return module.default;
+            } : function() {
+                return module;
+            };
+            return __nested_webpack_require_451__.d(getter, "a", getter), getter;
+        }, __nested_webpack_require_451__.o = function(object, property) {
+            return Object.prototype.hasOwnProperty.call(object, property);
+        }, __nested_webpack_require_451__.p = "", __nested_webpack_require_451__(__nested_webpack_require_451__.s = 7);
+    }([ function(module, __webpack_exports__, __nested_webpack_require_1860__) {
+        "use strict";
+        function _slicedToArray(arr, i) {
+            return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();
+        }
+        function _nonIterableRest() {
+            throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+        }
+        function _unsupportedIterableToArray(o, minLen) {
+            if (o) {
+                if ("string" == typeof o) return _arrayLikeToArray(o, minLen);
+                var n = Object.prototype.toString.call(o).slice(8, -1);
+                return "Object" === n && o.constructor && (n = o.constructor.name), "Map" === n || "Set" === n ? Array.from(o) : "Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n) ? _arrayLikeToArray(o, minLen) : void 0;
+            }
+        }
+        function _arrayLikeToArray(arr, len) {
+            (null == len || len > arr.length) && (len = arr.length);
+            for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+            return arr2;
+        }
+        function _iterableToArrayLimit(arr, i) {
+            if ("undefined" != typeof Symbol && Symbol.iterator in Object(arr)) {
+                var _arr = [], _n = !0, _d = !1, _e = void 0;
+                try {
+                    for (var _s, _i = arr[Symbol.iterator](); !(_n = (_s = _i.next()).done) && (_arr.push(_s.value), 
+                    !i || _arr.length !== i); _n = !0) ;
+                } catch (err) {
+                    _d = !0, _e = err;
+                } finally {
+                    try {
+                        _n || null == _i.return || _i.return();
+                    } finally {
+                        if (_d) throw _e;
+                    }
+                }
+                return _arr;
+            }
+        }
+        function _arrayWithHoles(arr) {
+            if (Array.isArray(arr)) return arr;
+        }
+        var __WEBPACK_IMPORTED_MODULE_0_react__ = __nested_webpack_require_1860__(1), __WEBPACK_IMPORTED_MODULE_0_react___default = __nested_webpack_require_1860__.n(__WEBPACK_IMPORTED_MODULE_0_react__), __WEBPACK_IMPORTED_MODULE_1_matchmediaquery__ = __nested_webpack_require_1860__(8), __WEBPACK_IMPORTED_MODULE_1_matchmediaquery___default = __nested_webpack_require_1860__.n(__WEBPACK_IMPORTED_MODULE_1_matchmediaquery__), __WEBPACK_IMPORTED_MODULE_2_hyphenate_style_name__ = __nested_webpack_require_1860__(2), __WEBPACK_IMPORTED_MODULE_3_shallow_equal_objects__ = __nested_webpack_require_1860__(10), __WEBPACK_IMPORTED_MODULE_3_shallow_equal_objects___default = __nested_webpack_require_1860__.n(__WEBPACK_IMPORTED_MODULE_3_shallow_equal_objects__), __WEBPACK_IMPORTED_MODULE_4__toQuery__ = __nested_webpack_require_1860__(3), __WEBPACK_IMPORTED_MODULE_5__Context__ = __nested_webpack_require_1860__(6), makeQuery = function(settings) {
+            return settings.query || Object(__WEBPACK_IMPORTED_MODULE_4__toQuery__.a)(settings);
+        }, hyphenateKeys = function(obj) {
+            if (!obj) return null;
+            var keys = Object.keys(obj);
+            return 0 === keys.length ? null : keys.reduce(function(result, key) {
+                return result[Object(__WEBPACK_IMPORTED_MODULE_2_hyphenate_style_name__.a)(key)] = obj[key], 
+                result;
+            }, {});
+        }, useIsUpdate = function() {
+            var ref = __WEBPACK_IMPORTED_MODULE_0_react___default.a.useRef(!1);
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.useEffect(function() {
+                ref.current = !0;
+            }, []), ref.current;
+        }, useDevice = function(deviceFromProps) {
+            var deviceFromContext = __WEBPACK_IMPORTED_MODULE_0_react___default.a.useContext(__WEBPACK_IMPORTED_MODULE_5__Context__.a), getDevice = function() {
+                return hyphenateKeys(deviceFromProps) || hyphenateKeys(deviceFromContext);
+            }, _React$useState = __WEBPACK_IMPORTED_MODULE_0_react___default.a.useState(getDevice), _React$useState2 = _slicedToArray(_React$useState, 2), device = _React$useState2[0], setDevice = _React$useState2[1];
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.useEffect(function() {
+                var newDevice = getDevice();
+                __WEBPACK_IMPORTED_MODULE_3_shallow_equal_objects___default()(device, newDevice) || setDevice(newDevice);
+            }, [ deviceFromProps, deviceFromContext ]), device;
+        }, useQuery = function(settings) {
+            var getQuery = function() {
+                return makeQuery(settings);
+            }, _React$useState3 = __WEBPACK_IMPORTED_MODULE_0_react___default.a.useState(getQuery), _React$useState4 = _slicedToArray(_React$useState3, 2), query = _React$useState4[0], setQuery = _React$useState4[1];
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.useEffect(function() {
+                var newQuery = getQuery();
+                query !== newQuery && setQuery(newQuery);
+            }, [ settings ]), query;
+        }, useMatchMedia = function(query, device) {
+            var getMatchMedia = function() {
+                return __WEBPACK_IMPORTED_MODULE_1_matchmediaquery___default()(query, device || {}, !!device);
+            }, _React$useState5 = __WEBPACK_IMPORTED_MODULE_0_react___default.a.useState(getMatchMedia), _React$useState6 = _slicedToArray(_React$useState5, 2), mq = _React$useState6[0], setMq = _React$useState6[1], isUpdate = useIsUpdate();
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.useEffect(function() {
+                return isUpdate && setMq(getMatchMedia()), function() {
+                    mq.dispose();
+                };
+            }, [ query, device ]), mq;
+        }, useMatches = function(mediaQuery) {
+            var _React$useState7 = __WEBPACK_IMPORTED_MODULE_0_react___default.a.useState(mediaQuery.matches), _React$useState8 = _slicedToArray(_React$useState7, 2), matches = _React$useState8[0], setMatches = _React$useState8[1];
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.useEffect(function() {
+                var updateMatches = function() {
+                    setMatches(mediaQuery.matches);
+                };
+                return mediaQuery.addListener(updateMatches), updateMatches(), function() {
+                    mediaQuery.removeListener(updateMatches);
+                };
+            }, [ mediaQuery ]), matches;
+        }, useMediaQuery = function(settings, device, onChange) {
+            var deviceSettings = useDevice(device), query = useQuery(settings);
+            if (!query) throw new Error("Invalid or missing MediaQuery!");
+            var mq = useMatchMedia(query, deviceSettings), matches = useMatches(mq), isUpdate = useIsUpdate();
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.useEffect(function() {
+                isUpdate && onChange && onChange(matches);
+            }, [ matches ]), matches;
+        };
+        __webpack_exports__.a = useMediaQuery;
+    }, function(module, exports) {
+        module.exports = __WEBPACK_EXTERNAL_MODULE_1__;
+    }, function(module, __webpack_exports__, __webpack_require__) {
+        "use strict";
+        function toHyphenLower(match) {
+            return "-" + match.toLowerCase();
+        }
+        function hyphenateStyleName(name) {
+            if (cache.hasOwnProperty(name)) return cache[name];
+            var hName = name.replace(uppercasePattern, toHyphenLower);
+            return cache[name] = msPattern.test(hName) ? "-" + hName : hName;
+        }
+        var uppercasePattern = /[A-Z]/g, msPattern = /^ms-/, cache = {};
+        __webpack_exports__.a = hyphenateStyleName;
+    }, function(module, __webpack_exports__, __nested_webpack_require_9551__) {
+        "use strict";
+        var __WEBPACK_IMPORTED_MODULE_0_hyphenate_style_name__ = __nested_webpack_require_9551__(2), __WEBPACK_IMPORTED_MODULE_1__mediaQuery__ = __nested_webpack_require_9551__(11), negate = function(cond) {
+            return "not ".concat(cond);
+        }, keyVal = function(k, v) {
+            var realKey = Object(__WEBPACK_IMPORTED_MODULE_0_hyphenate_style_name__.a)(k);
+            return "number" == typeof v && (v = "".concat(v, "px")), !0 === v ? realKey : !1 === v ? negate(realKey) : "(".concat(realKey, ": ").concat(v, ")");
+        }, join = function(conds) {
+            return conds.join(" and ");
+        }, toQuery = function(obj) {
+            var rules = [];
+            return Object.keys(__WEBPACK_IMPORTED_MODULE_1__mediaQuery__.a.all).forEach(function(k) {
+                var v = obj[k];
+                null != v && rules.push(keyVal(k, v));
+            }), join(rules);
+        };
+        __webpack_exports__.a = toQuery;
+    }, function(module, exports, __nested_webpack_require_10553__) {
+        "use strict";
+        module.exports = __nested_webpack_require_10553__(13);
+    }, function(module, exports, __webpack_require__) {
+        "use strict";
+        module.exports = "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED";
+    }, function(module, __webpack_exports__, __nested_webpack_require_10844__) {
+        "use strict";
+        var __WEBPACK_IMPORTED_MODULE_0_react__ = __nested_webpack_require_10844__(1), __WEBPACK_IMPORTED_MODULE_0_react___default = __nested_webpack_require_10844__.n(__WEBPACK_IMPORTED_MODULE_0_react__), Context = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createContext();
+        __webpack_exports__.a = Context;
+    }, function(module, __webpack_exports__, __nested_webpack_require_11228__) {
+        "use strict";
+        Object.defineProperty(__webpack_exports__, "__esModule", {
+            value: !0
+        });
+        var __WEBPACK_IMPORTED_MODULE_0__useMediaQuery__ = __nested_webpack_require_11228__(0), __WEBPACK_IMPORTED_MODULE_1__Component__ = __nested_webpack_require_11228__(17), __WEBPACK_IMPORTED_MODULE_2__toQuery__ = __nested_webpack_require_11228__(3), __WEBPACK_IMPORTED_MODULE_3__Context__ = __nested_webpack_require_11228__(6);
+        __nested_webpack_require_11228__.d(__webpack_exports__, "default", function() {
+            return __WEBPACK_IMPORTED_MODULE_1__Component__.a;
+        }), __nested_webpack_require_11228__.d(__webpack_exports__, "useMediaQuery", function() {
+            return __WEBPACK_IMPORTED_MODULE_0__useMediaQuery__.a;
+        }), __nested_webpack_require_11228__.d(__webpack_exports__, "toQuery", function() {
+            return __WEBPACK_IMPORTED_MODULE_2__toQuery__.a;
+        }), __nested_webpack_require_11228__.d(__webpack_exports__, "Context", function() {
+            return __WEBPACK_IMPORTED_MODULE_3__Context__.a;
+        });
+    }, function(module, exports, __nested_webpack_require_12270__) {
+        "use strict";
+        function Mql(query, values, forceStatic) {
+            function addListener(listener) {
+                mql && mql.addListener(listener);
+            }
+            function removeListener(listener) {
+                mql && mql.removeListener(listener);
+            }
+            function update(evt) {
+                self.matches = evt.matches, self.media = evt.media;
+            }
+            function dispose() {
+                mql && mql.removeListener(update);
+            }
+            var self = this;
+            if (dynamicMatch && !forceStatic) {
+                var mql = dynamicMatch.call(window, query);
+                this.matches = mql.matches, this.media = mql.media, mql.addListener(update);
+            } else this.matches = staticMatch(query, values), this.media = query;
+            this.addListener = addListener, this.removeListener = removeListener, this.dispose = dispose;
+        }
+        function matchMedia(query, values, forceStatic) {
+            return new Mql(query, values, forceStatic);
+        }
+        var staticMatch = __nested_webpack_require_12270__(9).match, dynamicMatch = "undefined" != typeof window ? window.matchMedia : null;
+        module.exports = matchMedia;
+    }, function(module, exports, __webpack_require__) {
+        "use strict";
+        function matchQuery(mediaQuery, values) {
+            return parseQuery(mediaQuery).some(function(query) {
+                var inverse = query.inverse, typeMatch = "all" === query.type || values.type === query.type;
+                if (typeMatch && inverse || !typeMatch && !inverse) return !1;
+                var expressionsMatch = query.expressions.every(function(expression) {
+                    var feature = expression.feature, modifier = expression.modifier, expValue = expression.value, value = values[feature];
+                    if (!value) return !1;
+                    switch (feature) {
+                      case "orientation":
+                      case "scan":
+                        return value.toLowerCase() === expValue.toLowerCase();
 
+                      case "width":
+                      case "height":
+                      case "device-width":
+                      case "device-height":
+                        expValue = toPx(expValue), value = toPx(value);
+                        break;
 
+                      case "resolution":
+                        expValue = toDpi(expValue), value = toDpi(value);
+                        break;
 
+                      case "aspect-ratio":
+                      case "device-aspect-ratio":
+                      case "device-pixel-ratio":
+                        expValue = toDecimal(expValue), value = toDecimal(value);
+                        break;
 
+                      case "grid":
+                      case "color":
+                      case "color-index":
+                      case "monochrome":
+                        expValue = parseInt(expValue, 10) || 1, value = parseInt(value, 10) || 0;
+                    }
+                    switch (modifier) {
+                      case "min":
+                        return value >= expValue;
 
-if (true) {
-  (function() {
-'use strict';
+                      case "max":
+                        return value <= expValue;
 
-// The Symbol used to tag the ReactElement-like types. If there is no native Symbol
-// nor polyfill, then a plain number is used for performance.
-var hasSymbol = typeof Symbol === 'function' && Symbol.for;
-var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
-var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
-var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
-var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
-var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
-var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
-var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
-// (unstable) APIs that have been removed. Can we remove the symbols?
+                      default:
+                        return value === expValue;
+                    }
+                });
+                return expressionsMatch && !inverse || !expressionsMatch && inverse;
+            });
+        }
+        function parseQuery(mediaQuery) {
+            return mediaQuery.split(",").map(function(query) {
+                query = query.trim();
+                var captures = query.match(RE_MEDIA_QUERY), modifier = captures[1], type = captures[2], expressions = captures[3] || "", parsed = {};
+                return parsed.inverse = !!modifier && "not" === modifier.toLowerCase(), parsed.type = type ? type.toLowerCase() : "all", 
+                expressions = expressions.match(/\([^\)]+\)/g) || [], parsed.expressions = expressions.map(function(expression) {
+                    var captures = expression.match(RE_MQ_EXPRESSION), feature = captures[1].toLowerCase().match(RE_MQ_FEATURE);
+                    return {
+                        modifier: feature[1],
+                        feature: feature[2],
+                        value: captures[2]
+                    };
+                }), parsed;
+            });
+        }
+        function toDecimal(ratio) {
+            var numbers, decimal = Number(ratio);
+            return decimal || (numbers = ratio.match(/^(\d+)\s*\/\s*(\d+)$/), decimal = numbers[1] / numbers[2]), 
+            decimal;
+        }
+        function toDpi(resolution) {
+            var value = parseFloat(resolution);
+            switch (String(resolution).match(RE_RESOLUTION_UNIT)[1]) {
+              case "dpcm":
+                return value / 2.54;
 
-var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
-var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
-var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
-var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
-var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for('react.suspense_list') : 0xead8;
-var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
-var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
-var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for('react.block') : 0xead9;
-var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for('react.fundamental') : 0xead5;
-var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for('react.responder') : 0xead6;
-var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for('react.scope') : 0xead7;
-
-function isValidElementType(type) {
-  return typeof type === 'string' || typeof type === 'function' || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
-  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
-}
-
-function typeOf(object) {
-  if (typeof object === 'object' && object !== null) {
-    var $$typeof = object.$$typeof;
-
-    switch ($$typeof) {
-      case REACT_ELEMENT_TYPE:
-        var type = object.type;
-
-        switch (type) {
-          case REACT_ASYNC_MODE_TYPE:
-          case REACT_CONCURRENT_MODE_TYPE:
-          case REACT_FRAGMENT_TYPE:
-          case REACT_PROFILER_TYPE:
-          case REACT_STRICT_MODE_TYPE:
-          case REACT_SUSPENSE_TYPE:
-            return type;
-
-          default:
-            var $$typeofType = type && type.$$typeof;
-
-            switch ($$typeofType) {
-              case REACT_CONTEXT_TYPE:
-              case REACT_FORWARD_REF_TYPE:
-              case REACT_LAZY_TYPE:
-              case REACT_MEMO_TYPE:
-              case REACT_PROVIDER_TYPE:
-                return $$typeofType;
+              case "dppx":
+                return 96 * value;
 
               default:
-                return $$typeof;
+                return value;
             }
-
         }
+        function toPx(length) {
+            var value = parseFloat(length);
+            switch (String(length).match(RE_LENGTH_UNIT)[1]) {
+              case "em":
+              case "rem":
+                return 16 * value;
 
-      case REACT_PORTAL_TYPE:
-        return $$typeof;
-    }
-  }
+              case "cm":
+                return 96 * value / 2.54;
 
-  return undefined;
-} // AsyncMode is deprecated along with isAsyncMode
+              case "mm":
+                return 96 * value / 2.54 / 10;
 
-var AsyncMode = REACT_ASYNC_MODE_TYPE;
-var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
-var ContextConsumer = REACT_CONTEXT_TYPE;
-var ContextProvider = REACT_PROVIDER_TYPE;
-var Element = REACT_ELEMENT_TYPE;
-var ForwardRef = REACT_FORWARD_REF_TYPE;
-var Fragment = REACT_FRAGMENT_TYPE;
-var Lazy = REACT_LAZY_TYPE;
-var Memo = REACT_MEMO_TYPE;
-var Portal = REACT_PORTAL_TYPE;
-var Profiler = REACT_PROFILER_TYPE;
-var StrictMode = REACT_STRICT_MODE_TYPE;
-var Suspense = REACT_SUSPENSE_TYPE;
-var hasWarnedAboutDeprecatedIsAsyncMode = false; // AsyncMode should be deprecated
+              case "in":
+                return 96 * value;
 
-function isAsyncMode(object) {
-  {
-    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
-      hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
+              case "pt":
+                return 72 * value;
 
-      console['warn']('The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
-    }
-  }
+              case "pc":
+                return 72 * value / 12;
 
-  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
-}
-function isConcurrentMode(object) {
-  return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
-}
-function isContextConsumer(object) {
-  return typeOf(object) === REACT_CONTEXT_TYPE;
-}
-function isContextProvider(object) {
-  return typeOf(object) === REACT_PROVIDER_TYPE;
-}
-function isElement(object) {
-  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
-}
-function isForwardRef(object) {
-  return typeOf(object) === REACT_FORWARD_REF_TYPE;
-}
-function isFragment(object) {
-  return typeOf(object) === REACT_FRAGMENT_TYPE;
-}
-function isLazy(object) {
-  return typeOf(object) === REACT_LAZY_TYPE;
-}
-function isMemo(object) {
-  return typeOf(object) === REACT_MEMO_TYPE;
-}
-function isPortal(object) {
-  return typeOf(object) === REACT_PORTAL_TYPE;
-}
-function isProfiler(object) {
-  return typeOf(object) === REACT_PROFILER_TYPE;
-}
-function isStrictMode(object) {
-  return typeOf(object) === REACT_STRICT_MODE_TYPE;
-}
-function isSuspense(object) {
-  return typeOf(object) === REACT_SUSPENSE_TYPE;
-}
+              default:
+                return value;
+            }
+        }
+        exports.match = matchQuery, exports.parse = parseQuery;
+        var RE_MEDIA_QUERY = /(?:(only|not)?\s*([^\s\(\)]+)(?:\s*and)?\s*)?(.+)?/i, RE_MQ_EXPRESSION = /\(\s*([^\s\:\)]+)\s*(?:\:\s*([^\s\)]+))?\s*\)/, RE_MQ_FEATURE = /^(?:(min|max)-)?(.+)/, RE_LENGTH_UNIT = /(em|rem|px|cm|mm|in|pt|pc)?$/, RE_RESOLUTION_UNIT = /(dpi|dpcm|dppx)?$/;
+    }, function(module, exports, __webpack_require__) {
+        "use strict";
+        function shallowEqualObjects(objA, objB) {
+            if (objA === objB) return !0;
+            if (!objA || !objB) return !1;
+            var aKeys = Object.keys(objA), bKeys = Object.keys(objB), len = aKeys.length;
+            if (bKeys.length !== len) return !1;
+            for (var i = 0; i < len; i++) {
+                var key = aKeys[i];
+                if (objA[key] !== objB[key] || !Object.prototype.hasOwnProperty.call(objB, key)) return !1;
+            }
+            return !0;
+        }
+        module.exports = shallowEqualObjects;
+    }, function(module, __webpack_exports__, __nested_webpack_require_18935__) {
+        "use strict";
+        function ownKeys(object, enumerableOnly) {
+            var keys = Object.keys(object);
+            if (Object.getOwnPropertySymbols) {
+                var symbols = Object.getOwnPropertySymbols(object);
+                enumerableOnly && (symbols = symbols.filter(function(sym) {
+                    return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+                })), keys.push.apply(keys, symbols);
+            }
+            return keys;
+        }
+        function _objectSpread(target) {
+            for (var i = 1; i < arguments.length; i++) {
+                var source = null != arguments[i] ? arguments[i] : {};
+                i % 2 ? ownKeys(Object(source), !0).forEach(function(key) {
+                    _defineProperty(target, key, source[key]);
+                }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function(key) {
+                    Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+                });
+            }
+            return target;
+        }
+        function _defineProperty(obj, key, value) {
+            return key in obj ? Object.defineProperty(obj, key, {
+                value: value,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : obj[key] = value, obj;
+        }
+        var __WEBPACK_IMPORTED_MODULE_0_prop_types__ = __nested_webpack_require_18935__(12), __WEBPACK_IMPORTED_MODULE_0_prop_types___default = __nested_webpack_require_18935__.n(__WEBPACK_IMPORTED_MODULE_0_prop_types__), stringOrNumber = __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.oneOfType([ __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.string, __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.number ]), matchers = {
+            orientation: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.oneOf([ "portrait", "landscape" ]),
+            scan: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.oneOf([ "progressive", "interlace" ]),
+            aspectRatio: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.string,
+            deviceAspectRatio: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.string,
+            height: stringOrNumber,
+            deviceHeight: stringOrNumber,
+            width: stringOrNumber,
+            deviceWidth: stringOrNumber,
+            color: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.bool,
+            colorIndex: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.bool,
+            monochrome: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.bool,
+            resolution: stringOrNumber
+        }, features = _objectSpread({
+            minAspectRatio: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.string,
+            maxAspectRatio: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.string,
+            minDeviceAspectRatio: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.string,
+            maxDeviceAspectRatio: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.string,
+            minHeight: stringOrNumber,
+            maxHeight: stringOrNumber,
+            minDeviceHeight: stringOrNumber,
+            maxDeviceHeight: stringOrNumber,
+            minWidth: stringOrNumber,
+            maxWidth: stringOrNumber,
+            minDeviceWidth: stringOrNumber,
+            maxDeviceWidth: stringOrNumber,
+            minColor: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.number,
+            maxColor: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.number,
+            minColorIndex: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.number,
+            maxColorIndex: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.number,
+            minMonochrome: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.number,
+            maxMonochrome: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.number,
+            minResolution: stringOrNumber,
+            maxResolution: stringOrNumber
+        }, matchers), types = {
+            all: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.bool,
+            grid: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.bool,
+            aural: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.bool,
+            braille: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.bool,
+            handheld: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.bool,
+            print: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.bool,
+            projection: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.bool,
+            screen: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.bool,
+            tty: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.bool,
+            tv: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.bool,
+            embossed: __WEBPACK_IMPORTED_MODULE_0_prop_types___default.a.bool
+        }, all = _objectSpread(_objectSpread({}, types), features);
+        matchers.type = Object.keys(types), __webpack_exports__.a = {
+            all: all,
+            types: types,
+            matchers: matchers,
+            features: features
+        };
+    }, function(module, exports, __nested_webpack_require_24129__) {
+        var ReactIs = __nested_webpack_require_24129__(4);
+        module.exports = __nested_webpack_require_24129__(14)(ReactIs.isElement, !0);
+    }, function(module, exports, __webpack_require__) {
+        "use strict";
+        !function() {
+            function isValidElementType(type) {
+                return "string" == typeof type || "function" == typeof type || type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || "object" == typeof type && null !== type && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
+            }
+            function typeOf(object) {
+                if ("object" == typeof object && null !== object) {
+                    var $$typeof = object.$$typeof;
+                    switch ($$typeof) {
+                      case REACT_ELEMENT_TYPE:
+                        var type = object.type;
+                        switch (type) {
+                          case REACT_ASYNC_MODE_TYPE:
+                          case REACT_CONCURRENT_MODE_TYPE:
+                          case REACT_FRAGMENT_TYPE:
+                          case REACT_PROFILER_TYPE:
+                          case REACT_STRICT_MODE_TYPE:
+                          case REACT_SUSPENSE_TYPE:
+                            return type;
 
-exports.AsyncMode = AsyncMode;
-exports.ConcurrentMode = ConcurrentMode;
-exports.ContextConsumer = ContextConsumer;
-exports.ContextProvider = ContextProvider;
-exports.Element = Element;
-exports.ForwardRef = ForwardRef;
-exports.Fragment = Fragment;
-exports.Lazy = Lazy;
-exports.Memo = Memo;
-exports.Portal = Portal;
-exports.Profiler = Profiler;
-exports.StrictMode = StrictMode;
-exports.Suspense = Suspense;
-exports.isAsyncMode = isAsyncMode;
-exports.isConcurrentMode = isConcurrentMode;
-exports.isContextConsumer = isContextConsumer;
-exports.isContextProvider = isContextProvider;
-exports.isElement = isElement;
-exports.isForwardRef = isForwardRef;
-exports.isFragment = isFragment;
-exports.isLazy = isLazy;
-exports.isMemo = isMemo;
-exports.isPortal = isPortal;
-exports.isProfiler = isProfiler;
-exports.isStrictMode = isStrictMode;
-exports.isSuspense = isSuspense;
-exports.isValidElementType = isValidElementType;
-exports.typeOf = typeOf;
-  })();
-}
+                          default:
+                            var $$typeofType = type && type.$$typeof;
+                            switch ($$typeofType) {
+                              case REACT_CONTEXT_TYPE:
+                              case REACT_FORWARD_REF_TYPE:
+                              case REACT_LAZY_TYPE:
+                              case REACT_MEMO_TYPE:
+                              case REACT_PROVIDER_TYPE:
+                                return $$typeofType;
+
+                              default:
+                                return $$typeof;
+                            }
+                        }
+
+                      case REACT_PORTAL_TYPE:
+                        return $$typeof;
+                    }
+                }
+            }
+            function isAsyncMode(object) {
+                return hasWarnedAboutDeprecatedIsAsyncMode || (hasWarnedAboutDeprecatedIsAsyncMode = !0, 
+                console.warn("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 17+. Update your code to use ReactIs.isConcurrentMode() instead. It has the exact same API.")), 
+                isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
+            }
+            function isConcurrentMode(object) {
+                return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
+            }
+            function isContextConsumer(object) {
+                return typeOf(object) === REACT_CONTEXT_TYPE;
+            }
+            function isContextProvider(object) {
+                return typeOf(object) === REACT_PROVIDER_TYPE;
+            }
+            function isElement(object) {
+                return "object" == typeof object && null !== object && object.$$typeof === REACT_ELEMENT_TYPE;
+            }
+            function isForwardRef(object) {
+                return typeOf(object) === REACT_FORWARD_REF_TYPE;
+            }
+            function isFragment(object) {
+                return typeOf(object) === REACT_FRAGMENT_TYPE;
+            }
+            function isLazy(object) {
+                return typeOf(object) === REACT_LAZY_TYPE;
+            }
+            function isMemo(object) {
+                return typeOf(object) === REACT_MEMO_TYPE;
+            }
+            function isPortal(object) {
+                return typeOf(object) === REACT_PORTAL_TYPE;
+            }
+            function isProfiler(object) {
+                return typeOf(object) === REACT_PROFILER_TYPE;
+            }
+            function isStrictMode(object) {
+                return typeOf(object) === REACT_STRICT_MODE_TYPE;
+            }
+            function isSuspense(object) {
+                return typeOf(object) === REACT_SUSPENSE_TYPE;
+            }
+            var hasSymbol = "function" == typeof Symbol && Symbol.for, REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for("react.element") : 60103, REACT_PORTAL_TYPE = hasSymbol ? Symbol.for("react.portal") : 60106, REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for("react.fragment") : 60107, REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for("react.strict_mode") : 60108, REACT_PROFILER_TYPE = hasSymbol ? Symbol.for("react.profiler") : 60114, REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for("react.provider") : 60109, REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for("react.context") : 60110, REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for("react.async_mode") : 60111, REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for("react.concurrent_mode") : 60111, REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for("react.forward_ref") : 60112, REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for("react.suspense") : 60113, REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for("react.suspense_list") : 60120, REACT_MEMO_TYPE = hasSymbol ? Symbol.for("react.memo") : 60115, REACT_LAZY_TYPE = hasSymbol ? Symbol.for("react.lazy") : 60116, REACT_BLOCK_TYPE = hasSymbol ? Symbol.for("react.block") : 60121, REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for("react.fundamental") : 60117, REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for("react.responder") : 60118, REACT_SCOPE_TYPE = hasSymbol ? Symbol.for("react.scope") : 60119, AsyncMode = REACT_ASYNC_MODE_TYPE, ConcurrentMode = REACT_CONCURRENT_MODE_TYPE, ContextConsumer = REACT_CONTEXT_TYPE, ContextProvider = REACT_PROVIDER_TYPE, Element = REACT_ELEMENT_TYPE, ForwardRef = REACT_FORWARD_REF_TYPE, Fragment = REACT_FRAGMENT_TYPE, Lazy = REACT_LAZY_TYPE, Memo = REACT_MEMO_TYPE, Portal = REACT_PORTAL_TYPE, Profiler = REACT_PROFILER_TYPE, StrictMode = REACT_STRICT_MODE_TYPE, Suspense = REACT_SUSPENSE_TYPE, hasWarnedAboutDeprecatedIsAsyncMode = !1;
+            exports.AsyncMode = AsyncMode, exports.ConcurrentMode = ConcurrentMode, exports.ContextConsumer = ContextConsumer, 
+            exports.ContextProvider = ContextProvider, exports.Element = Element, exports.ForwardRef = ForwardRef, 
+            exports.Fragment = Fragment, exports.Lazy = Lazy, exports.Memo = Memo, exports.Portal = Portal, 
+            exports.Profiler = Profiler, exports.StrictMode = StrictMode, exports.Suspense = Suspense, 
+            exports.isAsyncMode = isAsyncMode, exports.isConcurrentMode = isConcurrentMode, 
+            exports.isContextConsumer = isContextConsumer, exports.isContextProvider = isContextProvider, 
+            exports.isElement = isElement, exports.isForwardRef = isForwardRef, exports.isFragment = isFragment, 
+            exports.isLazy = isLazy, exports.isMemo = isMemo, exports.isPortal = isPortal, exports.isProfiler = isProfiler, 
+            exports.isStrictMode = isStrictMode, exports.isSuspense = isSuspense, exports.isValidElementType = isValidElementType, 
+            exports.typeOf = typeOf;
+        }();
+    }, function(module, exports, __nested_webpack_require_31508__) {
+        "use strict";
+        function emptyFunctionThatReturnsNull() {
+            return null;
+        }
+        var ReactIs = __nested_webpack_require_31508__(4), assign = __nested_webpack_require_31508__(15), ReactPropTypesSecret = __nested_webpack_require_31508__(5), checkPropTypes = __nested_webpack_require_31508__(16), has = Function.call.bind(Object.prototype.hasOwnProperty), printWarning = function() {};
+        printWarning = function(text) {
+            var message = "Warning: " + text;
+            "undefined" != typeof console && console.error(message);
+            try {
+                throw new Error(message);
+            } catch (x) {}
+        }, module.exports = function(isValidElement, throwOnDirectAccess) {
+            function getIteratorFn(maybeIterable) {
+                var iteratorFn = maybeIterable && (ITERATOR_SYMBOL && maybeIterable[ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL]);
+                if ("function" == typeof iteratorFn) return iteratorFn;
+            }
+            function is(x, y) {
+                return x === y ? 0 !== x || 1 / x == 1 / y : x !== x && y !== y;
+            }
+            function PropTypeError(message) {
+                this.message = message, this.stack = "";
+            }
+            function createChainableTypeChecker(validate) {
+                function checkType(isRequired, props, propName, componentName, location, propFullName, secret) {
+                    if (componentName = componentName || ANONYMOUS, propFullName = propFullName || propName, 
+                    secret !== ReactPropTypesSecret) {
+                        if (throwOnDirectAccess) {
+                            var err = new Error("Calling PropTypes validators directly is not supported by the `prop-types` package. Use `PropTypes.checkPropTypes()` to call them. Read more at http://fb.me/use-check-prop-types");
+                            throw err.name = "Invariant Violation", err;
+                        }
+                        if ("undefined" != typeof console) {
+                            var cacheKey = componentName + ":" + propName;
+                            !manualPropTypeCallCache[cacheKey] && manualPropTypeWarningCount < 3 && (printWarning("You are manually calling a React.PropTypes validation function for the `" + propFullName + "` prop on `" + componentName + "`. This is deprecated and will throw in the standalone `prop-types` package. You may be seeing this warning due to a third-party PropTypes library. See https://fb.me/react-warning-dont-call-proptypes for details."), 
+                            manualPropTypeCallCache[cacheKey] = !0, manualPropTypeWarningCount++);
+                        }
+                    }
+                    return null == props[propName] ? isRequired ? new PropTypeError(null === props[propName] ? "The " + location + " `" + propFullName + "` is marked as required in `" + componentName + "`, but its value is `null`." : "The " + location + " `" + propFullName + "` is marked as required in `" + componentName + "`, but its value is `undefined`.") : null : validate(props, propName, componentName, location, propFullName);
+                }
+                var manualPropTypeCallCache = {}, manualPropTypeWarningCount = 0, chainedCheckType = checkType.bind(null, !1);
+                return chainedCheckType.isRequired = checkType.bind(null, !0), chainedCheckType;
+            }
+            function createPrimitiveTypeChecker(expectedType) {
+                function validate(props, propName, componentName, location, propFullName, secret) {
+                    var propValue = props[propName];
+                    if (getPropType(propValue) !== expectedType) return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type `" + getPreciseType(propValue) + "` supplied to `" + componentName + "`, expected `" + expectedType + "`.");
+                    return null;
+                }
+                return createChainableTypeChecker(validate);
+            }
+            function createArrayOfTypeChecker(typeChecker) {
+                function validate(props, propName, componentName, location, propFullName) {
+                    if ("function" != typeof typeChecker) return new PropTypeError("Property `" + propFullName + "` of component `" + componentName + "` has invalid PropType notation inside arrayOf.");
+                    var propValue = props[propName];
+                    if (!Array.isArray(propValue)) {
+                        return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type `" + getPropType(propValue) + "` supplied to `" + componentName + "`, expected an array.");
+                    }
+                    for (var i = 0; i < propValue.length; i++) {
+                        var error = typeChecker(propValue, i, componentName, location, propFullName + "[" + i + "]", ReactPropTypesSecret);
+                        if (error instanceof Error) return error;
+                    }
+                    return null;
+                }
+                return createChainableTypeChecker(validate);
+            }
+            function createInstanceTypeChecker(expectedClass) {
+                function validate(props, propName, componentName, location, propFullName) {
+                    if (!(props[propName] instanceof expectedClass)) {
+                        var expectedClassName = expectedClass.name || ANONYMOUS;
+                        return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type `" + getClassName(props[propName]) + "` supplied to `" + componentName + "`, expected instance of `" + expectedClassName + "`.");
+                    }
+                    return null;
+                }
+                return createChainableTypeChecker(validate);
+            }
+            function createEnumTypeChecker(expectedValues) {
+                function validate(props, propName, componentName, location, propFullName) {
+                    for (var propValue = props[propName], i = 0; i < expectedValues.length; i++) if (is(propValue, expectedValues[i])) return null;
+                    var valuesString = JSON.stringify(expectedValues, function(key, value) {
+                        return "symbol" === getPreciseType(value) ? String(value) : value;
+                    });
+                    return new PropTypeError("Invalid " + location + " `" + propFullName + "` of value `" + String(propValue) + "` supplied to `" + componentName + "`, expected one of " + valuesString + ".");
+                }
+                return Array.isArray(expectedValues) ? createChainableTypeChecker(validate) : (printWarning(arguments.length > 1 ? "Invalid arguments supplied to oneOf, expected an array, got " + arguments.length + " arguments. A common mistake is to write oneOf(x, y, z) instead of oneOf([x, y, z])." : "Invalid argument supplied to oneOf, expected an array."), 
+                emptyFunctionThatReturnsNull);
+            }
+            function createObjectOfTypeChecker(typeChecker) {
+                function validate(props, propName, componentName, location, propFullName) {
+                    if ("function" != typeof typeChecker) return new PropTypeError("Property `" + propFullName + "` of component `" + componentName + "` has invalid PropType notation inside objectOf.");
+                    var propValue = props[propName], propType = getPropType(propValue);
+                    if ("object" !== propType) return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type `" + propType + "` supplied to `" + componentName + "`, expected an object.");
+                    for (var key in propValue) if (has(propValue, key)) {
+                        var error = typeChecker(propValue, key, componentName, location, propFullName + "." + key, ReactPropTypesSecret);
+                        if (error instanceof Error) return error;
+                    }
+                    return null;
+                }
+                return createChainableTypeChecker(validate);
+            }
+            function createUnionTypeChecker(arrayOfTypeCheckers) {
+                function validate(props, propName, componentName, location, propFullName) {
+                    for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+                        if (null == (0, arrayOfTypeCheckers[i])(props, propName, componentName, location, propFullName, ReactPropTypesSecret)) return null;
+                    }
+                    return new PropTypeError("Invalid " + location + " `" + propFullName + "` supplied to `" + componentName + "`.");
+                }
+                if (!Array.isArray(arrayOfTypeCheckers)) return printWarning("Invalid argument supplied to oneOfType, expected an instance of array."), 
+                emptyFunctionThatReturnsNull;
+                for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+                    var checker = arrayOfTypeCheckers[i];
+                    if ("function" != typeof checker) return printWarning("Invalid argument supplied to oneOfType. Expected an array of check functions, but received " + getPostfixForTypeWarning(checker) + " at index " + i + "."), 
+                    emptyFunctionThatReturnsNull;
+                }
+                return createChainableTypeChecker(validate);
+            }
+            function createShapeTypeChecker(shapeTypes) {
+                function validate(props, propName, componentName, location, propFullName) {
+                    var propValue = props[propName], propType = getPropType(propValue);
+                    if ("object" !== propType) return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type `" + propType + "` supplied to `" + componentName + "`, expected `object`.");
+                    for (var key in shapeTypes) {
+                        var checker = shapeTypes[key];
+                        if (checker) {
+                            var error = checker(propValue, key, componentName, location, propFullName + "." + key, ReactPropTypesSecret);
+                            if (error) return error;
+                        }
+                    }
+                    return null;
+                }
+                return createChainableTypeChecker(validate);
+            }
+            function createStrictShapeTypeChecker(shapeTypes) {
+                function validate(props, propName, componentName, location, propFullName) {
+                    var propValue = props[propName], propType = getPropType(propValue);
+                    if ("object" !== propType) return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type `" + propType + "` supplied to `" + componentName + "`, expected `object`.");
+                    var allKeys = assign({}, props[propName], shapeTypes);
+                    for (var key in allKeys) {
+                        var checker = shapeTypes[key];
+                        if (!checker) return new PropTypeError("Invalid " + location + " `" + propFullName + "` key `" + key + "` supplied to `" + componentName + "`.\nBad object: " + JSON.stringify(props[propName], null, "  ") + "\nValid keys: " + JSON.stringify(Object.keys(shapeTypes), null, "  "));
+                        var error = checker(propValue, key, componentName, location, propFullName + "." + key, ReactPropTypesSecret);
+                        if (error) return error;
+                    }
+                    return null;
+                }
+                return createChainableTypeChecker(validate);
+            }
+            function isNode(propValue) {
+                switch (typeof propValue) {
+                  case "number":
+                  case "string":
+                  case "undefined":
+                    return !0;
+
+                  case "boolean":
+                    return !propValue;
+
+                  case "object":
+                    if (Array.isArray(propValue)) return propValue.every(isNode);
+                    if (null === propValue || isValidElement(propValue)) return !0;
+                    var iteratorFn = getIteratorFn(propValue);
+                    if (!iteratorFn) return !1;
+                    var step, iterator = iteratorFn.call(propValue);
+                    if (iteratorFn !== propValue.entries) {
+                        for (;!(step = iterator.next()).done; ) if (!isNode(step.value)) return !1;
+                    } else for (;!(step = iterator.next()).done; ) {
+                        var entry = step.value;
+                        if (entry && !isNode(entry[1])) return !1;
+                    }
+                    return !0;
+
+                  default:
+                    return !1;
+                }
+            }
+            function isSymbol(propType, propValue) {
+                return "symbol" === propType || !!propValue && ("Symbol" === propValue["@@toStringTag"] || "function" == typeof Symbol && propValue instanceof Symbol);
+            }
+            function getPropType(propValue) {
+                var propType = typeof propValue;
+                return Array.isArray(propValue) ? "array" : propValue instanceof RegExp ? "object" : isSymbol(propType, propValue) ? "symbol" : propType;
+            }
+            function getPreciseType(propValue) {
+                if (void 0 === propValue || null === propValue) return "" + propValue;
+                var propType = getPropType(propValue);
+                if ("object" === propType) {
+                    if (propValue instanceof Date) return "date";
+                    if (propValue instanceof RegExp) return "regexp";
+                }
+                return propType;
+            }
+            function getPostfixForTypeWarning(value) {
+                var type = getPreciseType(value);
+                switch (type) {
+                  case "array":
+                  case "object":
+                    return "an " + type;
+
+                  case "boolean":
+                  case "date":
+                  case "regexp":
+                    return "a " + type;
+
+                  default:
+                    return type;
+                }
+            }
+            function getClassName(propValue) {
+                return propValue.constructor && propValue.constructor.name ? propValue.constructor.name : ANONYMOUS;
+            }
+            var ITERATOR_SYMBOL = "function" == typeof Symbol && Symbol.iterator, FAUX_ITERATOR_SYMBOL = "@@iterator", ANONYMOUS = "<<anonymous>>", ReactPropTypes = {
+                array: createPrimitiveTypeChecker("array"),
+                bool: createPrimitiveTypeChecker("boolean"),
+                func: createPrimitiveTypeChecker("function"),
+                number: createPrimitiveTypeChecker("number"),
+                object: createPrimitiveTypeChecker("object"),
+                string: createPrimitiveTypeChecker("string"),
+                symbol: createPrimitiveTypeChecker("symbol"),
+                any: function() {
+                    return createChainableTypeChecker(emptyFunctionThatReturnsNull);
+                }(),
+                arrayOf: createArrayOfTypeChecker,
+                element: function() {
+                    function validate(props, propName, componentName, location, propFullName) {
+                        var propValue = props[propName];
+                        if (!isValidElement(propValue)) {
+                            return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type `" + getPropType(propValue) + "` supplied to `" + componentName + "`, expected a single ReactElement.");
+                        }
+                        return null;
+                    }
+                    return createChainableTypeChecker(validate);
+                }(),
+                elementType: function() {
+                    function validate(props, propName, componentName, location, propFullName) {
+                        var propValue = props[propName];
+                        if (!ReactIs.isValidElementType(propValue)) {
+                            return new PropTypeError("Invalid " + location + " `" + propFullName + "` of type `" + getPropType(propValue) + "` supplied to `" + componentName + "`, expected a single ReactElement type.");
+                        }
+                        return null;
+                    }
+                    return createChainableTypeChecker(validate);
+                }(),
+                instanceOf: createInstanceTypeChecker,
+                node: function() {
+                    function validate(props, propName, componentName, location, propFullName) {
+                        return isNode(props[propName]) ? null : new PropTypeError("Invalid " + location + " `" + propFullName + "` supplied to `" + componentName + "`, expected a ReactNode.");
+                    }
+                    return createChainableTypeChecker(validate);
+                }(),
+                objectOf: createObjectOfTypeChecker,
+                oneOf: createEnumTypeChecker,
+                oneOfType: createUnionTypeChecker,
+                shape: createShapeTypeChecker,
+                exact: createStrictShapeTypeChecker
+            };
+            return PropTypeError.prototype = Error.prototype, ReactPropTypes.checkPropTypes = checkPropTypes, 
+            ReactPropTypes.resetWarningCache = checkPropTypes.resetWarningCache, ReactPropTypes.PropTypes = ReactPropTypes, 
+            ReactPropTypes;
+        };
+    }, function(module, exports, __webpack_require__) {
+        "use strict";
+        function toObject(val) {
+            if (null === val || void 0 === val) throw new TypeError("Object.assign cannot be called with null or undefined");
+            return Object(val);
+        }
+        /*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+        var getOwnPropertySymbols = Object.getOwnPropertySymbols, hasOwnProperty = Object.prototype.hasOwnProperty, propIsEnumerable = Object.prototype.propertyIsEnumerable;
+        module.exports = function() {
+            try {
+                if (!Object.assign) return !1;
+                var test1 = new String("abc");
+                if (test1[5] = "de", "5" === Object.getOwnPropertyNames(test1)[0]) return !1;
+                for (var test2 = {}, i = 0; i < 10; i++) test2["_" + String.fromCharCode(i)] = i;
+                if ("0123456789" !== Object.getOwnPropertyNames(test2).map(function(n) {
+                    return test2[n];
+                }).join("")) return !1;
+                var test3 = {};
+                return "abcdefghijklmnopqrst".split("").forEach(function(letter) {
+                    test3[letter] = letter;
+                }), "abcdefghijklmnopqrst" === Object.keys(Object.assign({}, test3)).join("");
+            } catch (err) {
+                return !1;
+            }
+        }() ? Object.assign : function(target, source) {
+            for (var from, symbols, to = toObject(target), s = 1; s < arguments.length; s++) {
+                from = Object(arguments[s]);
+                for (var key in from) hasOwnProperty.call(from, key) && (to[key] = from[key]);
+                if (getOwnPropertySymbols) {
+                    symbols = getOwnPropertySymbols(from);
+                    for (var i = 0; i < symbols.length; i++) propIsEnumerable.call(from, symbols[i]) && (to[symbols[i]] = from[symbols[i]]);
+                }
+            }
+            return to;
+        };
+    }, function(module, exports, __nested_webpack_require_50834__) {
+        "use strict";
+        function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
+            for (var typeSpecName in typeSpecs) if (has(typeSpecs, typeSpecName)) {
+                var error;
+                try {
+                    if ("function" != typeof typeSpecs[typeSpecName]) {
+                        var err = Error((componentName || "React class") + ": " + location + " type `" + typeSpecName + "` is invalid; it must be a function, usually from the `prop-types` package, but received `" + typeof typeSpecs[typeSpecName] + "`.");
+                        throw err.name = "Invariant Violation", err;
+                    }
+                    error = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, ReactPropTypesSecret);
+                } catch (ex) {
+                    error = ex;
+                }
+                if (!error || error instanceof Error || printWarning((componentName || "React class") + ": type specification of " + location + " `" + typeSpecName + "` is invalid; the type checker function must return `null` or an `Error` but returned a " + typeof error + ". You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument)."), 
+                error instanceof Error && !(error.message in loggedTypeFailures)) {
+                    loggedTypeFailures[error.message] = !0;
+                    var stack = getStack ? getStack() : "";
+                    printWarning("Failed " + location + " type: " + error.message + (null != stack ? stack : ""));
+                }
+            }
+        }
+        var printWarning = function() {}, ReactPropTypesSecret = __nested_webpack_require_50834__(5), loggedTypeFailures = {}, has = Function.call.bind(Object.prototype.hasOwnProperty);
+        printWarning = function(text) {
+            var message = "Warning: " + text;
+            "undefined" != typeof console && console.error(message);
+            try {
+                throw new Error(message);
+            } catch (x) {}
+        }, checkPropTypes.resetWarningCache = function() {
+            loggedTypeFailures = {};
+        }, module.exports = checkPropTypes;
+    }, function(module, __webpack_exports__, __nested_webpack_require_53126__) {
+        "use strict";
+        function _objectWithoutProperties(source, excluded) {
+            if (null == source) return {};
+            var key, i, target = _objectWithoutPropertiesLoose(source, excluded);
+            if (Object.getOwnPropertySymbols) {
+                var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+                for (i = 0; i < sourceSymbolKeys.length; i++) key = sourceSymbolKeys[i], excluded.indexOf(key) >= 0 || Object.prototype.propertyIsEnumerable.call(source, key) && (target[key] = source[key]);
+            }
+            return target;
+        }
+        function _objectWithoutPropertiesLoose(source, excluded) {
+            if (null == source) return {};
+            var key, i, target = {}, sourceKeys = Object.keys(source);
+            for (i = 0; i < sourceKeys.length; i++) key = sourceKeys[i], excluded.indexOf(key) >= 0 || (target[key] = source[key]);
+            return target;
+        }
+        function MediaQuery(_ref) {
+            var children = _ref.children, device = _ref.device, onChange = _ref.onChange, settings = _objectWithoutProperties(_ref, [ "children", "device", "onChange" ]), matches = Object(__WEBPACK_IMPORTED_MODULE_0__useMediaQuery__.a)(settings, device, onChange);
+            return "function" == typeof children ? children(matches) : matches ? children : null;
+        }
+        __webpack_exports__.a = MediaQuery;
+        var __WEBPACK_IMPORTED_MODULE_0__useMediaQuery__ = __nested_webpack_require_53126__(0);
+    } ]);
+});
 
 
 /***/ }),
 
-/***/ "../node_modules/react-is/index.js":
-/*!*****************************************!*\
-  !*** ../node_modules/react-is/index.js ***!
-  \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ "../node_modules/react-router-config/esm/react-router-config.js":
+/*!**********************************************************************!*\
+  !*** ../node_modules/react-router-config/esm/react-router-config.js ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "matchRoutes": () => (/* binding */ matchRoutes),
+/* harmony export */   "renderRoutes": () => (/* binding */ renderRoutes)
+/* harmony export */ });
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router */ "../node_modules/react-router/esm/react-router.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "../node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
 
 
-if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "../node_modules/react-is/cjs/react-is.development.js");
+
+
+function matchRoutes(routes, pathname,
+/*not public API*/
+branch) {
+  if (branch === void 0) {
+    branch = [];
+  }
+
+  routes.some(function (route) {
+    var match = route.path ? (0,react_router__WEBPACK_IMPORTED_MODULE_2__.matchPath)(pathname, route) : branch.length ? branch[branch.length - 1].match // use parent match
+    : react_router__WEBPACK_IMPORTED_MODULE_2__.Router.computeRootMatch(pathname); // use default "root" match
+
+    if (match) {
+      branch.push({
+        route: route,
+        match: match
+      });
+
+      if (route.routes) {
+        matchRoutes(route.routes, pathname, branch);
+      }
+    }
+
+    return match;
+  });
+  return branch;
 }
+
+function renderRoutes(routes, extraProps, switchProps) {
+  if (extraProps === void 0) {
+    extraProps = {};
+  }
+
+  if (switchProps === void 0) {
+    switchProps = {};
+  }
+
+  return routes ? react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_2__.Switch, switchProps, routes.map(function (route, i) {
+    return react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_2__.Route, {
+      key: route.key || i,
+      path: route.path,
+      exact: route.exact,
+      strict: route.strict,
+      render: function render(props) {
+        return route.render ? route.render((0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, props, {}, extraProps, {
+          route: route
+        })) : react__WEBPACK_IMPORTED_MODULE_1__.createElement(route.component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, props, extraProps, {
+          route: route
+        }));
+      }
+    });
+  })) : null;
+}
+
+
 
 
 /***/ }),
@@ -33182,7 +34381,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "../node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! path-to-regexp */ "../node_modules/react-router/node_modules/path-to-regexp/index.js");
 /* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(path_to_regexp__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-is */ "../node_modules/react-is/index.js");
+/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-is */ "../node_modules/react-router/node_modules/react-is/index.js");
 /* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
 /* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! hoist-non-react-statics */ "../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js");
 /* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_8__);
@@ -34403,6 +35602,214 @@ function pathToRegexp (path, keys, options) {
   }
 
   return stringToRegexp(/** @type {string} */ (path), /** @type {!Array} */ (keys), options)
+}
+
+
+/***/ }),
+
+/***/ "../node_modules/react-router/node_modules/react-is/cjs/react-is.development.js":
+/*!**************************************************************************************!*\
+  !*** ../node_modules/react-router/node_modules/react-is/cjs/react-is.development.js ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+/** @license React v16.13.1
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+
+
+if (true) {
+  (function() {
+'use strict';
+
+// The Symbol used to tag the ReactElement-like types. If there is no native Symbol
+// nor polyfill, then a plain number is used for performance.
+var hasSymbol = typeof Symbol === 'function' && Symbol.for;
+var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
+var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
+var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
+var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
+var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
+var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
+var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
+// (unstable) APIs that have been removed. Can we remove the symbols?
+
+var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
+var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
+var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
+var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
+var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for('react.suspense_list') : 0xead8;
+var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
+var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
+var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for('react.block') : 0xead9;
+var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for('react.fundamental') : 0xead5;
+var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for('react.responder') : 0xead6;
+var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for('react.scope') : 0xead7;
+
+function isValidElementType(type) {
+  return typeof type === 'string' || typeof type === 'function' || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
+  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
+}
+
+function typeOf(object) {
+  if (typeof object === 'object' && object !== null) {
+    var $$typeof = object.$$typeof;
+
+    switch ($$typeof) {
+      case REACT_ELEMENT_TYPE:
+        var type = object.type;
+
+        switch (type) {
+          case REACT_ASYNC_MODE_TYPE:
+          case REACT_CONCURRENT_MODE_TYPE:
+          case REACT_FRAGMENT_TYPE:
+          case REACT_PROFILER_TYPE:
+          case REACT_STRICT_MODE_TYPE:
+          case REACT_SUSPENSE_TYPE:
+            return type;
+
+          default:
+            var $$typeofType = type && type.$$typeof;
+
+            switch ($$typeofType) {
+              case REACT_CONTEXT_TYPE:
+              case REACT_FORWARD_REF_TYPE:
+              case REACT_LAZY_TYPE:
+              case REACT_MEMO_TYPE:
+              case REACT_PROVIDER_TYPE:
+                return $$typeofType;
+
+              default:
+                return $$typeof;
+            }
+
+        }
+
+      case REACT_PORTAL_TYPE:
+        return $$typeof;
+    }
+  }
+
+  return undefined;
+} // AsyncMode is deprecated along with isAsyncMode
+
+var AsyncMode = REACT_ASYNC_MODE_TYPE;
+var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
+var ContextConsumer = REACT_CONTEXT_TYPE;
+var ContextProvider = REACT_PROVIDER_TYPE;
+var Element = REACT_ELEMENT_TYPE;
+var ForwardRef = REACT_FORWARD_REF_TYPE;
+var Fragment = REACT_FRAGMENT_TYPE;
+var Lazy = REACT_LAZY_TYPE;
+var Memo = REACT_MEMO_TYPE;
+var Portal = REACT_PORTAL_TYPE;
+var Profiler = REACT_PROFILER_TYPE;
+var StrictMode = REACT_STRICT_MODE_TYPE;
+var Suspense = REACT_SUSPENSE_TYPE;
+var hasWarnedAboutDeprecatedIsAsyncMode = false; // AsyncMode should be deprecated
+
+function isAsyncMode(object) {
+  {
+    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+      hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
+
+      console['warn']('The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
+    }
+  }
+
+  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
+}
+function isConcurrentMode(object) {
+  return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
+}
+function isContextConsumer(object) {
+  return typeOf(object) === REACT_CONTEXT_TYPE;
+}
+function isContextProvider(object) {
+  return typeOf(object) === REACT_PROVIDER_TYPE;
+}
+function isElement(object) {
+  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+}
+function isForwardRef(object) {
+  return typeOf(object) === REACT_FORWARD_REF_TYPE;
+}
+function isFragment(object) {
+  return typeOf(object) === REACT_FRAGMENT_TYPE;
+}
+function isLazy(object) {
+  return typeOf(object) === REACT_LAZY_TYPE;
+}
+function isMemo(object) {
+  return typeOf(object) === REACT_MEMO_TYPE;
+}
+function isPortal(object) {
+  return typeOf(object) === REACT_PORTAL_TYPE;
+}
+function isProfiler(object) {
+  return typeOf(object) === REACT_PROFILER_TYPE;
+}
+function isStrictMode(object) {
+  return typeOf(object) === REACT_STRICT_MODE_TYPE;
+}
+function isSuspense(object) {
+  return typeOf(object) === REACT_SUSPENSE_TYPE;
+}
+
+exports.AsyncMode = AsyncMode;
+exports.ConcurrentMode = ConcurrentMode;
+exports.ContextConsumer = ContextConsumer;
+exports.ContextProvider = ContextProvider;
+exports.Element = Element;
+exports.ForwardRef = ForwardRef;
+exports.Fragment = Fragment;
+exports.Lazy = Lazy;
+exports.Memo = Memo;
+exports.Portal = Portal;
+exports.Profiler = Profiler;
+exports.StrictMode = StrictMode;
+exports.Suspense = Suspense;
+exports.isAsyncMode = isAsyncMode;
+exports.isConcurrentMode = isConcurrentMode;
+exports.isContextConsumer = isContextConsumer;
+exports.isContextProvider = isContextProvider;
+exports.isElement = isElement;
+exports.isForwardRef = isForwardRef;
+exports.isFragment = isFragment;
+exports.isLazy = isLazy;
+exports.isMemo = isMemo;
+exports.isPortal = isPortal;
+exports.isProfiler = isProfiler;
+exports.isStrictMode = isStrictMode;
+exports.isSuspense = isSuspense;
+exports.isValidElementType = isValidElementType;
+exports.typeOf = typeOf;
+  })();
+}
+
+
+/***/ }),
+
+/***/ "../node_modules/react-router/node_modules/react-is/index.js":
+/*!*******************************************************************!*\
+  !*** ../node_modules/react-router/node_modules/react-is/index.js ***!
+  \*******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+if (false) {} else {
+  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "../node_modules/react-router/node_modules/react-is/cjs/react-is.development.js");
 }
 
 
@@ -38361,6 +39768,30 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./about/index.tsx":
+/*!*************************!*\
+  !*** ./about/index.tsx ***!
+  \*************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js"));
+function About(props) {
+    var t = props.t;
+    return (react_1.default.createElement("div", { className: 'about' },
+        react_1.default.createElement("h1", null, t('about_me.title')),
+        react_1.default.createElement("p", null, t('about_me.desc'))));
+}
+exports.default = About;
+
+
+/***/ }),
+
 /***/ "./app.tsx":
 /*!*****************!*\
   !*** ./app.tsx ***!
@@ -38384,31 +39815,237 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-var React = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+var react_1 = __importDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js"));
 var react_router_dom_1 = __webpack_require__(/*! react-router-dom */ "../node_modules/react-router-dom/esm/react-router-dom.js");
-var navigation_1 = __webpack_require__(/*! ./navigation */ "./navigation/index.tsx");
+var react_router_config_1 = __webpack_require__(/*! react-router-config */ "../node_modules/react-router-config/esm/react-router-config.js");
+var react_i18next_1 = __webpack_require__(/*! react-i18next */ "../node_modules/react-i18next/dist/es/index.js");
+var navigation_1 = __importDefault(__webpack_require__(/*! ./navigation */ "./navigation/index.tsx"));
+var home_1 = __importDefault(__webpack_require__(/*! ./home */ "./home/index.tsx"));
+var pieces_1 = __importDefault(__webpack_require__(/*! ./pieces */ "./pieces/index.tsx"));
+var about_1 = __importDefault(__webpack_require__(/*! ./about */ "./about/index.tsx"));
+var fourohfour_1 = __importDefault(__webpack_require__(/*! ./fourohfour */ "./fourohfour/index.tsx"));
+var routeLocalizer_1 = __importDefault(__webpack_require__(/*! ./routeLocalizer */ "./routeLocalizer/index.tsx"));
+var routes = [
+    {
+        component: home_1.default,
+        exact: true,
+        path: '/',
+        resolvePath: function () { return '/'; },
+        titleKey: 'home',
+        navigable: false,
+    },
+    {
+        component: about_1.default,
+        path: ['/over-mij', '/about-me'],
+        resolvePath: function (lang) { return lang === 'en' ? '/about-me' : '/over-mij'; },
+        resolveLanguage: function (path) { return path === '/about-me' ? 'en' : 'nl'; },
+        titleKey: 'about',
+        navigable: true,
+    },
+    {
+        component: pieces_1.default,
+        path: ['/stukjes', '/pieces'],
+        resolveLanguage: function (path) { return path === '/pieces' ? 'en' : 'nl'; },
+        resolvePath: function (lang) {
+            switch (lang.toLowerCase()) {
+                case 'en': return '/pieces';
+                case 'nl':
+                default: return '/stukjes';
+            }
+        },
+        titleKey: 'pieces',
+        navigable: true,
+    },
+    {
+        component: function () { return react_1.default.createElement("div", null, "Lessen"); },
+        path: ['/les-nederlands', '/dutch-lessons'],
+        resolveLanguage: function (path) { return path === '/dutch-lessons' ? 'en' : 'nl'; },
+        resolvePath: function (lang) {
+            switch (lang.toLowerCase()) {
+                case 'en': return '/dutch-lessons';
+                case 'nl':
+                default: return '/les-nederlands';
+            }
+        },
+        titleKey: 'lessons',
+        navigable: true,
+    },
+    {
+        component: function () { return react_1.default.createElement("div", null, "Debatclub"); },
+        path: ['/debatclub', '/debate-club'],
+        resolveLanguage: function (path) { return path === '/debate-club' ? 'en' : 'nl'; },
+        resolvePath: function (lang) {
+            switch (lang.toLowerCase()) {
+                case 'en': return '/debate-club';
+                case 'nl':
+                default: return '/debatclub';
+            }
+        },
+        titleKey: 'debate_club',
+        navigable: true,
+    },
+    {
+        component: function () { return react_1.default.createElement("div", null, "Taal cafe"); },
+        path: ['/taal-cafe', '/language-cafe'],
+        resolveLanguage: function (path) { return path === '/language-cafe' ? 'en' : 'nl'; },
+        resolvePath: function (lang) {
+            switch (lang.toLowerCase()) {
+                case 'en': return '/language-cafe';
+                case 'nl':
+                default: return '/taal-cafe';
+            }
+        },
+        titleKey: 'language_cafe',
+        navigable: true,
+    },
+    {
+        component: function () { return react_1.default.createElement(fourohfour_1.default, null); },
+        path: '*',
+        titleKey: '404',
+        navigable: false,
+    }
+];
 var App = /** @class */ (function (_super) {
     __extends(App, _super);
     function App(props) {
         var _this = _super.call(this, props) || this;
-        _this.links = [];
+        _this.routes = routes;
+        _this.changeLanguage = _this.changeLanguage.bind(_this);
         return _this;
     }
+    App.prototype.changeLanguage = function (lang) {
+        this.props.i18n.changeLanguage(lang);
+    };
     App.prototype.render = function () {
-        return (React.createElement(react_router_dom_1.BrowserRouter, null,
-            React.createElement(navigation_1.default, { links: this.links },
-                React.createElement(react_router_dom_1.Switch, null,
-                    React.createElement(react_router_dom_1.Route, { path: "/en" }, "We gaan eerst Nederlands doen, balen."),
-                    React.createElement(react_router_dom_1.Route, { path: "/" },
-                        React.createElement(react_router_dom_1.Switch, null,
-                            React.createElement(react_router_dom_1.Route, { exact: true, path: "/" }, "Hoofdpagina"),
-                            React.createElement(react_router_dom_1.Route, { path: "/debatclub" }, "Debatclub"),
-                            React.createElement(react_router_dom_1.Route, { path: "*" }, "Pagina niet gevonden")))))));
+        var _a = this.props, t = _a.t, i18n = _a.i18n;
+        return (react_1.default.createElement(react_router_dom_1.BrowserRouter, null,
+            react_1.default.createElement(routeLocalizer_1.default, { routes: this.routes, language: i18n.language, changeLanguage: this.changeLanguage },
+                react_1.default.createElement(navigation_1.default, { routes: this.routes, t: t, lng: i18n.language, changeLanguage: this.changeLanguage }),
+                react_1.default.createElement("div", { className: 'content' }, react_router_config_1.renderRoutes(this.routes, { t: t })))));
     };
     return App;
-}(React.Component));
-exports.default = App;
+}(react_1.default.Component));
+exports.default = react_i18next_1.withTranslation()(App);
+
+
+/***/ }),
+
+/***/ "./fourohfour/index.tsx":
+/*!******************************!*\
+  !*** ./fourohfour/index.tsx ***!
+  \******************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js"));
+var FourOhFour = /** @class */ (function (_super) {
+    __extends(FourOhFour, _super);
+    function FourOhFour() {
+        return _super.call(this, {}) || this;
+    }
+    FourOhFour.prototype.render = function () {
+        return (react_1.default.createElement("h1", null, "Not found"));
+    };
+    return FourOhFour;
+}(react_1.default.Component));
+exports.default = FourOhFour;
+
+
+/***/ }),
+
+/***/ "./home/index.tsx":
+/*!************************!*\
+  !*** ./home/index.tsx ***!
+  \************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js"));
+var react_i18next_1 = __webpack_require__(/*! react-i18next */ "../node_modules/react-i18next/dist/es/index.js");
+var lucyPic = __webpack_require__(/*! ../../public/lucy.jpg */ "../public/lucy.jpg").default;
+function Home() {
+    var t = react_i18next_1.useTranslation().t;
+    return (react_1.default.createElement("div", { className: 'home' },
+        react_1.default.createElement("img", { src: lucyPic }),
+        react_1.default.createElement("div", { className: 'separator' }),
+        react_1.default.createElement("h4", null,
+            t('dutch_teacher'),
+            " - ",
+            t('language_lover'),
+            " - ",
+            t('amsterdammer'))));
+}
+exports.default = Home;
+
+
+/***/ }),
+
+/***/ "./index.tsx":
+/*!*******************!*\
+  !*** ./index.tsx ***!
+  \*******************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js"));
+var ReactDOM = __importStar(__webpack_require__(/*! react-dom */ "../node_modules/react-dom/index.js"));
+__webpack_require__(/*! ./core.sass */ "./core.sass");
+var app_1 = __importDefault(__webpack_require__(/*! ./app */ "./app.tsx"));
+__webpack_require__(/*! ./lib/localization/index */ "./lib/localization/index.ts");
+ReactDOM.render(react_1.default.createElement(app_1.default, null), document.getElementById('app'));
 
 
 /***/ }),
@@ -38417,21 +40054,24 @@ exports.default = App;
 /*!***********************************!*\
   !*** ./lib/localization/index.ts ***!
   \***********************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
 
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-var i18next_1 = __webpack_require__(/*! i18next */ "../node_modules/i18next/dist/esm/i18next.js");
+var i18next_1 = __importDefault(__webpack_require__(/*! i18next */ "../node_modules/i18next/dist/esm/i18next.js"));
 var react_i18next_1 = __webpack_require__(/*! react-i18next */ "../node_modules/react-i18next/dist/es/index.js");
-var en_1 = __webpack_require__(/*! ./locales/en */ "./lib/localization/locales/en/index.ts");
-var nl_1 = __webpack_require__(/*! ./locales/nl */ "./lib/localization/locales/nl/index.ts");
+var en_1 = __importDefault(__webpack_require__(/*! ./locales/en */ "./lib/localization/locales/en/index.ts"));
+var nl_1 = __importDefault(__webpack_require__(/*! ./locales/nl */ "./lib/localization/locales/nl/index.ts"));
 i18next_1.default
     .use(react_i18next_1.initReactI18next)
     .init({
     lng: 'nl',
     fallbackLng: 'en',
-    ns: ['common'],
+    ns: ['common', 'routes'],
     defaultNS: 'common',
     fallbackNS: 'common',
     debug: true,
@@ -38439,8 +40079,7 @@ i18next_1.default
         escapeValue: false,
     },
     react: {
-        wait: true,
-        useSuspense: false,
+        useSuspense: true,
     },
     resources: {
         en: en_1.default,
@@ -38463,6 +40102,7 @@ exports.default = i18next_1.default;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.default = {
     common: __webpack_require__(/*! ./common.json */ "./lib/localization/locales/en/common.json"),
+    routes: __webpack_require__(/*! ./routes.json */ "./lib/localization/locales/en/routes.json"),
 };
 
 
@@ -38479,6 +40119,7 @@ exports.default = {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.default = {
     common: __webpack_require__(/*! ./common.json */ "./lib/localization/locales/nl/common.json"),
+    routes: __webpack_require__(/*! ./routes.json */ "./lib/localization/locales/nl/routes.json"),
 };
 
 
@@ -38492,40 +40133,125 @@ exports.default = {
 
 "use strict";
 
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        if (typeof b !== "function" && b !== null)
-            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-var React = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+var react_1 = __importStar(__webpack_require__(/*! react */ "../node_modules/react/index.js"));
 var react_router_dom_1 = __webpack_require__(/*! react-router-dom */ "../node_modules/react-router-dom/esm/react-router-dom.js");
-var Navigation = /** @class */ (function (_super) {
-    __extends(Navigation, _super);
-    function Navigation(props) {
-        return _super.call(this, props) || this;
-    }
-    Navigation.prototype.render = function () {
-        return (React.createElement("nav", null,
-            React.createElement("ul", null, this.props.links.map(function (_a, index) {
-                var path = _a.path, label = _a.label;
-                return (React.createElement("li", { key: index },
-                    React.createElement(react_router_dom_1.Link, { to: path }, label)));
-            }))));
+var react_router_config_1 = __webpack_require__(/*! react-router-config */ "../node_modules/react-router-config/esm/react-router-config.js");
+var react_responsive_1 = __webpack_require__(/*! react-responsive */ "../node_modules/react-responsive/dist/react-responsive.js");
+var lucyName = __webpack_require__(/*! ../../public/lucy.svg */ "../public/lucy.svg").default;
+function Navigation(props) {
+    var _a = react_1.useState(false), menuOpen = _a[0], setMenuOpen = _a[1];
+    var isMobile = react_responsive_1.useMediaQuery({ query: '(max-width: 768px)' });
+    var changeLanguage = function (lang) {
+        props.changeLanguage(lang);
+        var routes = react_router_config_1.matchRoutes(props.routes, props.location.pathname);
+        if (routes.length === 1) {
+            var route = routes[0];
+            var newPathname = route.route.resolvePath && route.route.resolvePath(lang);
+            if (newPathname && props.location.pathname !== newPathname) {
+                props.history.replace(newPathname);
+            }
+        }
     };
-    return Navigation;
-}(React.Component));
-exports.default = Navigation;
+    var listClassName = '';
+    if (isMobile) {
+        listClassName = menuOpen ? 'mobile open' : 'mobile closed';
+    }
+    return (react_1.default.createElement("nav", null,
+        react_1.default.createElement(react_router_dom_1.Link, { className: 'nav-title', to: '/' },
+            react_1.default.createElement("img", { src: lucyName })),
+        isMobile && react_1.default.createElement("span", { onClick: function () { return setMenuOpen(!menuOpen); } }, "Menu"),
+        react_1.default.createElement("ul", { className: listClassName }, props.routes.filter(function (_a) {
+            var navigable = _a.navigable;
+            return navigable;
+        })
+            .map(function (_a, index) {
+            var titleKey = _a.titleKey, _b = _a.resolvePath, resolvePath = _b === void 0 ? function () { return undefined; } : _b;
+            var resolvedPath = resolvePath(props.lng || 'nl');
+            if (resolvedPath) {
+                return (react_1.default.createElement("li", { key: index },
+                    react_1.default.createElement(react_router_dom_1.Link, { to: resolvedPath }, props.t("routes:" + titleKey))));
+            }
+            return undefined;
+        })),
+        react_1.default.createElement("div", { className: 'nav-lang-selector' },
+            react_1.default.createElement("span", { onClick: function () { return changeLanguage('nl'); } }, "NL"),
+            " / ",
+            react_1.default.createElement("span", { onClick: function () { return changeLanguage('en'); } }, "EN"))));
+}
+exports.default = react_router_dom_1.withRouter(Navigation);
+
+
+/***/ }),
+
+/***/ "./pieces/index.tsx":
+/*!**************************!*\
+  !*** ./pieces/index.tsx ***!
+  \**************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js"));
+function Pieces(props) {
+    var t = props.t;
+    return (react_1.default.createElement("div", { className: 'pieces' },
+        react_1.default.createElement("h1", null, t('pieces'))));
+}
+exports.default = Pieces;
+
+
+/***/ }),
+
+/***/ "./routeLocalizer/index.tsx":
+/*!**********************************!*\
+  !*** ./routeLocalizer/index.tsx ***!
+  \**********************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js"));
+var react_router_config_1 = __webpack_require__(/*! react-router-config */ "../node_modules/react-router-config/esm/react-router-config.js");
+var react_router_dom_1 = __webpack_require__(/*! react-router-dom */ "../node_modules/react-router-dom/esm/react-router-dom.js");
+function RouteLocalizer(props) {
+    var location = react_router_dom_1.useLocation();
+    var extendedRoute = react_router_config_1.matchRoutes(props.routes, location.pathname)[0].route;
+    if (extendedRoute && extendedRoute.resolveLanguage) {
+        var desiredLanguage = extendedRoute.resolveLanguage(location.pathname);
+        if (props.language !== desiredLanguage)
+            props.changeLanguage(desiredLanguage);
+    }
+    return react_1.default.createElement(react_1.default.Fragment, null, props.children);
+}
+exports.default = RouteLocalizer;
 
 
 /***/ }),
@@ -38537,7 +40263,18 @@ exports.default = Navigation;
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"404":"Page not found"}');
+module.exports = JSON.parse('{"404":"Page not found","about_me":{"title":"About me","desc":"After I graduated from the University of Amsterdam with a degree in Dutch language in culture a few years ago, I\'ve been teaching Dutch to expats, groups, and companies with the occasional private lesson. I like to spend my free time learning new languages (mainly practicing my Spanish) and organizing language cafes."},"dutch_teacher":"Dutch Teacher","language_lover":"Language lover","amsterdammer":"Amsterdammer"}');
+
+/***/ }),
+
+/***/ "./lib/localization/locales/en/routes.json":
+/*!*************************************************!*\
+  !*** ./lib/localization/locales/en/routes.json ***!
+  \*************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"home":"Home","about":"About me","pieces":"Pieces","lessons":"Dutch Lessons","debate_club":"Debate Club","language_cafe":"Language Cafe"}');
 
 /***/ }),
 
@@ -38548,7 +40285,18 @@ module.exports = JSON.parse('{"404":"Page not found"}');
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"404":"Pagina niet gevonden"}');
+module.exports = JSON.parse('{"404":"Pagina niet gevonden","about_me":{"title":"Over mij","desc":"Sinds ik een aantal jaar geleden ben afgestudeerd in Nederlandse taal en cultuur aan de Universiteit van Amsterdam, geef ik Nederlandse les aan expats, groepen, in-company bij bedrijven in Amsterdam en af en toe een privéles. Mijn vrije tijd besteed ik het liefst aan het leren van nieuwe talen (of eigenlijk vooral aan het oefenen van mijn Spaans) en het organiseren van taalcafés."},"dutch_teacher":"Docent Nederlands","language_lover":"Taalliefhebber","amsterdammer":"Amsterdammer"}');
+
+/***/ }),
+
+/***/ "./lib/localization/locales/nl/routes.json":
+/*!*************************************************!*\
+  !*** ./lib/localization/locales/nl/routes.json ***!
+  \*************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"home":"Home","about":"Over mij","pieces":"Stukjes","lessons":"Les Nederlands","debate_club":"Debatclub","language_cafe":"Taal Café"}');
 
 /***/ })
 
@@ -38631,26 +40379,33 @@ module.exports = JSON.parse('{"404":"Pagina niet gevonden"}');
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
 /************************************************************************/
-var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
-(() => {
-"use strict";
-var exports = __webpack_exports__;
-/*!*******************!*\
-  !*** ./index.tsx ***!
-  \*******************/
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-var React = __webpack_require__(/*! react */ "../node_modules/react/index.js");
-var ReactDOM = __webpack_require__(/*! react-dom */ "../node_modules/react-dom/index.js");
-__webpack_require__(/*! ./core.sass */ "./core.sass");
-var app_1 = __webpack_require__(/*! ./app */ "./app.tsx");
-__webpack_require__(/*! ./lib/localization/index */ "./lib/localization/index.ts");
-ReactDOM.render(React.createElement(app_1.default, null), document.getElementById('app'));
-
-})();
-
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module is referenced by other modules so it can't be inlined
+/******/ 	var __webpack_exports__ = __webpack_require__("./index.tsx");
+/******/ 	
 /******/ })()
 ;
 //# sourceMappingURL=app.bundle.js.map
