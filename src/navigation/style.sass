@@ -9,6 +9,7 @@ nav
   align-items: center
   justify-content: center
   background-color: $light-accent
+  @extend .font-gray
 
   & > .nav-title
     position: absolute
@@ -24,7 +25,6 @@ nav
     @media screen and (min-width: $screen-lg-min-width)
       left: 5%
     
-  
   & > .nav-title > img
     height: 50%
 
@@ -49,9 +49,28 @@ nav
       &:hover
         text-decoration: underline
 
+  & > span
+    @include font-size-large
+    @include font-weight-extrabold
+
   & > ul
     display: flex
     flex-direction: row
+
+    @media screen and (max-width: $screen-sm-min-width)
+      position: absolute
+      flex-direction: column
+      width: 100%
+      top: 100%
+      background: transparentize($light-accent, .2)
+      transform-origin: top
+      transition: transform 0.5s ease
+    
+      &.mobile.closed
+        transform: scaleY(0)
+      
+      &.mobile.open
+        transform: scaleY(1)
 
     & > li
       display: inline-flex

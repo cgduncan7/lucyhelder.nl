@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link, RouteComponentProps, withRouter } from 'react-router-dom'
 import { TFunction } from 'react-i18next'
 import { matchRoutes } from 'react-router-config'
@@ -16,6 +16,7 @@ export interface INavProps extends RouteComponentProps {
 }
 
 function Navigation (props: INavProps) {
+  const [menuOpen, setMenuOpen] = useState(false)
   const isMobile = useMediaQuery({ query: '(max-width: 768px)'})
   const changeLanguage = (lang: 'nl' | 'en') => {
     props.changeLanguage(lang)
@@ -29,31 +30,33 @@ function Navigation (props: INavProps) {
     }
   }
 
+  let listClassName = ''
+  if (isMobile) {
+    listClassName = menuOpen ? 'mobile open' : 'mobile closed'
+  }
+
   return (
     <nav>
       <Link className={'nav-title'}  to={'/'}>
         <img src={lucyName} />
       </Link>
-      {
-        !isMobile &&
-        <ul>
-          {
-            props.routes.filter(({ navigable }) => navigable)
-              .map(({ titleKey, resolvePath = () => undefined }, index) => {
-                const resolvedPath = resolvePath(props.lng || 'nl')
-                if (resolvedPath) {
-                  return (
-                    <li key={index}>
-                      <Link to={resolvedPath}>{ props.t(`routes:${titleKey}`) }</Link>
-                    </li>
-                  )
-                }
-                return undefined
-              })
-          }
-        </ul>
-      }
-      { isMobile && <span>Menu</span> }
+      { isMobile && <span onClick={() => setMenuOpen(!menuOpen)}>Menu</span> }
+      <ul className={listClassName}>
+        {
+          props.routes.filter(({ navigable }) => navigable)
+            .map(({ titleKey, resolvePath = () => undefined }, index) => {
+              const resolvedPath = resolvePath(props.lng || 'nl')
+              if (resolvedPath) {
+                return (
+                  <li key={index}>
+                    <Link to={resolvedPath}>{ props.t(`routes:${titleKey}`) }</Link>
+                  </li>
+                )
+              }
+              return undefined
+            })
+        }
+      </ul>
       <div className={'nav-lang-selector'}>
         <span onClick={() => changeLanguage('nl')}>NL</span> / <span onClick={() => changeLanguage('en')}>EN</span>
       </div>
