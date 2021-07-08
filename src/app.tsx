@@ -59,34 +59,34 @@ const routes: ExtendedRouteConfig[] = [
     titleKey: 'lessons',
     navigable: true,
   },
-  {
-    component: () => <div>Debatclub</div>,
-    path: ['/debatclub', '/debate-club'],
-    resolveLanguage: (path: string) => path === '/debate-club' ? 'en' : 'nl',
-    resolvePath: (lang: string) => {
-      switch (lang.toLowerCase()) {
-        case 'en': return '/debate-club'
-        case 'nl':
-        default: return '/debatclub'
-      }
-    },
-    titleKey: 'debate_club',
-    navigable: true,
-  },
-  {
-    component: () => <div>Taal cafe</div>,
-    path: ['/taal-cafe', '/language-cafe'],
-    resolveLanguage: (path: string) => path === '/language-cafe' ? 'en' : 'nl',
-    resolvePath: (lang: string) => {
-      switch (lang.toLowerCase()) {
-        case 'en': return '/language-cafe'
-        case 'nl':
-        default: return '/taal-cafe'
-      }
-    },
-    titleKey: 'language_cafe',
-    navigable: true,
-  },
+  // {
+  //   component: () => <div>Debatclub</div>,
+  //   path: ['/debatclub', '/debate-club'],
+  //   resolveLanguage: (path: string) => path === '/debate-club' ? 'en' : 'nl',
+  //   resolvePath: (lang: string) => {
+  //     switch (lang.toLowerCase()) {
+  //       case 'en': return '/debate-club'
+  //       case 'nl':
+  //       default: return '/debatclub'
+  //     }
+  //   },
+  //   titleKey: 'debate_club',
+  //   navigable: true,
+  // },
+  // {
+  //   component: () => <div>Taal cafe</div>,
+  //   path: ['/taal-cafe', '/language-cafe'],
+  //   resolveLanguage: (path: string) => path === '/language-cafe' ? 'en' : 'nl',
+  //   resolvePath: (lang: string) => {
+  //     switch (lang.toLowerCase()) {
+  //       case 'en': return '/language-cafe'
+  //       case 'nl':
+  //       default: return '/taal-cafe'
+  //     }
+  //   },
+  //   titleKey: 'language_cafe',
+  //   navigable: true,
+  // },
   {
     component: () => <FourOhFour />,
     path: '*',
