@@ -108,11 +108,11 @@ class App extends React.Component<WithTranslation, {}> {
   }
 
   render() {
-    const { t, i18n } = this.props
+    const { t } = this.props
     return (
       <Router>
-        <RouteLocalizer routes={this.routes} language={i18n.language} changeLanguage={this.changeLanguage}>
-          <Navigation routes={this.routes} t={t} lng={i18n.language} changeLanguage={this.changeLanguage} />
+        <RouteLocalizer routes={this.routes}>
+          <Navigation routes={this.routes} />
           <div className='content'>
             { renderRoutes(this.routes, { t }) }
           </div>

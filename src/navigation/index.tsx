@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, RouteComponentProps, withRouter } from 'react-router-dom'
-import { TFunction } from 'react-i18next'
+import { WithTranslation, withTranslation } from 'react-i18next'
 import { matchRoutes } from 'react-router-config'
 import { useMediaQuery } from 'react-responsive'
 
@@ -8,18 +8,15 @@ import { ExtendedRouteConfig } from '../lib/routes'
 
 const lucyName = require('../../public/lucy.svg').default
 
-export interface INavProps extends RouteComponentProps {
+export interface INavProps extends RouteComponentProps, WithTranslation {
   routes: ExtendedRouteConfig[]
-  t: TFunction
-  lng: string
-  changeLanguage: (lng: 'en' | 'nl') => void
 }
 
 function Navigation (props: INavProps) {
   const [menuOpen, setMenuOpen] = useState(false)
   const isMobile = useMediaQuery({ query: '(max-width: 768px)'})
   const changeLanguage = (lang: 'nl' | 'en') => {
-    props.changeLanguage(lang)
+    props.i18n.changeLanguage(lang)
     const routes = matchRoutes(props.routes, props.location.pathname)
     if (routes.length === 1) {
       const route = routes[0]
@@ -45,7 +42,7 @@ function Navigation (props: INavProps) {
         {
           props.routes.filter(({ navigable }) => navigable)
             .map(({ titleKey, resolvePath = () => undefined }, index) => {
-              const resolvedPath = resolvePath(props.lng || 'nl')
+              const resolvedPath = resolvePath(props.i18n.language || 'nl')
               if (resolvedPath) {
                 return (
                   <li key={index}>
@@ -64,4 +61,4 @@ function Navigation (props: INavProps) {
   )
 }
 
-export default withRouter(Navigation)
+export default withTranslation()(withRouter(Navigation))

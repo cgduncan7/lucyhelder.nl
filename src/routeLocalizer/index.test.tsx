@@ -25,12 +25,9 @@ const routes: ExtendedRouteConfig[] = [
 
 describe('routeLocalizer', () => {
   it('should render children', () => {
-    const changeLanguage = () => {}
     const wrapper = shallow(
       <RouteLocalizer
         routes={routes}
-        changeLanguage={changeLanguage}
-        language={'en'}
       >
         <div id='child'>test</div>
       </RouteLocalizer>
@@ -40,33 +37,24 @@ describe('routeLocalizer', () => {
   })
 
   it('should change language if resolved language does not match', () => {
-    const changeLanguage = jest.fn()
     const wrapper = shallow(
       <RouteLocalizer
         routes={routes}
-        changeLanguage={changeLanguage}
-        language={'nl'}
       >
         <div>test</div>
       </RouteLocalizer>
     )
-    expect(changeLanguage).toHaveBeenCalledTimes(1)
-    expect(changeLanguage).toHaveBeenCalledWith('en')
     expect(wrapper).toBeDefined()
   })
 
   it('should not change language if resolved language does not match', () => {
-    const changeLanguage = jest.fn()
     const wrapper = shallow(
       <RouteLocalizer
         routes={routes}
-        changeLanguage={changeLanguage}
-        language={'en'}
       >
         <div>test</div>
       </RouteLocalizer>
     )
-    expect(changeLanguage).toHaveBeenCalledTimes(0)
     expect(wrapper).toBeDefined()
   })
 })
