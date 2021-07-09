@@ -33,9 +33,9 @@ Sign-up
 
 # TODO
 
-[x] Proper routing/localization
-[x] Add first story
-[ ] Stories
-[ ] Change 'Pieces' to 'Stories'
-[ ] Lucy's suggestions to design
-[ ] Dutch lessons
+- [x] Proper routing/localization
+- [x] Add first story
+- [ ] Stories
+- [ ] Change 'Pieces' to 'Stories'
+- [ ] Lucy's suggestions to design
+- [ ] Dutch lessons
