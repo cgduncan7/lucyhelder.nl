@@ -39874,34 +39874,34 @@ var routes = [
         titleKey: 'lessons',
         navigable: true,
     },
-    {
-        component: function () { return react_1.default.createElement("div", null, "Debatclub"); },
-        path: ['/debatclub', '/debate-club'],
-        resolveLanguage: function (path) { return path === '/debate-club' ? 'en' : 'nl'; },
-        resolvePath: function (lang) {
-            switch (lang.toLowerCase()) {
-                case 'en': return '/debate-club';
-                case 'nl':
-                default: return '/debatclub';
-            }
-        },
-        titleKey: 'debate_club',
-        navigable: true,
-    },
-    {
-        component: function () { return react_1.default.createElement("div", null, "Taal cafe"); },
-        path: ['/taal-cafe', '/language-cafe'],
-        resolveLanguage: function (path) { return path === '/language-cafe' ? 'en' : 'nl'; },
-        resolvePath: function (lang) {
-            switch (lang.toLowerCase()) {
-                case 'en': return '/language-cafe';
-                case 'nl':
-                default: return '/taal-cafe';
-            }
-        },
-        titleKey: 'language_cafe',
-        navigable: true,
-    },
+    // {
+    //   component: () => <div>Debatclub</div>,
+    //   path: ['/debatclub', '/debate-club'],
+    //   resolveLanguage: (path: string) => path === '/debate-club' ? 'en' : 'nl',
+    //   resolvePath: (lang: string) => {
+    //     switch (lang.toLowerCase()) {
+    //       case 'en': return '/debate-club'
+    //       case 'nl':
+    //       default: return '/debatclub'
+    //     }
+    //   },
+    //   titleKey: 'debate_club',
+    //   navigable: true,
+    // },
+    // {
+    //   component: () => <div>Taal cafe</div>,
+    //   path: ['/taal-cafe', '/language-cafe'],
+    //   resolveLanguage: (path: string) => path === '/language-cafe' ? 'en' : 'nl',
+    //   resolvePath: (lang: string) => {
+    //     switch (lang.toLowerCase()) {
+    //       case 'en': return '/language-cafe'
+    //       case 'nl':
+    //       default: return '/taal-cafe'
+    //     }
+    //   },
+    //   titleKey: 'language_cafe',
+    //   navigable: true,
+    // },
     {
         component: function () { return react_1.default.createElement(fourohfour_1.default, null); },
         path: '*',
@@ -39921,10 +39921,10 @@ var App = /** @class */ (function (_super) {
         this.props.i18n.changeLanguage(lang);
     };
     App.prototype.render = function () {
-        var _a = this.props, t = _a.t, i18n = _a.i18n;
+        var t = this.props.t;
         return (react_1.default.createElement(react_router_dom_1.BrowserRouter, null,
-            react_1.default.createElement(routeLocalizer_1.default, { routes: this.routes, language: i18n.language, changeLanguage: this.changeLanguage },
-                react_1.default.createElement(navigation_1.default, { routes: this.routes, t: t, lng: i18n.language, changeLanguage: this.changeLanguage }),
+            react_1.default.createElement(routeLocalizer_1.default, { routes: this.routes },
+                react_1.default.createElement(navigation_1.default, { routes: this.routes }),
                 react_1.default.createElement("div", { className: 'content' }, react_router_config_1.renderRoutes(this.routes, { t: t })))));
     };
     return App;
@@ -40155,6 +40155,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 var react_1 = __importStar(__webpack_require__(/*! react */ "../node_modules/react/index.js"));
 var react_router_dom_1 = __webpack_require__(/*! react-router-dom */ "../node_modules/react-router-dom/esm/react-router-dom.js");
+var react_i18next_1 = __webpack_require__(/*! react-i18next */ "../node_modules/react-i18next/dist/es/index.js");
 var react_router_config_1 = __webpack_require__(/*! react-router-config */ "../node_modules/react-router-config/esm/react-router-config.js");
 var react_responsive_1 = __webpack_require__(/*! react-responsive */ "../node_modules/react-responsive/dist/react-responsive.js");
 var lucyName = __webpack_require__(/*! ../../public/lucy.svg */ "../public/lucy.svg").default;
@@ -40162,7 +40163,7 @@ function Navigation(props) {
     var _a = react_1.useState(false), menuOpen = _a[0], setMenuOpen = _a[1];
     var isMobile = react_responsive_1.useMediaQuery({ query: '(max-width: 768px)' });
     var changeLanguage = function (lang) {
-        props.changeLanguage(lang);
+        props.i18n.changeLanguage(lang);
         var routes = react_router_config_1.matchRoutes(props.routes, props.location.pathname);
         if (routes.length === 1) {
             var route = routes[0];
@@ -40186,7 +40187,7 @@ function Navigation(props) {
         })
             .map(function (_a, index) {
             var titleKey = _a.titleKey, _b = _a.resolvePath, resolvePath = _b === void 0 ? function () { return undefined; } : _b;
-            var resolvedPath = resolvePath(props.lng || 'nl');
+            var resolvedPath = resolvePath(props.i18n.language || 'nl');
             if (resolvedPath) {
                 return (react_1.default.createElement("li", { key: index },
                     react_1.default.createElement(react_router_dom_1.Link, { to: resolvedPath }, props.t("routes:" + titleKey))));
@@ -40198,7 +40199,7 @@ function Navigation(props) {
             " / ",
             react_1.default.createElement("span", { onClick: function () { return changeLanguage('en'); } }, "EN"))));
 }
-exports.default = react_router_dom_1.withRouter(Navigation);
+exports.default = react_i18next_1.withTranslation()(react_router_dom_1.withRouter(Navigation));
 
 
 /***/ }),
@@ -40241,13 +40242,15 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 var react_1 = __importDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js"));
 var react_router_config_1 = __webpack_require__(/*! react-router-config */ "../node_modules/react-router-config/esm/react-router-config.js");
 var react_router_dom_1 = __webpack_require__(/*! react-router-dom */ "../node_modules/react-router-dom/esm/react-router-dom.js");
+var react_i18next_1 = __webpack_require__(/*! react-i18next */ "../node_modules/react-i18next/dist/es/index.js");
 function RouteLocalizer(props) {
     var location = react_router_dom_1.useLocation();
+    var i18n = react_i18next_1.useTranslation().i18n;
     var extendedRoute = react_router_config_1.matchRoutes(props.routes, location.pathname)[0].route;
     if (extendedRoute && extendedRoute.resolveLanguage) {
         var desiredLanguage = extendedRoute.resolveLanguage(location.pathname);
-        if (props.language !== desiredLanguage)
-            props.changeLanguage(desiredLanguage);
+        if (i18n.language !== desiredLanguage)
+            i18n.changeLanguage(desiredLanguage);
     }
     return react_1.default.createElement(react_1.default.Fragment, null, props.children);
 }
