@@ -27,33 +27,40 @@ function Navigation (props: INavProps) {
     }
   }
 
-  let listClassName = ''
+  let listClassName = 'route-list'
   if (isMobile) {
-    listClassName = menuOpen ? 'mobile open' : 'mobile closed'
+    listClassName = menuOpen ? 'route-list mobile open' : 'route-list mobile closed'
   }
+
+  const routeList = (
+    <ul className={listClassName}>
+      {
+        props.routes.filter(({ navigable }) => navigable)
+          .map(({ titleKey, resolvePath = () => undefined }, index) => {
+            const resolvedPath = resolvePath(props.i18n.language || 'nl')
+            const underline = props.location.pathname === resolvedPath;
+            if (resolvedPath) {
+              return (
+                <li key={index} className={underline ? 'current' : ''}>
+                  <Link to={resolvedPath}>{ props.t(`routes:${titleKey}`) }</Link>
+                </li>
+              )
+            }
+            return undefined
+          })
+      }
+    </ul>
+  );
 
   return (
     <nav>
       <Link className={'nav-title'}  to={'/'}>
         <img src={lucyName} />
       </Link>
-      { isMobile && <span onClick={() => setMenuOpen(!menuOpen)}>Menu</span> }
-      <ul className={listClassName}>
-        {
-          props.routes.filter(({ navigable }) => navigable)
-            .map(({ titleKey, resolvePath = () => undefined }, index) => {
-              const resolvedPath = resolvePath(props.i18n.language || 'nl')
-              if (resolvedPath) {
-                return (
-                  <li key={index}>
-                    <Link to={resolvedPath}>{ props.t(`routes:${titleKey}`) }</Link>
-                  </li>
-                )
-              }
-              return undefined
-            })
-        }
-      </ul>
+      <div className={'route-list-container'}>
+        { isMobile && <span onClick={() => setMenuOpen(!menuOpen)}>Menu</span> }
+        { routeList }
+      </div>
       <div className={'nav-lang-selector'}>
         <span onClick={() => changeLanguage('nl')}>NL</span> / <span onClick={() => changeLanguage('en')}>EN</span>
       </div>

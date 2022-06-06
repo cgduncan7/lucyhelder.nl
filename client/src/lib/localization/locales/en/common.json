@@ -1,0 +1,36 @@
+{
+  "404": "Page not found",
+  "about_me": {
+    "title": "About me",
+    "desc": "After I graduated from the University of Amsterdam with a degree in Dutch language in culture a few years ago, I've been teaching Dutch to expats, groups, and companies with the occasional private lesson. I like to spend my free time learning new languages (mainly practicing my Spanish) and organizing language cafes."
+  },
+  "book_club": {
+    "title": "NT2 Boekenclub",
+    "desc": "On 31 July 2022 marks the first edition of the NT2 Boekenclub in the Torpedo Theater in the heart of Amsterdam. Every second Sunday of the month we'll gather to talk about a book and have a beer or some coffee. Is this something for you? Sign up now!",
+    "info": {
+      "what": {
+        "key": "What?",
+        "value": "Bestsellers that are specifically adjusted (rewritten) at the A2/B1-level*.",
+        "detail": "Follow this link for more information and the available books: www.leeslicht.nl"
+      },
+      "who": {
+        "key": "Who?",
+        "value": "People that have been learning Dutch as a second language and can speak it well."
+      },
+      "where": {
+        "key": "Where?",
+        "value": "In the Torpedo Theater at Sint Pieterspoortsteeg 33 in Amsterdam."
+      },
+      "when": {
+        "key": "When?",
+        "value": "Every second Sunday of the month at 14:30."
+      }
+    },
+    "submit": "Submit",
+    "name_placeholder": "Name",
+    "email_placeholder": "Email"
+  },
+  "dutch_teacher": "Dutch Teacher",
+  "language_lover": "Language lover",
+  "amsterdammer": "Amsterdammer"
+}

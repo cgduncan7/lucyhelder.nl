@@ -1,32 +1,26 @@
 @import '../colors'
 @import '../typography'
   
-.home
+.about
   display: flex
   flex-direction: column
   align-items: center
   justify-content: flex-start
-  padding-top: 100px
 
   & > img
-    width: 25%
+    max-width: 25%
+    min-width: 20rem
     border-radius: 50%
     border: 5px solid $dark-accent
     box-shadow: 0 0 4px $dark-accent
-
-  & > .separator
-    height: 5vmin
+    margin-top: 1rem
+    margin-bottom: 1rem
 
   & > h1
-    font-size: 5vmin
-
-  & > h4
-    font-size: 3vmin
-
-  & > h5
-    font-size: 2vmin
+    @include font-size-xlarge
+    padding-bottom: 20px
 
   & > p
-    font-size: 2vmin
-    line-height: 5vmin
+    @include font-size-medium
+    line-height: 4rem
     width: 80%

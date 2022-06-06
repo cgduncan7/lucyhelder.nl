@@ -1,0 +1,36 @@
+{
+  "404": "Pagina niet gevonden",
+  "about_me": {
+    "title": "Over mij",
+    "desc": "Sinds ik een aantal jaar geleden ben afgestudeerd in Nederlandse taal en cultuur aan de Universiteit van Amsterdam, geef ik Nederlandse les aan expats, groepen, in-company bij bedrijven in Amsterdam en af en toe een privéles. Mijn vrije tijd besteed ik het liefst aan het leren van nieuwe talen (of eigenlijk vooral aan het oefenen van mijn Spaans) en het organiseren van taalcafés."
+  },
+  "book_club": {
+    "title": "NT2 Boekenclub",
+    "desc": "31 juli 2022 is de eerste editie van de NT2 Boekenclub in het Torpedo Theater in hartje Amsterdam. Elke tweede zondag van de maand komen we bij elkaar om over een boek te praten en een biertje of een kopje koffie te drinken. Lijkt het je leuk? Schrijf je dan snel in!",
+    "info": {
+      "what": {
+        "key": "Wat?",
+        "value": "Bestsellers die speciaal zijn aangepast (opnieuw geschreven) op A2/B1-niveau*.",
+        "detail": "Kijk voor meer informatie en natuurlijk de boeken op www.leeslicht.nl"
+      },
+      "who": {
+        "key": "Wie?",
+        "value": "Mensen die Nederlands leren als tweede taal, en al aardig Nederlands spreken."
+      },
+      "where": {
+        "key": "Waar?",
+        "value": "In het Torpedo Theater in de Sint Pieterspoortsteeg 33 in Amsterdam."
+      },
+      "when": {
+        "key": "Wanneer?",
+        "value": "Elke tweede zondag van de maand, om 14:30 uur."
+      }
+    },
+    "submit": "Inschrijven",
+    "name_placeholder": "Naam",
+    "email_placeholder": "Email"
+  },
+  "dutch_teacher": "Docent Nederlands",
+  "language_lover": "Taalliefhebber",
+  "amsterdammer": "Amsterdammer"
+}

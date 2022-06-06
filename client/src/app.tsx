@@ -9,6 +9,7 @@ import Navigation from './navigation'
 import Home from './home'
 import Pieces from './pieces'
 import About from './about'
+import BookClub from './bookClub'
 import FourOhFour from './fourohfour'
 import RouteLocalizer from './routeLocalizer'
 
@@ -43,7 +44,7 @@ const routes: ExtendedRouteConfig[] = [
       }
     },
     titleKey: 'pieces',
-    navigable: true,
+    navigable: false,
   },
   {
     component: () => <div>Lessen</div>,
@@ -57,36 +58,50 @@ const routes: ExtendedRouteConfig[] = [
       }
     },
     titleKey: 'lessons',
+    navigable: false,
+  },
+  {
+    component: () => <div>Debatclub</div>,
+    path: ['/debatclub', '/debate-club'],
+    resolveLanguage: (path: string) => path === '/debate-club' ? 'en' : 'nl',
+    resolvePath: (lang: string) => {
+      switch (lang.toLowerCase()) {
+        case 'en': return '/debate-club'
+        case 'nl':
+        default: return '/debatclub'
+      }
+    },
+    titleKey: 'debate_club',
+    navigable: false,
+  },
+  {
+    component: () => <div>Taal cafe</div>,
+    path: ['/taal-cafe', '/language-cafe'],
+    resolveLanguage: (path: string) => path === '/language-cafe' ? 'en' : 'nl',
+    resolvePath: (lang: string) => {
+      switch (lang.toLowerCase()) {
+        case 'en': return '/language-cafe'
+        case 'nl':
+        default: return '/taal-cafe'
+      }
+    },
+    titleKey: 'language_cafe',
+    navigable: false,
+  },
+  {
+    component: BookClub,
+    path: ['/boekenclub', '/book-club'],
+    resolveLanguage: (path: string) => path === '/book-club' ? 'en' : 'nl',
+    resolvePath: (lang: string) => {
+      switch (lang.toLowerCase()) {
+        case 'en': return '/book-club'
+        case 'nl':
+        default: return '/boekenclub'
+      }
+    },
+    titleKey: 'book_club',
     navigable: true,
   },
-  // {
-  //   component: () => <div>Debatclub</div>,
-  //   path: ['/debatclub', '/debate-club'],
-  //   resolveLanguage: (path: string) => path === '/debate-club' ? 'en' : 'nl',
-  //   resolvePath: (lang: string) => {
-  //     switch (lang.toLowerCase()) {
-  //       case 'en': return '/debate-club'
-  //       case 'nl':
-  //       default: return '/debatclub'
-  //     }
-  //   },
-  //   titleKey: 'debate_club',
-  //   navigable: true,
-  // },
-  // {
-  //   component: () => <div>Taal cafe</div>,
-  //   path: ['/taal-cafe', '/language-cafe'],
-  //   resolveLanguage: (path: string) => path === '/language-cafe' ? 'en' : 'nl',
-  //   resolvePath: (lang: string) => {
-  //     switch (lang.toLowerCase()) {
-  //       case 'en': return '/language-cafe'
-  //       case 'nl':
-  //       default: return '/taal-cafe'
-  //     }
-  //   },
-  //   titleKey: 'language_cafe',
-  //   navigable: true,
-  // },
   {
     component: () => <FourOhFour />,
     path: '*',
