@@ -26,7 +26,7 @@ USER node
 COPY --from=builder /app/dist dist
 COPY --from=builder /app/package.json package.json
 COPY --from=builder /app/yarn.lock yarn.lock
-COPY ./private/credentials.json private/credentials.json
+COPY ./private/credentials.json /app/private/credentials.json
 
 RUN yarn install
 CMD node /app/dist/server.js

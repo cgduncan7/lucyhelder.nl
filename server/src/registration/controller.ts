@@ -11,7 +11,7 @@ const getGoogleAuth = () => {
   if (googleAuth) return googleAuth
 
   googleAuth = new google.auth.GoogleAuth({
-    keyFile: '../../private/credentials.json',
+    keyFile: './private/credentials.json',
     scopes: ['https://www.googleapis.com/auth/spreadsheets']
   })
 
@@ -27,7 +27,7 @@ const listData = async (auth: GoogleAuth): Promise<string[][] | null> => {
   const sheets = google.sheets({ version: 'v4', auth })
   const res = await sheets.spreadsheets.values.get({
     spreadsheetId: SPREADSHEET_ID,
-    range: 'Emails!A2:B'
+    range: 'Emails!B2:B'
   })
     
   const rows = res?.data.values
@@ -45,11 +45,12 @@ const listData = async (auth: GoogleAuth): Promise<string[][] | null> => {
  */
 const writeData = async (auth: GoogleAuth, data: { name: string, email: string }) => {
   const sheets = google.sheets({ version: 'v4', auth })
+  const date = new Date().toDateString()
   await sheets.spreadsheets.values.append({
     spreadsheetId: SPREADSHEET_ID,
-    range: 'Emails!A:B',
+    range: 'Emails!A:C',
     valueInputOption: 'raw',
-    requestBody: { values: [[data.name, data.email]] }
+    requestBody: { values: [[data.name, data.email, date]] }
   })
 }
 
