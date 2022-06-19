@@ -11,7 +11,7 @@ const getGoogleAuth = () => {
   if (googleAuth) return googleAuth
 
   googleAuth = new google.auth.GoogleAuth({
-    keyFile: './private/credentials.json',
+    keyFilename: './private/credentials.json',
     scopes: ['https://www.googleapis.com/auth/spreadsheets']
   })
 
