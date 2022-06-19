@@ -1,4 +1,3 @@
-import { join } from 'path'
 import { GoogleAuth } from 'google-auth-library'
 import { google } from 'googleapis'
 
@@ -12,7 +11,7 @@ const getGoogleAuth = () => {
   if (googleAuth) return googleAuth
 
   googleAuth = new google.auth.GoogleAuth({
-    keyFile: join(__dirname, '../../private/credentials.json'),
+    keyFile: '../../private/credentials.json',
     scopes: ['https://www.googleapis.com/auth/spreadsheets']
   })
 
