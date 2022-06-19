@@ -1,0 +1,23 @@
+name: Push to master
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-server:
+    runs-on: ubuntu-latest
+    env:
+      GHCR_USERNAME: ${{ secrets.GHCR_USERNAME }}
+      GHCR_PASSWORD: ${{ secrets.GHCR_PASSWORD }}
+      GHCR_IMAGE: ghcr.io/cgduncan7/lucyhelder.nl-server
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build docker image
+        run: docker build . -t $GHCR_IMAGE
+        working-directory: server
+      - name: Login to GHCR Docker repo
+        run: docker login ghcr.io -u $GHCR_USERNAME --password $GHCR_PASSWORD
+        working-directory: server
+      - name: Push docker image
+        run: docker push $GHCR_IMAGE
+        working-directory: server
