@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Decode GCP credentials
-        run: mkdir private && echo ${{ secrets.GCP_CREDENTIALS }} | base64 -d > private/credentials.json
+        run: mkdir private && echo "${{ secrets.GCP_CREDENTIALS }}" | base64 -d > private/credentials.json
         working-directory: server
       - name: Test credentials
         run: cat private/credentials.json | jq .client_id
