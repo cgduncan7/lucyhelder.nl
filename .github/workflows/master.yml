@@ -9,12 +9,11 @@ jobs:
     env:
       GHCR_USERNAME: ${{ secrets.GHCR_USERNAME }}
       GHCR_PASSWORD: ${{ secrets.GHCR_PASSWORD }}
-      GCP_CREDENTIALS: ${{ secrets.GCP_CREDENTIALS }}
       GHCR_IMAGE: ghcr.io/cgduncan7/lucyhelder.nl-server
     steps:
       - uses: actions/checkout@v3
       - name: Decode GCP credentials
-        run: mkdir private && echo $GCP_CREDENTIALS | base64 -d > private/credentials.json
+        run: mkdir private && echo ${{ secrets.GCP_CREDENTIALS }} | base64 -d > private/credentials.json
         working-directory: server
       - name: Test credentials
         run: cat private/credentials.json | jq .client_id

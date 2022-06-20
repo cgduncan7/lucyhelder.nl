@@ -28,6 +28,5 @@ COPY --from=builder /app/package.json package.json
 COPY --from=builder /app/yarn.lock yarn.lock
 COPY --chown=node:node ./private/credentials.json private/credentials.json
 
-RUN cat private/credentials
 RUN yarn install
 CMD node dist/server.js
