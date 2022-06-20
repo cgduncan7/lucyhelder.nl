@@ -1,3 +1,4 @@
+import { existsSync } from 'fs'
 import { GoogleAuth } from 'google-auth-library'
 import { google } from 'googleapis'
 
@@ -9,6 +10,10 @@ const SPREADSHEET_ID = '1vSKlfedcRSDqmy_z2fwd2OuqZwckLW68xg_JPt-FlYM'
 let googleAuth: GoogleAuth | null
 const getGoogleAuth = () => {
   if (googleAuth) return googleAuth
+
+  if (!existsSync('./private/credentials.json')) {
+    throw new Error('Credentials not found');
+  }
 
   googleAuth = new google.auth.GoogleAuth({
     keyFilename: './private/credentials.json',
