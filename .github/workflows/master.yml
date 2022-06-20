@@ -9,6 +9,7 @@ jobs:
     env:
       GHCR_USERNAME: ${{ secrets.GHCR_USERNAME }}
       GHCR_PASSWORD: ${{ secrets.GHCR_PASSWORD }}
+      GCP_CREDENTIALS: ${{ secrets.GCP_CREDENTIALS }}
       GHCR_IMAGE: ghcr.io/cgduncan7/lucyhelder.nl-server
     steps:
       - uses: actions/checkout@v3
