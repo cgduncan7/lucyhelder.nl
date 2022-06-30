@@ -12,14 +12,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/sourceMaps.js */ "../node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
 
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n* {\n  font-family: 'Cormorant Garamond', serif; }\n\n.font-xlg {\n  font-size: 3rem; }\n\n.font-lg {\n  font-size: 2rem; }\n\n.font-md {\n  font-size: 1.5rem; }\n\n.font-nm {\n  font-size: 1rem; }\n\n.font-sm {\n  font-size: 0.75rem; }\n\n.font-wgt-700 {\n  font-weight: 700; }\n\n.font-wgt-500 {\n  font-weight: 500; }\n\n.font-wgt-400 {\n  font-weight: 400; }\n\n.font-wgt-300 {\n  font-weight: 300; }\n\n.font-gray, nav, nav > .nav-lang-selector, nav ul.route-list > li > * {\n  color: #283845; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n* {\n  font-family: 'Cormorant Garamond', serif; }\n\n.font-xlg {\n  font-size: 3rem; }\n\n.font-lg {\n  font-size: 2rem; }\n\n.font-md {\n  font-size: 1.5rem; }\n\n.font-nm {\n  font-size: 1rem; }\n\n.font-sm {\n  font-size: 0.75rem; }\n\n.font-wgt-700 {\n  font-weight: 700; }\n\n.font-wgt-500 {\n  font-weight: 500; }\n\n.font-wgt-400 {\n  font-weight: 400; }\n\n.font-wgt-300 {\n  font-weight: 300; }\n\n.font-gray, nav, nav > .nav-lang-selector, nav ul.route-list > li > * {\n  color: #283845; }\n\nnav {\n  position: relative;\n  display: grid;\n  flex-direction: row;\n  align-items: center;\n  justify-content: center;\n  background-color: #C46D5E;\n  grid-template-columns: 1fr 3fr 1fr;\n  grid-template-rows: 1fr; }\n  @media screen and (max-width: 768px) {\n    nav {\n      grid-template-columns: 1fr 1fr 1fr; } }\n  nav > .nav-title {\n    grid-column: 1;\n    overflow-x: hidden;\n    display: flex;\n    align-items: center;\n    height: 100%;\n    padding-left: 5%; }\n  nav > .nav-title > img {\n    max-height: 50%;\n    max-width: 100%; }\n  nav > .nav-lang-selector {\n    grid-column: 3;\n    font-size: 1.5rem;\n    font-weight: 700;\n    cursor: default;\n    text-align: right;\n    padding-right: 5%; }\n    nav > .nav-lang-selector > span {\n      cursor: pointer; }\n      nav > .nav-lang-selector > span:hover {\n        text-decoration: underline; }\n  nav > span {\n    font-size: 2rem;\n    font-weight: 700; }\n  nav div.route-list-container {\n    grid-column: 2;\n    font-size: 2rem;\n    height: 100%;\n    position: relative;\n    display: flex;\n    align-items: center;\n    justify-content: center; }\n  nav ul.route-list {\n    padding-left: 10%;\n    padding-right: 10%; }\n    @media screen and (max-width: 768px) {\n      nav ul.route-list {\n        position: absolute;\n        display: flex;\n        flex-direction: column;\n        top: 100%;\n        width: 100%;\n        background: rgba(196, 109, 94, 0.8);\n        transform-origin: top;\n        transition: transform 0.5s ease; }\n        nav ul.route-list.mobile.closed {\n          transform: scaleY(0); }\n        nav ul.route-list.mobile.open {\n          transform: scaleY(1); } }\n    nav ul.route-list > li {\n      flex: 1;\n      display: inline-flex;\n      align-items: center;\n      justify-content: center;\n      font-size: 1.5rem;\n      font-weight: 700;\n      margin: 4px 4px; }\n      @media screen and (min-width: 1200px) {\n        nav ul.route-list > li {\n          margin: 4px 16px;\n          font-size: 2rem; } }\n      @media screen and (min-width: 1920px) {\n        nav ul.route-list > li {\n          margin: 8px 32px;\n          font-size: 2rem; } }\n      nav ul.route-list > li.current > * {\n        text-decoration: dotted underline; }\n      nav ul.route-list > li > * {\n        text-decoration: none;\n        padding: 4px 4px; }\n        nav ul.route-list > li > *:hover {\n          text-decoration: underline; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n* {\n  font-family: 'Cormorant Garamond', serif; }\n\n.font-xlg {\n  font-size: 3rem; }\n\n.font-lg {\n  font-size: 2rem; }\n\n.font-md {\n  font-size: 1.5rem; }\n\n.font-nm {\n  font-size: 1rem; }\n\n.font-sm {\n  font-size: 0.75rem; }\n\n.font-wgt-700 {\n  font-weight: 700; }\n\n.font-wgt-500 {\n  font-weight: 500; }\n\n.font-wgt-400 {\n  font-weight: 400; }\n\n.font-wgt-300 {\n  font-weight: 300; }\n\n.font-gray, nav, nav > .nav-lang-selector, nav ul.route-list > li > * {\n  color: #283845; }\n\n.home {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center; }\n  .home > .separator {\n    height: 5rem; }\n  .home > h1 {\n    font-size: 3rem; }\n  .home > h4 {\n    font-size: 2rem; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n* {\n  font-family: 'Cormorant Garamond', serif; }\n\n.font-xlg {\n  font-size: 3rem; }\n\n.font-lg {\n  font-size: 2rem; }\n\n.font-md {\n  font-size: 1.5rem; }\n\n.font-nm {\n  font-size: 1rem; }\n\n.font-sm {\n  font-size: 0.75rem; }\n\n.font-wgt-700 {\n  font-weight: 700; }\n\n.font-wgt-500 {\n  font-weight: 500; }\n\n.font-wgt-400 {\n  font-weight: 400; }\n\n.font-wgt-300 {\n  font-weight: 300; }\n\n.font-gray, nav, nav > .nav-lang-selector, nav ul.route-list > li > * {\n  color: #283845; }\n\n.about {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: flex-start; }\n  .about > img {\n    max-width: 25%;\n    min-width: 20rem;\n    border-radius: 50%;\n    border: 5px solid #510D0A;\n    box-shadow: 0 0 4px #510D0A;\n    margin-top: 1rem;\n    margin-bottom: 1rem; }\n  .about > h1 {\n    font-size: 3rem;\n    padding-bottom: 20px; }\n  .about > p {\n    font-size: 1.5rem;\n    line-height: 4rem;\n    width: 80%; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local(\"Cormorant Garamond Light\"), local(\"CormorantGaramond-Light\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Cormorant Garamond Regular\"), local(\"CormorantGaramond-Regular\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local(\"Cormorant Garamond Medium\"), local(\"CormorantGaramond-Medium\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsw-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fug-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsQ-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsA-IxBSL_g94.woff2) format(\"woff2\");\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local(\"Cormorant Garamond Bold\"), local(\"CormorantGaramond-Bold\"), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fvg-IxBSL_g.woff2) format(\"woff2\");\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n* {\n  font-family: 'Cormorant Garamond', serif; }\n\n.font-xlg {\n  font-size: 3rem; }\n\n.font-lg {\n  font-size: 2rem; }\n\n.font-md {\n  font-size: 1.5rem; }\n\n.font-nm {\n  font-size: 1rem; }\n\n.font-sm {\n  font-size: 0.75rem; }\n\n.font-wgt-700 {\n  font-weight: 700; }\n\n.font-wgt-500 {\n  font-weight: 500; }\n\n.font-wgt-400 {\n  font-weight: 400; }\n\n.font-wgt-300 {\n  font-weight: 300; }\n\n.font-gray, nav, nav > .nav-lang-selector, nav ul.route-list > li > * {\n  color: #283845; }\n\n.book-club {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: flex-start;\n  padding-left: 10%;\n  padding-right: 10%; }\n  .book-club > h1 {\n    font-size: 3rem;\n    padding-bottom: 20px; }\n  .book-club > p {\n    font-size: 1.5rem;\n    line-height: 4rem; }\n  .book-club > .separator {\n    height: 4rem; }\n  .book-club > .info {\n    font-size: 1.5rem;\n    display: grid;\n    grid-template-columns: minmax(7rem, 1fr) 3fr;\n    grid-template-rows: auto;\n    row-gap: 2rem;\n    line-height: 2rem; }\n    .book-club > .info > .info-title {\n      font-weight: 700;\n      text-decoration: underline; }\n  .book-club > .sign-up {\n    display: flex;\n    flex-direction: column;\n    width: 40%; }\n    .book-club > .sign-up > input {\n      font-size: 1.5rem;\n      margin-bottom: 1rem;\n      padding: 0.5rem; }\n    .book-club > .sign-up > button {\n      font-size: 1.5rem;\n      background-color: #C46D5E;\n      border-color: #510D0A;\n      padding: 0.5rem; }\n\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  background-color: #FFE1C6;\n  border: 0;\n  margin: 0; }\n  body #app {\n    width: 100%;\n    height: 100%;\n    display: grid;\n    grid-template-rows: 128px auto 64px;\n    grid-template-columns: 5px auto 5px; }\n    @media screen and (min-width: 1200px) {\n      body #app {\n        grid-template-rows: 100px auto 100px;\n        grid-template-columns: 100px auto 100px; } }\n    @media screen and (min-width: 1920px) {\n      body #app {\n        grid-template-rows: 150px auto 150px;\n        grid-template-columns: 150px auto 150px; } }\n    body #app nav {\n      grid-row: 1;\n      grid-column: 1 / span 3; }\n    body #app .content {\n      grid-row: 2 / span 2;\n      grid-column: 2;\n      padding-top: 20px;\n      padding-bottom: 20px; }\n      body #app .content > * {\n        height: 100%;\n        width: 100%; }\n", "",{"version":3,"sources":["webpack://./fonts/cormorant-garamond.sass","webpack://./typography.sass","webpack://./colors.sass","webpack://./navigation/style.sass","webpack://./home/style.sass","webpack://./about/style.sass","webpack://./bookClub/style.sass","webpack://./core.sass"],"names":[],"mappings":"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","sourcesContent":["/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsw-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfug-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsQ-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfsA-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 300;\n  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllfvg-IxBSL_g.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKky2F7i6C.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKky2F7i6C.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKky2F7i6C.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsw-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfug-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsQ-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfsA-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 500;\n  src: local('Cormorant Garamond Medium'), local('CormorantGaramond-Medium'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfvg-IxBSL_g.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsw-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }\n\n/* cyrillic */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fug-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }\n\n/* vietnamese */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsQ-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB; }\n\n/* latin-ext */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fsA-IxBSL_g94.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }\n\n/* latin */\n@font-face {\n  font-family: 'Cormorant Garamond';\n  font-style: normal;\n  font-weight: 700;\n  src: local('Cormorant Garamond Bold'), local('CormorantGaramond-Bold'), url(https://fonts.gstatic.com/s/cormorantgaramond/v7/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQEl5fvg-IxBSL_g.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }\n","@import './fonts/cormorant-garamond.sass';\n@import './colors.sass';\n\n@mixin font-garamond {\n  font-family: 'Cormorant Garamond', serif; }\n\n@mixin font-size-xlarge {\n  font-size: 3rem; }\n\n@mixin font-size-large {\n  font-size: 2rem; }\n\n@mixin font-size-medium {\n  font-size: 1.5rem; }\n\n@mixin font-size-normal {\n  font-size: 1rem; }\n\n@mixin font-size-small {\n  font-size: 0.75rem; }\n\n@mixin font-weight-extrabold {\n  font-weight: 700; }\n\n@mixin font-weight-bold {\n  font-weight: 500; }\n\n@mixin font-weight-normal {\n  font-weight: 400; }\n\n@mixin font-weight-light {\n  font-weight: 300; }\n\n* {\n  @include font-garamond; }\n\n.font-xlg {\n  @include font-size-xlarge; }\n\n.font-lg {\n  @include font-size-large; }\n\n.font-md {\n  @include font-size-medium; }\n\n.font-nm {\n  @include font-size-normal; }\n\n.font-sm {\n  @include font-size-small; }\n\n.font-wgt-700 {\n  @include font-weight-extrabold; }\n\n.font-wgt-500 {\n  @include font-weight-bold; }\n\n.font-wgt-400 {\n  @include font-weight-normal; }\n\n.font-wgt-300 {\n  @include font-weight-light; }\n\n.font-gray {\n  color: $gray; }\n","$base: #FFE1C6;\n$light-accent: #C46D5E;\n$dark-accent: #510D0A;\n$gray: #283845;\n","@import '../colors';\n@import '../responsive';\n@import '../typography';\n\nnav {\n  position: relative;\n  display: grid;\n  flex-direction: row;\n  align-items: center;\n  justify-content: center;\n  background-color: $light-accent;\n  @extend .font-gray;\n\n  grid-template-columns: 1fr 3fr 1fr;\n  grid-template-rows: 1fr;\n\n  @media screen and (max-width: $screen-sm-min-width) {\n    grid-template-columns: 1fr 1fr 1fr; }\n\n  & > .nav-title {\n    grid-column: 1;\n    overflow-x: hidden;\n    display: flex;\n    align-items: center;\n    height: 100%;\n\n    padding-left: 5%; }\n\n  & > .nav-title > img {\n    max-height: 50%;\n    max-width: 100%; }\n\n  & > .nav-lang-selector {\n    grid-column: 3;\n    @include font-size-medium;\n    @include font-weight-extrabold;\n    @extend .font-gray;\n    cursor: default;\n    text-align: right;\n\n    padding-right: 5%;\n\n    & > span {\n      cursor: pointer;\n\n      &:hover {\n        text-decoration: underline; } } }\n\n  & > span {\n    @include font-size-large;\n    @include font-weight-extrabold; }\n\n  div.route-list-container {\n    grid-column: 2;\n    @include font-size-large;\n    height: 100%;\n    position: relative;\n    display: flex;\n    align-items: center;\n    justify-content: center; }\n\n  ul.route-list {\n    padding-left: 10%;\n    padding-right: 10%;\n\n    @media screen and (max-width: $screen-sm-min-width) {\n      position: absolute;\n      display: flex;\n      flex-direction: column;\n      top: 100%;\n      width: 100%;\n      background: transparentize($light-accent, .2);\n      transform-origin: top;\n      transition: transform 0.5s ease;\n\n      &.mobile.closed {\n        transform: scaleY(0); }\n\n      &.mobile.open {\n        transform: scaleY(1); } }\n\n    & > li {\n      flex: 1;\n      display: inline-flex;\n      align-items: center;\n      justify-content: center;\n      @include font-size-medium;\n      @include font-weight-extrabold;\n\n      margin: 4px 4px;\n\n      @media screen and (min-width: $screen-md-min-width) {\n        margin: 4px 16px;\n        @include font-size-large; }\n\n      @media screen and (min-width: $screen-lg-min-width) {\n        margin: 8px 32px;\n        @include font-size-large; }\n\n      &.current > * {\n        text-decoration: dotted underline; }\n\n      & > * {\n        @extend .font-gray;\n        text-decoration: none;\n        padding: 4px 4px;\n\n        &:hover {\n          text-decoration: underline; } } } } }\n","@import '../colors';\n@import '../typography';\n\n.home {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n\n  & > .separator {\n    height: 5rem; }\n\n  & > h1 {\n    @include font-size-xlarge; }\n\n  & > h4 {\n    @include font-size-large; } }\n","@import '../colors';\n@import '../typography';\n\n.about {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: flex-start;\n\n  & > img {\n    max-width: 25%;\n    min-width: 20rem;\n    border-radius: 50%;\n    border: 5px solid $dark-accent;\n    box-shadow: 0 0 4px $dark-accent;\n    margin-top: 1rem;\n    margin-bottom: 1rem; }\n\n  & > h1 {\n    @include font-size-xlarge;\n    padding-bottom: 20px; }\n\n  & > p {\n    @include font-size-medium;\n    line-height: 4rem;\n    width: 80%; } }\n","@import '../colors';\n@import '../typography';\n\n.book-club {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: flex-start;\n  padding-left: 10%;\n  padding-right: 10%;\n\n  & > h1 {\n    @include font-size-xlarge;\n    padding-bottom: 20px; }\n\n  & > p {\n    @include font-size-medium;\n    line-height: 4rem; }\n\n  & > .separator {\n    height: 4rem; }\n\n  & > .info {\n    @include font-size-medium;\n    display: grid;\n    grid-template-columns: minmax(7rem, 1fr) 3fr;\n    grid-template-rows: auto;\n    row-gap: 2rem;\n    line-height: 2rem;\n\n    & > .info-title {\n      @include font-weight-extrabold;\n      text-decoration: underline; } }\n\n  & > .sign-up {\n    display: flex;\n    flex-direction: column;\n    width: 40%;\n\n    & > input {\n      @include font-size-medium;\n      margin-bottom: 1rem;\n      padding: 0.5rem; }\n\n    & > button {\n      @include font-size-medium;\n      background-color: $light-accent;\n      border-color: $dark-accent;\n      padding: 0.5rem; } } }\n","// core modules\n@import './colors';\n@import './responsive';\n@import './typography';\n\n// page styles\n@import './navigation/style';\n@import './home/style';\n@import './about/style';\n@import './bookClub/style';\n\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  background-color: $base;\n  border: 0;\n  margin: 0;\n\n  #app {\n    width: 100%;\n    height: 100%;\n    display: grid;\n\n    grid-template-rows: 128px auto 64px;\n    grid-template-columns: 5px auto 5px;\n\n    @media screen and (min-width: $screen-md-min-width) {\n      grid-template-rows: 100px auto 100px;\n      grid-template-columns: 100px auto 100px; }\n\n    @media screen and (min-width: $screen-lg-min-width) {\n      grid-template-rows: 150px auto 150px;\n      grid-template-columns: 150px auto 150px; }\n\n    nav {\n      grid-row: 1;\n      grid-column: 1 / span 3; }\n\n    .content {\n      grid-row: 2 / span 2;\n      grid-column: 2;\n      padding-top: 20px;\n      padding-bottom: 20px;\n\n      & > * {\n        height: 100%;\n        width: 100%; } } } }\n"],"sourceRoot":""}]);
 // Exports
@@ -58,523 +58,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js":
-/*!**********************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js ***!
-  \**********************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _arrayLikeToArray)
-/* harmony export */ });
-function _arrayLikeToArray(arr, len) {
-  if (len == null || len > arr.length) len = arr.length;
-
-  for (var i = 0, arr2 = new Array(len); i < len; i++) {
-    arr2[i] = arr[i];
-  }
-
-  return arr2;
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js":
-/*!********************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js ***!
-  \********************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _arrayWithHoles)
-/* harmony export */ });
-function _arrayWithHoles(arr) {
-  if (Array.isArray(arr)) return arr;
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js":
-/*!***************************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js ***!
-  \***************************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _assertThisInitialized)
-/* harmony export */ });
-function _assertThisInitialized(self) {
-  if (self === void 0) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-
-  return self;
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/classCallCheck.js":
-/*!********************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/classCallCheck.js ***!
-  \********************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _classCallCheck)
-/* harmony export */ });
-function _classCallCheck(instance, Constructor) {
-  if (!(instance instanceof Constructor)) {
-    throw new TypeError("Cannot call a class as a function");
-  }
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/createClass.js":
-/*!*****************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/createClass.js ***!
-  \*****************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _createClass)
-/* harmony export */ });
-function _defineProperties(target, props) {
-  for (var i = 0; i < props.length; i++) {
-    var descriptor = props[i];
-    descriptor.enumerable = descriptor.enumerable || false;
-    descriptor.configurable = true;
-    if ("value" in descriptor) descriptor.writable = true;
-    Object.defineProperty(target, descriptor.key, descriptor);
-  }
-}
-
-function _createClass(Constructor, protoProps, staticProps) {
-  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
-  if (staticProps) _defineProperties(Constructor, staticProps);
-  return Constructor;
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/defineProperty.js":
-/*!********************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/defineProperty.js ***!
-  \********************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _defineProperty)
-/* harmony export */ });
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/extends.js":
-/*!*************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/extends.js ***!
-  \*************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _extends)
-/* harmony export */ });
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
-  };
-
-  return _extends.apply(this, arguments);
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js":
-/*!********************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js ***!
-  \********************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _getPrototypeOf)
-/* harmony export */ });
-function _getPrototypeOf(o) {
-  _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
-    return o.__proto__ || Object.getPrototypeOf(o);
-  };
-  return _getPrototypeOf(o);
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/inherits.js":
-/*!**************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/inherits.js ***!
-  \**************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _inherits)
-/* harmony export */ });
-/* harmony import */ var _setPrototypeOf_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./setPrototypeOf.js */ "../node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js");
-
-function _inherits(subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function");
-  }
-
-  subClass.prototype = Object.create(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      writable: true,
-      configurable: true
-    }
-  });
-  if (superClass) (0,_setPrototypeOf_js__WEBPACK_IMPORTED_MODULE_0__.default)(subClass, superClass);
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/inheritsLoose.js":
-/*!*******************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/inheritsLoose.js ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _inheritsLoose)
-/* harmony export */ });
-/* harmony import */ var _setPrototypeOf_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./setPrototypeOf.js */ "../node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js");
-
-function _inheritsLoose(subClass, superClass) {
-  subClass.prototype = Object.create(superClass.prototype);
-  subClass.prototype.constructor = subClass;
-  (0,_setPrototypeOf_js__WEBPACK_IMPORTED_MODULE_0__.default)(subClass, superClass);
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js":
-/*!**************************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js ***!
-  \**************************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _iterableToArrayLimit)
-/* harmony export */ });
-function _iterableToArrayLimit(arr, i) {
-  if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;
-  var _arr = [];
-  var _n = true;
-  var _d = false;
-  var _e = undefined;
-
-  try {
-    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {
-      _arr.push(_s.value);
-
-      if (i && _arr.length === i) break;
-    }
-  } catch (err) {
-    _d = true;
-    _e = err;
-  } finally {
-    try {
-      if (!_n && _i["return"] != null) _i["return"]();
-    } finally {
-      if (_d) throw _e;
-    }
-  }
-
-  return _arr;
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/nonIterableRest.js":
-/*!*********************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/nonIterableRest.js ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _nonIterableRest)
-/* harmony export */ });
-function _nonIterableRest() {
-  throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/objectSpread.js":
-/*!******************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/objectSpread.js ***!
-  \******************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _objectSpread)
-/* harmony export */ });
-/* harmony import */ var _defineProperty_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./defineProperty.js */ "../node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-
-function _objectSpread(target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i] != null ? Object(arguments[i]) : {};
-    var ownKeys = Object.keys(source);
-
-    if (typeof Object.getOwnPropertySymbols === 'function') {
-      ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {
-        return Object.getOwnPropertyDescriptor(source, sym).enumerable;
-      }));
-    }
-
-    ownKeys.forEach(function (key) {
-      (0,_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__.default)(target, key, source[key]);
-    });
-  }
-
-  return target;
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js":
-/*!*****************************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js ***!
-  \*****************************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _objectWithoutProperties)
-/* harmony export */ });
-/* harmony import */ var _objectWithoutPropertiesLoose_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./objectWithoutPropertiesLoose.js */ "../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-
-function _objectWithoutProperties(source, excluded) {
-  if (source == null) return {};
-  var target = (0,_objectWithoutPropertiesLoose_js__WEBPACK_IMPORTED_MODULE_0__.default)(source, excluded);
-  var key, i;
-
-  if (Object.getOwnPropertySymbols) {
-    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
-
-    for (i = 0; i < sourceSymbolKeys.length; i++) {
-      key = sourceSymbolKeys[i];
-      if (excluded.indexOf(key) >= 0) continue;
-      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
-      target[key] = source[key];
-    }
-  }
-
-  return target;
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js":
-/*!**********************************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js ***!
-  \**********************************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _objectWithoutPropertiesLoose)
-/* harmony export */ });
-function _objectWithoutPropertiesLoose(source, excluded) {
-  if (source == null) return {};
-  var target = {};
-  var sourceKeys = Object.keys(source);
-  var key, i;
-
-  for (i = 0; i < sourceKeys.length; i++) {
-    key = sourceKeys[i];
-    if (excluded.indexOf(key) >= 0) continue;
-    target[key] = source[key];
-  }
-
-  return target;
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js":
-/*!*******************************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js ***!
-  \*******************************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _possibleConstructorReturn)
-/* harmony export */ });
-/* harmony import */ var _babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/typeof */ "../node_modules/@babel/runtime/helpers/esm/typeof.js");
-/* harmony import */ var _assertThisInitialized_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assertThisInitialized.js */ "../node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
-
-
-function _possibleConstructorReturn(self, call) {
-  if (call && ((0,_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_0__.default)(call) === "object" || typeof call === "function")) {
-    return call;
-  }
-
-  return (0,_assertThisInitialized_js__WEBPACK_IMPORTED_MODULE_1__.default)(self);
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js":
-/*!********************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js ***!
-  \********************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _setPrototypeOf)
-/* harmony export */ });
-function _setPrototypeOf(o, p) {
-  _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
-    o.__proto__ = p;
-    return o;
-  };
-
-  return _setPrototypeOf(o, p);
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/slicedToArray.js":
-/*!*******************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/slicedToArray.js ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _slicedToArray)
-/* harmony export */ });
-/* harmony import */ var _arrayWithHoles_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayWithHoles.js */ "../node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js");
-/* harmony import */ var _iterableToArrayLimit_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iterableToArrayLimit.js */ "../node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js");
-/* harmony import */ var _unsupportedIterableToArray_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./unsupportedIterableToArray.js */ "../node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js");
-/* harmony import */ var _nonIterableRest_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./nonIterableRest.js */ "../node_modules/@babel/runtime/helpers/esm/nonIterableRest.js");
-
-
-
-
-function _slicedToArray(arr, i) {
-  return (0,_arrayWithHoles_js__WEBPACK_IMPORTED_MODULE_0__.default)(arr) || (0,_iterableToArrayLimit_js__WEBPACK_IMPORTED_MODULE_1__.default)(arr, i) || (0,_unsupportedIterableToArray_js__WEBPACK_IMPORTED_MODULE_2__.default)(arr, i) || (0,_nonIterableRest_js__WEBPACK_IMPORTED_MODULE_3__.default)();
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/typeof.js":
-/*!************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/typeof.js ***!
-  \************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _typeof)
-/* harmony export */ });
-function _typeof(obj) {
-  "@babel/helpers - typeof";
-
-  if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
-    _typeof = function _typeof(obj) {
-      return typeof obj;
-    };
-  } else {
-    _typeof = function _typeof(obj) {
-      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-    };
-  }
-
-  return _typeof(obj);
-}
-
-/***/ }),
-
-/***/ "../node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js":
-/*!********************************************************************************!*\
-  !*** ../node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js ***!
-  \********************************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ _unsupportedIterableToArray)
-/* harmony export */ });
-/* harmony import */ var _arrayLikeToArray_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayLikeToArray.js */ "../node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js");
-
-function _unsupportedIterableToArray(o, minLen) {
-  if (!o) return;
-  if (typeof o === "string") return (0,_arrayLikeToArray_js__WEBPACK_IMPORTED_MODULE_0__.default)(o, minLen);
-  var n = Object.prototype.toString.call(o).slice(8, -1);
-  if (n === "Object" && o.constructor) n = o.constructor.name;
-  if (n === "Map" || n === "Set") return Array.from(o);
-  if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return (0,_arrayLikeToArray_js__WEBPACK_IMPORTED_MODULE_0__.default)(o, minLen);
-}
-
-/***/ }),
-
 /***/ "../node_modules/css-loader/dist/runtime/api.js":
 /*!******************************************************!*\
   !*** ../node_modules/css-loader/dist/runtime/api.js ***!
@@ -588,37 +71,55 @@ function _unsupportedIterableToArray(o, minLen) {
   MIT License http://www.opensource.org/licenses/mit-license.php
   Author Tobias Koppers @sokra
 */
-// css base code, injected by the css-loader
-// eslint-disable-next-line func-names
 module.exports = function (cssWithMappingToString) {
   var list = []; // return the list of modules as css string
 
   list.toString = function toString() {
     return this.map(function (item) {
-      var content = cssWithMappingToString(item);
+      var content = "";
+      var needLayer = typeof item[5] !== "undefined";
+
+      if (item[4]) {
+        content += "@supports (".concat(item[4], ") {");
+      }
 
       if (item[2]) {
-        return "@media ".concat(item[2], " {").concat(content, "}");
+        content += "@media ".concat(item[2], " {");
+      }
+
+      if (needLayer) {
+        content += "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {");
+      }
+
+      content += cssWithMappingToString(item);
+
+      if (needLayer) {
+        content += "}";
+      }
+
+      if (item[2]) {
+        content += "}";
+      }
+
+      if (item[4]) {
+        content += "}";
       }
 
       return content;
     }).join("");
   }; // import a list of modules into the list
-  // eslint-disable-next-line func-names
 
 
-  list.i = function (modules, mediaQuery, dedupe) {
+  list.i = function i(modules, media, dedupe, supports, layer) {
     if (typeof modules === "string") {
-      // eslint-disable-next-line no-param-reassign
-      modules = [[null, modules, ""]];
+      modules = [[null, modules, undefined]];
     }
 
     var alreadyImportedModules = {};
 
     if (dedupe) {
-      for (var i = 0; i < this.length; i++) {
-        // eslint-disable-next-line prefer-destructuring
-        var id = this[i][0];
+      for (var k = 0; k < this.length; k++) {
+        var id = this[k][0];
 
         if (id != null) {
           alreadyImportedModules[id] = true;
@@ -626,19 +127,37 @@ module.exports = function (cssWithMappingToString) {
       }
     }
 
-    for (var _i = 0; _i < modules.length; _i++) {
-      var item = [].concat(modules[_i]);
+    for (var _k = 0; _k < modules.length; _k++) {
+      var item = [].concat(modules[_k]);
 
       if (dedupe && alreadyImportedModules[item[0]]) {
-        // eslint-disable-next-line no-continue
         continue;
       }
 
-      if (mediaQuery) {
-        if (!item[2]) {
-          item[2] = mediaQuery;
+      if (typeof layer !== "undefined") {
+        if (typeof item[5] === "undefined") {
+          item[5] = layer;
         } else {
-          item[2] = "".concat(mediaQuery, " and ").concat(item[2]);
+          item[1] = "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {").concat(item[1], "}");
+          item[5] = layer;
+        }
+      }
+
+      if (media) {
+        if (!item[2]) {
+          item[2] = media;
+        } else {
+          item[1] = "@media ".concat(item[2], " {").concat(item[1], "}");
+          item[2] = media;
+        }
+      }
+
+      if (supports) {
+        if (!item[4]) {
+          item[4] = "".concat(supports);
+        } else {
+          item[1] = "@supports (".concat(item[4], ") {").concat(item[1], "}");
+          item[4] = supports;
         }
       }
 
@@ -651,34 +170,24 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 
-/***/ "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js":
-/*!*************************************************************************!*\
-  !*** ../node_modules/css-loader/dist/runtime/cssWithMappingToString.js ***!
-  \*************************************************************************/
+/***/ "../node_modules/css-loader/dist/runtime/sourceMaps.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/css-loader/dist/runtime/sourceMaps.js ***!
+  \*************************************************************/
 /***/ ((module) => {
 
 "use strict";
 
 
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+module.exports = function (item) {
+  var content = item[1];
+  var cssMapping = item[3];
 
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-module.exports = function cssWithMappingToString(item) {
-  var _item = _slicedToArray(item, 4),
-      content = _item[1],
-      cssMapping = _item[3];
+  if (!cssMapping) {
+    return content;
+  }
 
   if (typeof btoa === "function") {
-    // eslint-disable-next-line no-undef
     var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));
     var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
     var sourceMapping = "/*# ".concat(data, " */");
@@ -704,11 +213,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "createBrowserHistory": () => (/* binding */ createBrowserHistory),
 /* harmony export */   "createHashHistory": () => (/* binding */ createHashHistory),
-/* harmony export */   "createMemoryHistory": () => (/* binding */ createMemoryHistory),
 /* harmony export */   "createLocation": () => (/* binding */ createLocation),
+/* harmony export */   "createMemoryHistory": () => (/* binding */ createMemoryHistory),
+/* harmony export */   "createPath": () => (/* binding */ createPath),
 /* harmony export */   "locationsAreEqual": () => (/* binding */ locationsAreEqual),
-/* harmony export */   "parsePath": () => (/* binding */ parsePath),
-/* harmony export */   "createPath": () => (/* binding */ createPath)
+/* harmony export */   "parsePath": () => (/* binding */ parsePath)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "../node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var resolve_pathname__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! resolve-pathname */ "../node_modules/resolve-pathname/esm/resolve-pathname.js");
@@ -779,7 +288,7 @@ function createLocation(path, state, key, currentLocation) {
     location.state = state;
   } else {
     // One-arg form: push(location)
-    location = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, path);
+    location = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, path);
     if (location.pathname === undefined) location.pathname = '';
 
     if (location.search) {
@@ -814,7 +323,7 @@ function createLocation(path, state, key, currentLocation) {
     if (!location.pathname) {
       location.pathname = currentLocation.pathname;
     } else if (location.pathname.charAt(0) !== '/') {
-      location.pathname = (0,resolve_pathname__WEBPACK_IMPORTED_MODULE_1__.default)(location.pathname, currentLocation.pathname);
+      location.pathname = (0,resolve_pathname__WEBPACK_IMPORTED_MODULE_1__["default"])(location.pathname, currentLocation.pathname);
     }
   } else {
     // When there is no prior location and pathname is empty, set it to /
@@ -826,14 +335,14 @@ function createLocation(path, state, key, currentLocation) {
   return location;
 }
 function locationsAreEqual(a, b) {
-  return a.pathname === b.pathname && a.search === b.search && a.hash === b.hash && a.key === b.key && (0,value_equal__WEBPACK_IMPORTED_MODULE_2__.default)(a.state, b.state);
+  return a.pathname === b.pathname && a.search === b.search && a.hash === b.hash && a.key === b.key && (0,value_equal__WEBPACK_IMPORTED_MODULE_2__["default"])(a.state, b.state);
 }
 
 function createTransitionManager() {
   var prompt = null;
 
   function setPrompt(nextPrompt) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(prompt == null, 'A history supports only one prompt at a time') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(prompt == null, 'A history supports only one prompt at a time') : 0;
     prompt = nextPrompt;
     return function () {
       if (prompt === nextPrompt) prompt = null;
@@ -851,7 +360,7 @@ function createTransitionManager() {
         if (typeof getUserConfirmation === 'function') {
           getUserConfirmation(result, callback);
         } else {
-           true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(false, 'A history needs a getUserConfirmation function in order to use a prompt message') : 0;
+           true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(false, 'A history needs a getUserConfirmation function in order to use a prompt message') : 0;
           callback(true);
         }
       } else {
@@ -964,7 +473,7 @@ function createBrowserHistory(props) {
     props = {};
   }
 
-  !canUseDOM ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_4__.default)(false, 'Browser history needs a DOM') : 0 : void 0;
+  !canUseDOM ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_4__["default"])(false, 'Browser history needs a DOM') : 0 : void 0;
   var globalHistory = window.history;
   var canUseHistory = supportsHistory();
   var needsHashChangeListener = !supportsPopStateOnHashChange();
@@ -987,7 +496,7 @@ function createBrowserHistory(props) {
         search = _window$location.search,
         hash = _window$location.hash;
     var path = pathname + search + hash;
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(!basename || hasBasename(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!basename || hasBasename(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".') : 0;
     if (basename) path = stripBasename(path, basename);
     return createLocation(path, state, key);
   }
@@ -999,7 +508,7 @@ function createBrowserHistory(props) {
   var transitionManager = createTransitionManager();
 
   function setState(nextState) {
-    (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)(history, nextState);
+    (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])(history, nextState);
 
     history.length = globalHistory.length;
     transitionManager.notifyListeners(history.location, history.action);
@@ -1061,7 +570,7 @@ function createBrowserHistory(props) {
   }
 
   function push(path, state) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to push when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to push when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
     var action = 'PUSH';
     var location = createLocation(path, state, createKey(), history.location);
     transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
@@ -1089,14 +598,14 @@ function createBrowserHistory(props) {
           });
         }
       } else {
-         true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(state === undefined, 'Browser history cannot push state in browsers that do not support HTML5 history') : 0;
+         true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Browser history cannot push state in browsers that do not support HTML5 history') : 0;
         window.location.href = href;
       }
     });
   }
 
   function replace(path, state) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to replace when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to replace when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
     var action = 'REPLACE';
     var location = createLocation(path, state, createKey(), history.location);
     transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
@@ -1122,7 +631,7 @@ function createBrowserHistory(props) {
           });
         }
       } else {
-         true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(state === undefined, 'Browser history cannot replace state in browsers that do not support HTML5 history') : 0;
+         true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Browser history cannot replace state in browsers that do not support HTML5 history') : 0;
         window.location.replace(href);
       }
     });
@@ -1249,7 +758,7 @@ function createHashHistory(props) {
     props = {};
   }
 
-  !canUseDOM ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_4__.default)(false, 'Hash history needs a DOM') : 0 : void 0;
+  !canUseDOM ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_4__["default"])(false, 'Hash history needs a DOM') : 0 : void 0;
   var globalHistory = window.history;
   var canGoWithoutReload = supportsGoWithoutReloadUsingHash();
   var _props = props,
@@ -1264,7 +773,7 @@ function createHashHistory(props) {
 
   function getDOMLocation() {
     var path = decodePath(getHashPath());
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(!basename || hasBasename(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!basename || hasBasename(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".') : 0;
     if (basename) path = stripBasename(path, basename);
     return createLocation(path);
   }
@@ -1272,7 +781,7 @@ function createHashHistory(props) {
   var transitionManager = createTransitionManager();
 
   function setState(nextState) {
-    (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)(history, nextState);
+    (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])(history, nextState);
 
     history.length = globalHistory.length;
     transitionManager.notifyListeners(history.location, history.action);
@@ -1359,7 +868,7 @@ function createHashHistory(props) {
   }
 
   function push(path, state) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(state === undefined, 'Hash history cannot push state; it is ignored') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Hash history cannot push state; it is ignored') : 0;
     var action = 'PUSH';
     var location = createLocation(path, undefined, undefined, history.location);
     transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
@@ -1383,14 +892,14 @@ function createHashHistory(props) {
           location: location
         });
       } else {
-         true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(false, 'Hash history cannot PUSH the same path; a new entry will not be added to the history stack') : 0;
+         true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(false, 'Hash history cannot PUSH the same path; a new entry will not be added to the history stack') : 0;
         setState();
       }
     });
   }
 
   function replace(path, state) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(state === undefined, 'Hash history cannot replace state; it is ignored') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Hash history cannot replace state; it is ignored') : 0;
     var action = 'REPLACE';
     var location = createLocation(path, undefined, undefined, history.location);
     transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
@@ -1417,7 +926,7 @@ function createHashHistory(props) {
   }
 
   function go(n) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(canGoWithoutReload, 'Hash history go(n) causes a full page reload in this browser') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(canGoWithoutReload, 'Hash history go(n) causes a full page reload in this browser') : 0;
     globalHistory.go(n);
   }
 
@@ -1514,7 +1023,7 @@ function createMemoryHistory(props) {
   var transitionManager = createTransitionManager();
 
   function setState(nextState) {
-    (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)(history, nextState);
+    (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])(history, nextState);
 
     history.length = history.entries.length;
     transitionManager.notifyListeners(history.location, history.action);
@@ -1532,7 +1041,7 @@ function createMemoryHistory(props) {
   var createHref = createPath;
 
   function push(path, state) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to push when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to push when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
     var action = 'PUSH';
     var location = createLocation(path, state, createKey(), history.location);
     transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
@@ -1557,7 +1066,7 @@ function createMemoryHistory(props) {
   }
 
   function replace(path, state) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to replace when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to replace when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : 0;
     var action = 'REPLACE';
     var location = createLocation(path, state, createKey(), history.location);
     transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
@@ -2228,12 +1737,12 @@ var Logger = function () {
   function Logger(concreteLogger) {
     var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
 
-    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__.default)(this, Logger);
+    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Logger);
 
     this.init(concreteLogger, options);
   }
 
-  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__.default)(Logger, [{
+  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Logger, [{
     key: "init",
     value: function init(concreteLogger) {
       var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
@@ -2293,7 +1802,7 @@ var Logger = function () {
   }, {
     key: "create",
     value: function create(moduleName) {
-      return new Logger(this.logger, (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, {
+      return new Logger(this.logger, (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, {
         prefix: "".concat(this.prefix, ":").concat(moduleName, ":")
       }, this.options));
     }
@@ -2306,12 +1815,12 @@ var baseLogger = new Logger();
 
 var EventEmitter = function () {
   function EventEmitter() {
-    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__.default)(this, EventEmitter);
+    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, EventEmitter);
 
     this.observers = {};
   }
 
-  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__.default)(EventEmitter, [{
+  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(EventEmitter, [{
     key: "on",
     value: function on(events, listener) {
       var _this = this;
@@ -2525,7 +2034,7 @@ function deepFind(obj, path) {
 }
 
 var ResourceStore = function (_EventEmitter) {
-  (0,_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__.default)(ResourceStore, _EventEmitter);
+  (0,_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(ResourceStore, _EventEmitter);
 
   function ResourceStore(data) {
     var _this;
@@ -2535,12 +2044,12 @@ var ResourceStore = function (_EventEmitter) {
       defaultNS: 'translation'
     };
 
-    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__.default)(this, ResourceStore);
+    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, ResourceStore);
 
-    _this = (0,_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__.default)(this, (0,_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__.default)(ResourceStore).call(this));
+    _this = (0,_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, (0,_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(ResourceStore).call(this));
 
     if (isIE10) {
-      EventEmitter.call((0,_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__.default)(_this));
+      EventEmitter.call((0,_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
     }
 
     _this.data = data || {};
@@ -2557,7 +2066,7 @@ var ResourceStore = function (_EventEmitter) {
     return _this;
   }
 
-  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__.default)(ResourceStore, [{
+  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(ResourceStore, [{
     key: "addNamespaces",
     value: function addNamespaces(ns) {
       if (this.options.ns.indexOf(ns) < 0) {
@@ -2648,7 +2157,7 @@ var ResourceStore = function (_EventEmitter) {
       if (deep) {
         deepExtend(pack, resources, overwrite);
       } else {
-        pack = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, pack, resources);
+        pack = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, pack, resources);
       }
 
       setPath(this.data, path, pack);
@@ -2673,7 +2182,7 @@ var ResourceStore = function (_EventEmitter) {
     key: "getResourceBundle",
     value: function getResourceBundle(lng, ns) {
       if (!ns) ns = this.options.defaultNS;
-      if (this.options.compatibilityAPI === 'v1') return (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, {}, this.getResource(lng, ns));
+      if (this.options.compatibilityAPI === 'v1') return (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, {}, this.getResource(lng, ns));
       return this.getResource(lng, ns);
     }
   }, {
@@ -2709,22 +2218,22 @@ var postProcessor = {
 var checkedLoadedFor = {};
 
 var Translator = function (_EventEmitter) {
-  (0,_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__.default)(Translator, _EventEmitter);
+  (0,_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(Translator, _EventEmitter);
 
   function Translator(services) {
     var _this;
 
     var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
 
-    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__.default)(this, Translator);
+    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Translator);
 
-    _this = (0,_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__.default)(this, (0,_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__.default)(Translator).call(this));
+    _this = (0,_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, (0,_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Translator).call(this));
 
     if (isIE10) {
-      EventEmitter.call((0,_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__.default)(_this));
+      EventEmitter.call((0,_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
     }
 
-    copy(['resourceStore', 'languageUtils', 'pluralResolver', 'interpolator', 'backendConnector', 'i18nFormat', 'utils'], services, (0,_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__.default)(_this));
+    copy(['resourceStore', 'languageUtils', 'pluralResolver', 'interpolator', 'backendConnector', 'i18nFormat', 'utils'], services, (0,_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
     _this.options = options;
 
     if (_this.options.keySeparator === undefined) {
@@ -2735,7 +2244,7 @@ var Translator = function (_EventEmitter) {
     return _this;
   }
 
-  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__.default)(Translator, [{
+  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Translator, [{
     key: "changeLanguage",
     value: function changeLanguage(lng) {
       if (lng) this.language = lng;
@@ -2783,7 +2292,7 @@ var Translator = function (_EventEmitter) {
     value: function translate(keys, options, lastKey) {
       var _this2 = this;
 
-      if ((0,_babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__.default)(options) !== 'object' && this.options.overloadTranslationOptionHandler) {
+      if ((0,_babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__["default"])(options) !== 'object' && this.options.overloadTranslationOptionHandler) {
         options = this.options.overloadTranslationOptionHandler(arguments);
       }
 
@@ -2833,7 +2342,7 @@ var Translator = function (_EventEmitter) {
           for (var m in res) {
             if (Object.prototype.hasOwnProperty.call(res, m)) {
               var deepKey = "".concat(newKeyToUse).concat(keySeparator).concat(m);
-              copy[m] = this.translate(deepKey, (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, options, {
+              copy[m] = this.translate(deepKey, (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, {
                 joinArrays: false,
                 ns: namespaces
               }));
@@ -2870,7 +2379,7 @@ var Translator = function (_EventEmitter) {
           this.logger.log(updateMissing ? 'updateKey' : 'missingKey', lng, namespace, key, updateMissing ? defaultValue : res);
 
           if (keySeparator) {
-            var fk = this.resolve(key, (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, options, {
+            var fk = this.resolve(key, (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, {
               keySeparator: false
             }));
             if (fk && fk.res) this.logger.warn('Seems the loaded translations were in flat JSON format instead of nested. Either set keySeparator: false on init or make sure your translations are published in nested format.');
@@ -2929,8 +2438,8 @@ var Translator = function (_EventEmitter) {
           resolved: resolved
         });
       } else if (!options.skipInterpolation) {
-        if (options.interpolation) this.interpolator.init((0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, options, {
-          interpolation: (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, this.options.interpolation, options.interpolation)
+        if (options.interpolation) this.interpolator.init((0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, {
+          interpolation: (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, this.options.interpolation, options.interpolation)
         }));
         var skipOnVariables = options.interpolation && options.interpolation.skipOnVariables || this.options.interpolation.skipOnVariables;
         var nestBef;
@@ -2941,7 +2450,7 @@ var Translator = function (_EventEmitter) {
         }
 
         var data = options.replace && typeof options.replace !== 'string' ? options.replace : options;
-        if (this.options.interpolation.defaultVariables) data = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, this.options.interpolation.defaultVariables, data);
+        if (this.options.interpolation.defaultVariables) data = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, this.options.interpolation.defaultVariables, data);
         res = this.interpolator.interpolate(res, data, options.lng || this.language, options);
 
         if (skipOnVariables) {
@@ -2970,7 +2479,7 @@ var Translator = function (_EventEmitter) {
       var postProcessorNames = typeof postProcess === 'string' ? [postProcess] : postProcess;
 
       if (res !== undefined && res !== null && postProcessorNames && postProcessorNames.length && options.applyPostProcessor !== false) {
-        res = postProcessor.handle(postProcessorNames, res, key, this.options && this.options.postProcessPassResolved ? (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({
+        res = postProcessor.handle(postProcessorNames, res, key, this.options && this.options.postProcessPassResolved ? (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({
           i18nResolved: resolved
         }, options) : options, this);
       }
@@ -3082,7 +2591,7 @@ function capitalize(string) {
 
 var LanguageUtil = function () {
   function LanguageUtil(options) {
-    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__.default)(this, LanguageUtil);
+    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, LanguageUtil);
 
     this.options = options;
     this.whitelist = this.options.supportedLngs || false;
@@ -3090,7 +2599,7 @@ var LanguageUtil = function () {
     this.logger = baseLogger.create('languageUtils');
   }
 
-  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__.default)(LanguageUtil, [{
+  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(LanguageUtil, [{
     key: "getScriptPartFromCode",
     value: function getScriptPartFromCode(code) {
       if (!code || code.indexOf('-') < 0) return null;
@@ -3411,7 +2920,7 @@ var PluralResolver = function () {
   function PluralResolver(languageUtils) {
     var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
 
-    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__.default)(this, PluralResolver);
+    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, PluralResolver);
 
     this.languageUtils = languageUtils;
     this.options = options;
@@ -3419,7 +2928,7 @@ var PluralResolver = function () {
     this.rules = createRules();
   }
 
-  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__.default)(PluralResolver, [{
+  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(PluralResolver, [{
     key: "addRule",
     value: function addRule(lng, obj) {
       this.rules[lng] = obj;
@@ -3505,7 +3014,7 @@ var Interpolator = function () {
   function Interpolator() {
     var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 
-    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__.default)(this, Interpolator);
+    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Interpolator);
 
     this.logger = baseLogger.create('interpolator');
     this.options = options;
@@ -3517,7 +3026,7 @@ var Interpolator = function () {
     this.init(options);
   }
 
-  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__.default)(Interpolator, [{
+  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Interpolator, [{
     key: "init",
     value: function init() {
       var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
@@ -3572,7 +3081,7 @@ var Interpolator = function () {
       var handleFormat = function handleFormat(key) {
         if (key.indexOf(_this.formatSeparator) < 0) {
           var path = getPathWithDefaults(data, defaultData, key);
-          return _this.alwaysFormat ? _this.format(path, undefined, lng, (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, options, data, {
+          return _this.alwaysFormat ? _this.format(path, undefined, lng, (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, data, {
             interpolationkey: key
           })) : path;
         }
@@ -3580,7 +3089,7 @@ var Interpolator = function () {
         var p = key.split(_this.formatSeparator);
         var k = p.shift().trim();
         var f = p.join(_this.formatSeparator).trim();
-        return _this.format(getPathWithDefaults(data, defaultData, k), f, lng, (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, options, data, {
+        return _this.format(getPathWithDefaults(data, defaultData, k), f, lng, (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, data, {
           interpolationkey: k
         }));
       };
@@ -3649,7 +3158,7 @@ var Interpolator = function () {
       var match;
       var value;
 
-      var clonedOptions = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, options);
+      var clonedOptions = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options);
 
       clonedOptions.applyPostProcessor = false;
       delete clonedOptions.defaultValue;
@@ -3665,7 +3174,7 @@ var Interpolator = function () {
 
         try {
           clonedOptions = JSON.parse(optionsString);
-          if (inheritedOptions) clonedOptions = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, inheritedOptions, clonedOptions);
+          if (inheritedOptions) clonedOptions = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, inheritedOptions, clonedOptions);
         } catch (e) {
           this.logger.warn("failed parsing options string in nesting for key ".concat(key), e);
           return "".concat(key).concat(sep).concat(optionsString);
@@ -3699,7 +3208,7 @@ var Interpolator = function () {
 
         if (doReduce) {
           value = formatters.reduce(function (v, f) {
-            return _this2.format(v, f, options.lng, (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, options, {
+            return _this2.format(v, f, options.lng, (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, {
               interpolationkey: match[1].trim()
             }));
           }, value.trim());
@@ -3726,19 +3235,19 @@ function remove(arr, what) {
 }
 
 var Connector = function (_EventEmitter) {
-  (0,_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__.default)(Connector, _EventEmitter);
+  (0,_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(Connector, _EventEmitter);
 
   function Connector(backend, store, services) {
     var _this;
 
     var options = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};
 
-    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__.default)(this, Connector);
+    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Connector);
 
-    _this = (0,_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__.default)(this, (0,_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__.default)(Connector).call(this));
+    _this = (0,_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, (0,_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Connector).call(this));
 
     if (isIE10) {
-      EventEmitter.call((0,_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__.default)(_this));
+      EventEmitter.call((0,_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
     }
 
     _this.backend = backend;
@@ -3757,7 +3266,7 @@ var Connector = function (_EventEmitter) {
     return _this;
   }
 
-  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__.default)(Connector, [{
+  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Connector, [{
     key: "queueLoad",
     value: function queueLoad(languages, namespaces, options, callback) {
       var _this2 = this;
@@ -3932,7 +3441,7 @@ var Connector = function (_EventEmitter) {
       if (key === undefined || key === null || key === '') return;
 
       if (this.backend && this.backend.create) {
-        this.backend.create(languages, namespace, key, fallbackValue, null, (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, options, {
+        this.backend.create(languages, namespace, key, fallbackValue, null, (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, {
           isUpdate: isUpdate
         }));
       }
@@ -3983,11 +3492,11 @@ function get() {
     appendNamespaceToCIMode: false,
     overloadTranslationOptionHandler: function handle(args) {
       var ret = {};
-      if ((0,_babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__.default)(args[1]) === 'object') ret = args[1];
+      if ((0,_babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__["default"])(args[1]) === 'object') ret = args[1];
       if (typeof args[1] === 'string') ret.defaultValue = args[1];
       if (typeof args[2] === 'string') ret.tDescription = args[2];
 
-      if ((0,_babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__.default)(args[2]) === 'object' || (0,_babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__.default)(args[3]) === 'object') {
+      if ((0,_babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__["default"])(args[2]) === 'object' || (0,_babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__["default"])(args[3]) === 'object') {
         var options = args[3] || args[2];
         Object.keys(options).forEach(function (key) {
           ret[key] = options[key];
@@ -4040,7 +3549,7 @@ function transformOptions(options) {
 function noop() {}
 
 var I18n = function (_EventEmitter) {
-  (0,_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__.default)(I18n, _EventEmitter);
+  (0,_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(I18n, _EventEmitter);
 
   function I18n() {
     var _this;
@@ -4048,12 +3557,12 @@ var I18n = function (_EventEmitter) {
     var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
     var callback = arguments.length > 1 ? arguments[1] : undefined;
 
-    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__.default)(this, I18n);
+    (0,_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, I18n);
 
-    _this = (0,_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__.default)(this, (0,_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__.default)(I18n).call(this));
+    _this = (0,_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, (0,_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(I18n).call(this));
 
     if (isIE10) {
-      EventEmitter.call((0,_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__.default)(_this));
+      EventEmitter.call((0,_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
     }
 
     _this.options = transformOptions(options);
@@ -4067,7 +3576,7 @@ var I18n = function (_EventEmitter) {
       if (!_this.options.initImmediate) {
         _this.init(options, callback);
 
-        return (0,_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__.default)(_this, (0,_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__.default)(_this));
+        return (0,_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(_this, (0,_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this));
       }
 
       setTimeout(function () {
@@ -4078,7 +3587,7 @@ var I18n = function (_EventEmitter) {
     return _this;
   }
 
-  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__.default)(I18n, [{
+  (0,_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(I18n, [{
     key: "init",
     value: function init() {
       var _this2 = this;
@@ -4099,7 +3608,7 @@ var I18n = function (_EventEmitter) {
         this.logger.deprecate('whitelist', 'options "nonExplicitWhitelist" will be renamed to "nonExplicitSupportedLngs" in the next major - please make sure to rename this option asap.');
       }
 
-      this.options = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, get(), this.options, transformOptions(options));
+      this.options = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, get(), this.options, transformOptions(options));
       this.format = this.options.interpolation.format;
       if (!callback) callback = noop;
 
@@ -4375,14 +3884,14 @@ var I18n = function (_EventEmitter) {
       var fixedT = function fixedT(key, opts) {
         var options;
 
-        if ((0,_babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__.default)(opts) !== 'object') {
+        if ((0,_babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__["default"])(opts) !== 'object') {
           for (var _len3 = arguments.length, rest = new Array(_len3 > 2 ? _len3 - 2 : 0), _key3 = 2; _key3 < _len3; _key3++) {
             rest[_key3 - 2] = arguments[_key3];
           }
 
           options = _this5.options.overloadTranslationOptionHandler([key, opts].concat(rest));
         } else {
-          options = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, opts);
+          options = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, opts);
         }
 
         options.lng = options.lng || fixedT.lng;
@@ -4524,7 +4033,7 @@ var I18n = function (_EventEmitter) {
       var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
       var callback = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : noop;
 
-      var mergedOptions = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, this.options, options, {
+      var mergedOptions = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, this.options, options, {
         isClone: true
       });
 
@@ -4533,7 +4042,7 @@ var I18n = function (_EventEmitter) {
       membersToCopy.forEach(function (m) {
         clone[m] = _this8[m];
       });
-      clone.services = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__.default)({}, this.services);
+      clone.services = (0,_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, this.services);
       clone.services.utils = {
         hasLoadedNamespace: clone.hasLoadedNamespace.bind(clone)
       };
@@ -4634,7 +4143,7 @@ function createReactContext(defaultValue, calculateChangedBits) {
   var contextProp = '__create-react-context-' + getUniqueId() + '__';
 
   var Provider = /*#__PURE__*/function (_Component) {
-    (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__.default)(Provider, _Component);
+    (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(Provider, _Component);
 
     function Provider() {
       var _this;
@@ -4664,7 +4173,7 @@ function createReactContext(defaultValue, calculateChangedBits) {
           changedBits = typeof calculateChangedBits === 'function' ? calculateChangedBits(oldValue, newValue) : MAX_SIGNED_31_BIT_INT;
 
           if (true) {
-            (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__.default)((changedBits & MAX_SIGNED_31_BIT_INT) === changedBits, 'calculateChangedBits: Expected the return value to be a ' + '31-bit integer. Instead received: ' + changedBits);
+            (0,tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])((changedBits & MAX_SIGNED_31_BIT_INT) === changedBits, 'calculateChangedBits: Expected the return value to be a ' + '31-bit integer. Instead received: ' + changedBits);
           }
 
           changedBits |= 0;
@@ -4686,7 +4195,7 @@ function createReactContext(defaultValue, calculateChangedBits) {
   Provider.childContextTypes = (_Provider$childContex = {}, _Provider$childContex[contextProp] = (prop_types__WEBPACK_IMPORTED_MODULE_2___default().object.isRequired), _Provider$childContex);
 
   var Consumer = /*#__PURE__*/function (_Component2) {
-    (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__.default)(Consumer, _Component2);
+    (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(Consumer, _Component2);
 
     function Consumer() {
       var _this2;
@@ -32185,8 +31694,8 @@ function I18nextProvider(_ref) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "nodesToString": () => (/* binding */ nodesToString),
-/* harmony export */   "Trans": () => (/* binding */ Trans)
+/* harmony export */   "Trans": () => (/* binding */ Trans),
+/* harmony export */   "nodesToString": () => (/* binding */ nodesToString)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/objectWithoutProperties */ "../node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var _babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/typeof */ "../node_modules/@babel/runtime/helpers/esm/typeof.js");
@@ -32202,7 +31711,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__.default)(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 
 
@@ -32264,9 +31773,9 @@ function nodesToString(children, i18nOptions) {
         var content = nodesToString(childChildren, i18nOptions);
         stringNode += "<".concat(childIndex, ">").concat(content, "</").concat(childIndex, ">");
       }
-    } else if ((0,_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1__.default)(child) === 'object') {
+    } else if ((0,_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1__["default"])(child) === 'object') {
       var format = child.format,
-          clone = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__.default)(child, ["format"]);
+          clone = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(child, ["format"]);
 
       var keys = Object.keys(clone);
 
@@ -32294,7 +31803,7 @@ function renderNodes(children, targetString, i18n, i18nOptions, combinedTOpts) {
     var childrenArray = getAsArray(childs);
     childrenArray.forEach(function (child) {
       if (typeof child === 'string') return;
-      if (hasChildren(child)) getData(getChildren(child));else if ((0,_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1__.default)(child) === 'object' && !react__WEBPACK_IMPORTED_MODULE_3__.isValidElement(child)) Object.assign(data, child);
+      if (hasChildren(child)) getData(getChildren(child));else if ((0,_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1__["default"])(child) === 'object' && !react__WEBPACK_IMPORTED_MODULE_3__.isValidElement(child)) Object.assign(data, child);
     });
   }
 
@@ -32330,8 +31839,8 @@ function renderNodes(children, targetString, i18n, i18nOptions, combinedTOpts) {
         }, tmp) : tmp;
         var isElement = react__WEBPACK_IMPORTED_MODULE_3__.isValidElement(child);
         var isValidTranslationWithChildren = isElement && hasChildren(node, true) && !node.voidElement;
-        var isEmptyTransWithHTML = emptyChildrenButNeedsHandling && (0,_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1__.default)(child) === 'object' && child.dummy && !isElement;
-        var isKnownComponent = (0,_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1__.default)(children) === 'object' && children !== null && Object.hasOwnProperty.call(children, node.name);
+        var isEmptyTransWithHTML = emptyChildrenButNeedsHandling && (0,_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1__["default"])(child) === 'object' && child.dummy && !isElement;
+        var isKnownComponent = (0,_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1__["default"])(children) === 'object' && children !== null && Object.hasOwnProperty.call(children, node.name);
 
         if (typeof child === 'string') {
           mem.push(child);
@@ -32368,7 +31877,7 @@ function renderNodes(children, targetString, i18n, i18nOptions, combinedTOpts) {
 
             mem.push("<".concat(node.name, ">").concat(_inner4, "</").concat(node.name, ">"));
           }
-        } else if ((0,_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1__.default)(child) === 'object' && !isElement) {
+        } else if ((0,_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1__["default"])(child) === 'object' && !isElement) {
           var content = node.children[0] ? translationContent : null;
           if (content) mem.push(content);
         } else if (node.children.length === 1 && translationContent) {
@@ -32408,7 +31917,7 @@ function Trans(_ref) {
       ns = _ref.ns,
       i18nFromProps = _ref.i18n,
       tFromProps = _ref.t,
-      additionalProps = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__.default)(_ref, ["children", "count", "parent", "i18nKey", "tOptions", "values", "defaults", "components", "ns", "i18n", "t"]);
+      additionalProps = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["children", "count", "parent", "i18nKey", "tOptions", "values", "defaults", "components", "ns", "i18n", "t"]);
 
   var _ref2 = (0,react__WEBPACK_IMPORTED_MODULE_3__.useContext)(_context__WEBPACK_IMPORTED_MODULE_6__.I18nContext) || {},
       i18nFromContext = _ref2.i18n,
@@ -32474,10 +31983,10 @@ __webpack_require__.r(__webpack_exports__);
 function Translation(props) {
   var ns = props.ns,
       children = props.children,
-      options = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__.default)(props, ["ns", "children"]);
+      options = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(props, ["ns", "children"]);
 
   var _useTranslation = (0,_useTranslation__WEBPACK_IMPORTED_MODULE_2__.useTranslation)(ns, options),
-      _useTranslation2 = (0,_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__.default)(_useTranslation, 3),
+      _useTranslation2 = (0,_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useTranslation, 3),
       t = _useTranslation2[0],
       i18n = _useTranslation2[1],
       ready = _useTranslation2[2];
@@ -32500,14 +32009,14 @@ function Translation(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "I18nContext": () => (/* binding */ I18nContext),
-/* harmony export */   "setDefaults": () => (/* binding */ setDefaults),
-/* harmony export */   "getDefaults": () => (/* binding */ getDefaults),
 /* harmony export */   "ReportNamespaces": () => (/* binding */ ReportNamespaces),
-/* harmony export */   "setI18n": () => (/* binding */ setI18n),
-/* harmony export */   "getI18n": () => (/* binding */ getI18n),
-/* harmony export */   "initReactI18next": () => (/* binding */ initReactI18next),
 /* harmony export */   "composeInitialProps": () => (/* binding */ composeInitialProps),
-/* harmony export */   "getInitialProps": () => (/* binding */ getInitialProps)
+/* harmony export */   "getDefaults": () => (/* binding */ getDefaults),
+/* harmony export */   "getI18n": () => (/* binding */ getI18n),
+/* harmony export */   "getInitialProps": () => (/* binding */ getInitialProps),
+/* harmony export */   "initReactI18next": () => (/* binding */ initReactI18next),
+/* harmony export */   "setDefaults": () => (/* binding */ setDefaults),
+/* harmony export */   "setI18n": () => (/* binding */ setI18n)
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "../node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
 /* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "../node_modules/@babel/runtime/helpers/esm/createClass.js");
@@ -32519,7 +32028,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__.default)(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 
 var defaultOptions = {
@@ -32541,12 +32050,12 @@ function getDefaults() {
 }
 var ReportNamespaces = function () {
   function ReportNamespaces() {
-    (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__.default)(this, ReportNamespaces);
+    (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ReportNamespaces);
 
     this.usedNamespaces = {};
   }
 
-  (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__.default)(ReportNamespaces, [{
+  (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ReportNamespaces, [{
     key: "addUsedNamespaces",
     value: function addUsedNamespaces(namespaces) {
       var _this = this;
@@ -32619,21 +32128,21 @@ function getInitialProps() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Trans": () => (/* reexport safe */ _Trans__WEBPACK_IMPORTED_MODULE_0__.Trans),
-/* harmony export */   "useTranslation": () => (/* reexport safe */ _useTranslation__WEBPACK_IMPORTED_MODULE_1__.useTranslation),
-/* harmony export */   "withTranslation": () => (/* reexport safe */ _withTranslation__WEBPACK_IMPORTED_MODULE_2__.withTranslation),
-/* harmony export */   "Translation": () => (/* reexport safe */ _Translation__WEBPACK_IMPORTED_MODULE_3__.Translation),
-/* harmony export */   "I18nextProvider": () => (/* reexport safe */ _I18nextProvider__WEBPACK_IMPORTED_MODULE_4__.I18nextProvider),
-/* harmony export */   "withSSR": () => (/* reexport safe */ _withSSR__WEBPACK_IMPORTED_MODULE_5__.withSSR),
-/* harmony export */   "useSSR": () => (/* reexport safe */ _useSSR__WEBPACK_IMPORTED_MODULE_6__.useSSR),
 /* harmony export */   "I18nContext": () => (/* reexport safe */ _context__WEBPACK_IMPORTED_MODULE_7__.I18nContext),
+/* harmony export */   "I18nextProvider": () => (/* reexport safe */ _I18nextProvider__WEBPACK_IMPORTED_MODULE_4__.I18nextProvider),
+/* harmony export */   "Trans": () => (/* reexport safe */ _Trans__WEBPACK_IMPORTED_MODULE_0__.Trans),
+/* harmony export */   "Translation": () => (/* reexport safe */ _Translation__WEBPACK_IMPORTED_MODULE_3__.Translation),
+/* harmony export */   "composeInitialProps": () => (/* reexport safe */ _context__WEBPACK_IMPORTED_MODULE_7__.composeInitialProps),
+/* harmony export */   "getDefaults": () => (/* reexport safe */ _context__WEBPACK_IMPORTED_MODULE_7__.getDefaults),
+/* harmony export */   "getI18n": () => (/* reexport safe */ _context__WEBPACK_IMPORTED_MODULE_7__.getI18n),
+/* harmony export */   "getInitialProps": () => (/* reexport safe */ _context__WEBPACK_IMPORTED_MODULE_7__.getInitialProps),
 /* harmony export */   "initReactI18next": () => (/* reexport safe */ _context__WEBPACK_IMPORTED_MODULE_7__.initReactI18next),
 /* harmony export */   "setDefaults": () => (/* reexport safe */ _context__WEBPACK_IMPORTED_MODULE_7__.setDefaults),
-/* harmony export */   "getDefaults": () => (/* reexport safe */ _context__WEBPACK_IMPORTED_MODULE_7__.getDefaults),
 /* harmony export */   "setI18n": () => (/* reexport safe */ _context__WEBPACK_IMPORTED_MODULE_7__.setI18n),
-/* harmony export */   "getI18n": () => (/* reexport safe */ _context__WEBPACK_IMPORTED_MODULE_7__.getI18n),
-/* harmony export */   "composeInitialProps": () => (/* reexport safe */ _context__WEBPACK_IMPORTED_MODULE_7__.composeInitialProps),
-/* harmony export */   "getInitialProps": () => (/* reexport safe */ _context__WEBPACK_IMPORTED_MODULE_7__.getInitialProps)
+/* harmony export */   "useSSR": () => (/* reexport safe */ _useSSR__WEBPACK_IMPORTED_MODULE_6__.useSSR),
+/* harmony export */   "useTranslation": () => (/* reexport safe */ _useTranslation__WEBPACK_IMPORTED_MODULE_1__.useTranslation),
+/* harmony export */   "withSSR": () => (/* reexport safe */ _withSSR__WEBPACK_IMPORTED_MODULE_5__.withSSR),
+/* harmony export */   "withTranslation": () => (/* reexport safe */ _withTranslation__WEBPACK_IMPORTED_MODULE_2__.withTranslation)
 /* harmony export */ });
 /* harmony import */ var _Trans__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Trans */ "../node_modules/react-i18next/dist/es/Trans.js");
 /* harmony import */ var _useTranslation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./useTranslation */ "../node_modules/react-i18next/dist/es/useTranslation.js");
@@ -32720,7 +32229,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1__.default)(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 
 
@@ -32767,7 +32276,7 @@ function useTranslation(ns) {
   }
 
   var _useState = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(getT),
-      _useState2 = (0,_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__.default)(_useState, 2),
+      _useState2 = (0,_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
       t = _useState2[0],
       setT = _useState2[1];
 
@@ -32831,11 +32340,11 @@ function useTranslation(ns) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "warn": () => (/* binding */ warn),
-/* harmony export */   "warnOnce": () => (/* binding */ warnOnce),
-/* harmony export */   "loadNamespaces": () => (/* binding */ loadNamespaces),
+/* harmony export */   "getDisplayName": () => (/* binding */ getDisplayName),
 /* harmony export */   "hasLoadedNamespace": () => (/* binding */ hasLoadedNamespace),
-/* harmony export */   "getDisplayName": () => (/* binding */ getDisplayName)
+/* harmony export */   "loadNamespaces": () => (/* binding */ loadNamespaces),
+/* harmony export */   "warn": () => (/* binding */ warn),
+/* harmony export */   "warnOnce": () => (/* binding */ warnOnce)
 /* harmony export */ });
 function warn() {
   if (console && console.warn) {
@@ -32928,7 +32437,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__.default)(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 
 
@@ -32939,7 +32448,7 @@ function withSSR() {
     function I18nextWithSSR(_ref) {
       var initialI18nStore = _ref.initialI18nStore,
           initialLanguage = _ref.initialLanguage,
-          rest = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__.default)(_ref, ["initialI18nStore", "initialLanguage"]);
+          rest = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["initialI18nStore", "initialLanguage"]);
 
       (0,_useSSR__WEBPACK_IMPORTED_MODULE_3__.useSSR)(initialI18nStore, initialLanguage);
       return react__WEBPACK_IMPORTED_MODULE_2__.createElement(WrappedComponent, _objectSpread({}, rest));
@@ -32977,7 +32486,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__.default)(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 
 
@@ -32987,10 +32496,10 @@ function withTranslation(ns) {
   return function Extend(WrappedComponent) {
     function I18nextWithTranslation(_ref) {
       var forwardedRef = _ref.forwardedRef,
-          rest = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__.default)(_ref, ["forwardedRef"]);
+          rest = (0,_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2__["default"])(_ref, ["forwardedRef"]);
 
       var _useTranslation = (0,_useTranslation__WEBPACK_IMPORTED_MODULE_4__.useTranslation)(ns, rest),
-          _useTranslation2 = (0,_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_1__.default)(_useTranslation, 3),
+          _useTranslation2 = (0,_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useTranslation, 3),
           t = _useTranslation2[0],
           i18n = _useTranslation2[1],
           ready = _useTranslation2[2];
@@ -33971,9 +33480,9 @@ function renderRoutes(routes, extraProps, switchProps) {
       exact: route.exact,
       strict: route.strict,
       render: function render(props) {
-        return route.render ? route.render((0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, props, {}, extraProps, {
+        return route.render ? route.render((0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {}, extraProps, {
           route: route
-        })) : react__WEBPACK_IMPORTED_MODULE_1__.createElement(route.component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__.default)({}, props, extraProps, {
+        })) : react__WEBPACK_IMPORTED_MODULE_1__.createElement(route.component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, extraProps, {
           route: route
         }));
       }
@@ -33995,7 +33504,11 @@ function renderRoutes(routes, extraProps, switchProps) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "BrowserRouter": () => (/* binding */ BrowserRouter),
+/* harmony export */   "HashRouter": () => (/* binding */ HashRouter),
+/* harmony export */   "Link": () => (/* binding */ Link),
 /* harmony export */   "MemoryRouter": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.MemoryRouter),
+/* harmony export */   "NavLink": () => (/* binding */ NavLink),
 /* harmony export */   "Prompt": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.Prompt),
 /* harmony export */   "Redirect": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.Redirect),
 /* harmony export */   "Route": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.Route),
@@ -34008,11 +33521,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "useLocation": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.useLocation),
 /* harmony export */   "useParams": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.useParams),
 /* harmony export */   "useRouteMatch": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.useRouteMatch),
-/* harmony export */   "withRouter": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.withRouter),
-/* harmony export */   "BrowserRouter": () => (/* binding */ BrowserRouter),
-/* harmony export */   "HashRouter": () => (/* binding */ HashRouter),
-/* harmony export */   "Link": () => (/* binding */ Link),
-/* harmony export */   "NavLink": () => (/* binding */ NavLink)
+/* harmony export */   "withRouter": () => (/* reexport safe */ react_router__WEBPACK_IMPORTED_MODULE_0__.withRouter)
 /* harmony export */ });
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-router */ "../node_modules/react-router/esm/react-router.js");
 /* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "../node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
@@ -34042,7 +33551,7 @@ __webpack_require__.r(__webpack_exports__);
 var BrowserRouter =
 /*#__PURE__*/
 function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__.default)(BrowserRouter, _React$Component);
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(BrowserRouter, _React$Component);
 
   function BrowserRouter() {
     var _this;
@@ -34078,7 +33587,7 @@ if (true) {
   };
 
   BrowserRouter.prototype.componentDidMount = function () {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_7__.default)(!this.props.history, "<BrowserRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { BrowserRouter as Router }`.") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_7__["default"])(!this.props.history, "<BrowserRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { BrowserRouter as Router }`.") : 0;
   };
 }
 
@@ -34089,7 +33598,7 @@ if (true) {
 var HashRouter =
 /*#__PURE__*/
 function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__.default)(HashRouter, _React$Component);
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(HashRouter, _React$Component);
 
   function HashRouter() {
     var _this;
@@ -34124,7 +33633,7 @@ if (true) {
   };
 
   HashRouter.prototype.componentDidMount = function () {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_7__.default)(!this.props.history, "<HashRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { HashRouter as Router }`.") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_7__["default"])(!this.props.history, "<HashRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { HashRouter as Router }`.") : 0;
   };
 }
 
@@ -34153,11 +33662,11 @@ var LinkAnchor = forwardRef(function (_ref, forwardedRef) {
   var innerRef = _ref.innerRef,
       navigate = _ref.navigate,
       _onClick = _ref.onClick,
-      rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_5__.default)(_ref, ["innerRef", "navigate", "onClick"]);
+      rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_5__["default"])(_ref, ["innerRef", "navigate", "onClick"]);
 
   var target = rest.target;
 
-  var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, rest, {
+  var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__["default"])({}, rest, {
     onClick: function onClick(event) {
       try {
         if (_onClick) _onClick(event);
@@ -34203,15 +33712,15 @@ var Link = forwardRef(function (_ref2, forwardedRef) {
       replace = _ref2.replace,
       to = _ref2.to,
       innerRef = _ref2.innerRef,
-      rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_5__.default)(_ref2, ["component", "replace", "to", "innerRef"]);
+      rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_5__["default"])(_ref2, ["component", "replace", "to", "innerRef"]);
 
   return react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_router__WEBPACK_IMPORTED_MODULE_0__.__RouterContext.Consumer, null, function (context) {
-    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_8__.default)(false, "You should not use <Link> outside a <Router>") : 0 : void 0;
+    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_8__["default"])(false, "You should not use <Link> outside a <Router>") : 0 : void 0;
     var history = context.history;
     var location = normalizeToLocation(resolveToLocation(to, context.location), context.location);
     var href = location ? history.createHref(location) : "";
 
-    var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, rest, {
+    var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__["default"])({}, rest, {
       href: href,
       navigate: function navigate() {
         var location = resolveToLocation(to, context.location);
@@ -34285,10 +33794,10 @@ var NavLink = forwardRef$1(function (_ref, forwardedRef) {
       styleProp = _ref.style,
       to = _ref.to,
       innerRef = _ref.innerRef,
-      rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_5__.default)(_ref, ["aria-current", "activeClassName", "activeStyle", "className", "exact", "isActive", "location", "sensitive", "strict", "style", "to", "innerRef"]);
+      rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_5__["default"])(_ref, ["aria-current", "activeClassName", "activeStyle", "className", "exact", "isActive", "location", "sensitive", "strict", "style", "to", "innerRef"]);
 
   return react__WEBPACK_IMPORTED_MODULE_2__.createElement(react_router__WEBPACK_IMPORTED_MODULE_0__.__RouterContext.Consumer, null, function (context) {
-    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_8__.default)(false, "You should not use <NavLink> outside a <Router>") : 0 : void 0;
+    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_8__["default"])(false, "You should not use <NavLink> outside a <Router>") : 0 : void 0;
     var currentLocation = locationProp || context.location;
     var toLocation = normalizeToLocation(resolveToLocation(to, currentLocation), currentLocation);
     var path = toLocation.pathname; // Regex taken from: https://github.com/pillarjs/path-to-regexp/blob/master/index.js#L202
@@ -34302,9 +33811,9 @@ var NavLink = forwardRef$1(function (_ref, forwardedRef) {
     }) : null;
     var isActive = !!(isActiveProp ? isActiveProp(match, currentLocation) : match);
     var className = isActive ? joinClassnames(classNameProp, activeClassName) : classNameProp;
-    var style = isActive ? (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, styleProp, {}, activeStyle) : styleProp;
+    var style = isActive ? (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__["default"])({}, styleProp, {}, activeStyle) : styleProp;
 
-    var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({
+    var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__["default"])({
       "aria-current": isActive && ariaCurrent || null,
       className: className,
       style: style,
@@ -34325,7 +33834,7 @@ var NavLink = forwardRef$1(function (_ref, forwardedRef) {
 if (true) {
   NavLink.displayName = "NavLink";
   var ariaCurrentType = prop_types__WEBPACK_IMPORTED_MODULE_3___default().oneOf(["page", "step", "location", "date", "time", "true"]);
-  NavLink.propTypes = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, Link.propTypes, {
+  NavLink.propTypes = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__["default"])({}, Link.propTypes, {
     "aria-current": ariaCurrentType,
     activeClassName: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string),
     activeStyle: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().object),
@@ -34401,7 +33910,7 @@ __webpack_require__.r(__webpack_exports__);
 // TODO: Replace with React.createContext once we can assume React 16+
 
 var createNamedContext = function createNamedContext(name) {
-  var context = (0,mini_create_react_context__WEBPACK_IMPORTED_MODULE_3__.default)();
+  var context = (0,mini_create_react_context__WEBPACK_IMPORTED_MODULE_3__["default"])();
   context.displayName = name;
   return context;
 };
@@ -34413,7 +33922,7 @@ createNamedContext("Router-History");
 // TODO: Replace with React.createContext once we can assume React 16+
 
 var createNamedContext$1 = function createNamedContext(name) {
-  var context = (0,mini_create_react_context__WEBPACK_IMPORTED_MODULE_3__.default)();
+  var context = (0,mini_create_react_context__WEBPACK_IMPORTED_MODULE_3__["default"])();
   context.displayName = name;
   return context;
 };
@@ -34429,7 +33938,7 @@ createNamedContext$1("Router");
 var Router =
 /*#__PURE__*/
 function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__.default)(Router, _React$Component);
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(Router, _React$Component);
 
   Router.computeRootMatch = function computeRootMatch(pathname) {
     return {
@@ -34511,7 +34020,7 @@ if (true) {
   };
 
   Router.prototype.componentDidUpdate = function (prevProps) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(prevProps.history === this.props.history, "You cannot change <Router history>") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(prevProps.history === this.props.history, "You cannot change <Router history>") : 0;
   };
 }
 
@@ -34522,7 +34031,7 @@ if (true) {
 var MemoryRouter =
 /*#__PURE__*/
 function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__.default)(MemoryRouter, _React$Component);
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(MemoryRouter, _React$Component);
 
   function MemoryRouter() {
     var _this;
@@ -34558,14 +34067,14 @@ if (true) {
   };
 
   MemoryRouter.prototype.componentDidMount = function () {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!this.props.history, "<MemoryRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { MemoryRouter as Router }`.") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!this.props.history, "<MemoryRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { MemoryRouter as Router }`.") : 0;
   };
 }
 
 var Lifecycle =
 /*#__PURE__*/
 function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__.default)(Lifecycle, _React$Component);
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(Lifecycle, _React$Component);
 
   function Lifecycle() {
     return _React$Component.apply(this, arguments) || this;
@@ -34601,7 +34110,7 @@ function Prompt(_ref) {
       _ref$when = _ref.when,
       when = _ref$when === void 0 ? true : _ref$when;
   return react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Consumer, null, function (context) {
-    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You should not use <Prompt> outside a <Router>") : 0 : void 0;
+    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You should not use <Prompt> outside a <Router>") : 0 : void 0;
     if (!when || context.staticContext) return null;
     var method = context.history.block;
     return react__WEBPACK_IMPORTED_MODULE_1__.createElement(Lifecycle, {
@@ -34674,11 +34183,11 @@ function Redirect(_ref) {
       _ref$push = _ref.push,
       push = _ref$push === void 0 ? false : _ref$push;
   return react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Consumer, null, function (context) {
-    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You should not use <Redirect> outside a <Router>") : 0 : void 0;
+    !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You should not use <Redirect> outside a <Router>") : 0 : void 0;
     var history = context.history,
         staticContext = context.staticContext;
     var method = push ? history.push : history.replace;
-    var location = (0,history__WEBPACK_IMPORTED_MODULE_10__.createLocation)(computedMatch ? typeof to === "string" ? generatePath(to, computedMatch.params) : (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, to, {
+    var location = (0,history__WEBPACK_IMPORTED_MODULE_10__.createLocation)(computedMatch ? typeof to === "string" ? generatePath(to, computedMatch.params) : (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__["default"])({}, to, {
       pathname: generatePath(to.pathname, computedMatch.params)
     }) : to); // When rendering in a static context,
     // set the new location immediately.
@@ -34695,7 +34204,7 @@ function Redirect(_ref) {
       onUpdate: function onUpdate(self, prevProps) {
         var prevLocation = (0,history__WEBPACK_IMPORTED_MODULE_10__.createLocation)(prevProps.to);
 
-        if (!(0,history__WEBPACK_IMPORTED_MODULE_10__.locationsAreEqual)(prevLocation, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, location, {
+        if (!(0,history__WEBPACK_IMPORTED_MODULE_10__.locationsAreEqual)(prevLocation, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__["default"])({}, location, {
           key: prevLocation.key
         }))) {
           method(location);
@@ -34800,7 +34309,7 @@ function isEmptyChildren(children) {
 
 function evalChildrenDev(children, props, path) {
   var value = children(props);
-   true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(value !== undefined, "You returned `undefined` from the `children` function of " + ("<Route" + (path ? " path=\"" + path + "\"" : "") + ">, but you ") + "should have returned a React element or `null`") : 0;
+   true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(value !== undefined, "You returned `undefined` from the `children` function of " + ("<Route" + (path ? " path=\"" + path + "\"" : "") + ">, but you ") + "should have returned a React element or `null`") : 0;
   return value || null;
 }
 /**
@@ -34811,7 +34320,7 @@ function evalChildrenDev(children, props, path) {
 var Route =
 /*#__PURE__*/
 function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__.default)(Route, _React$Component);
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(Route, _React$Component);
 
   function Route() {
     return _React$Component.apply(this, arguments) || this;
@@ -34823,12 +34332,12 @@ function (_React$Component) {
     var _this = this;
 
     return react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Consumer, null, function (context$1) {
-      !context$1 ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You should not use <Route> outside a <Router>") : 0 : void 0;
+      !context$1 ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You should not use <Route> outside a <Router>") : 0 : void 0;
       var location = _this.props.location || context$1.location;
       var match = _this.props.computedMatch ? _this.props.computedMatch // <Switch> already computed the match for us
       : _this.props.path ? matchPath(location.pathname, _this.props) : context$1.match;
 
-      var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, context$1, {
+      var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__["default"])({}, context$1, {
         location: location,
         match: match
       });
@@ -34869,14 +34378,14 @@ if (true) {
   };
 
   Route.prototype.componentDidMount = function () {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!(this.props.children && !isEmptyChildren(this.props.children) && this.props.component), "You should not use <Route component> and <Route children> in the same route; <Route component> will be ignored") : 0;
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!(this.props.children && !isEmptyChildren(this.props.children) && this.props.render), "You should not use <Route render> and <Route children> in the same route; <Route render> will be ignored") : 0;
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!(this.props.component && this.props.render), "You should not use <Route component> and <Route render> in the same route; <Route render> will be ignored") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!(this.props.children && !isEmptyChildren(this.props.children) && this.props.component), "You should not use <Route component> and <Route children> in the same route; <Route component> will be ignored") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!(this.props.children && !isEmptyChildren(this.props.children) && this.props.render), "You should not use <Route render> and <Route children> in the same route; <Route render> will be ignored") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!(this.props.component && this.props.render), "You should not use <Route component> and <Route render> in the same route; <Route render> will be ignored") : 0;
   };
 
   Route.prototype.componentDidUpdate = function (prevProps) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!(this.props.location && !prevProps.location), '<Route> elements should not change from uncontrolled to controlled (or vice versa). You initially used no "location" prop and then provided one on a subsequent render.') : 0;
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!(!this.props.location && prevProps.location), '<Route> elements should not change from controlled to uncontrolled (or vice versa). You provided a "location" prop initially but omitted it on a subsequent render.') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!(this.props.location && !prevProps.location), '<Route> elements should not change from uncontrolled to controlled (or vice versa). You initially used no "location" prop and then provided one on a subsequent render.') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!(!this.props.location && prevProps.location), '<Route> elements should not change from controlled to uncontrolled (or vice versa). You provided a "location" prop initially but omitted it on a subsequent render.') : 0;
   };
 }
 
@@ -34886,7 +34395,7 @@ function addLeadingSlash(path) {
 
 function addBasename(basename, location) {
   if (!basename) return location;
-  return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, location, {
+  return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__["default"])({}, location, {
     pathname: addLeadingSlash(basename) + location.pathname
   });
 }
@@ -34895,7 +34404,7 @@ function stripBasename(basename, location) {
   if (!basename) return location;
   var base = addLeadingSlash(basename);
   if (location.pathname.indexOf(base) !== 0) return location;
-  return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, location, {
+  return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__["default"])({}, location, {
     pathname: location.pathname.substr(base.length)
   });
 }
@@ -34906,7 +34415,7 @@ function createURL(location) {
 
 function staticHandler(methodName) {
   return function () {
-      true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You cannot %s with <StaticRouter>", methodName) : 0 ;
+      true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You cannot %s with <StaticRouter>", methodName) : 0 ;
   };
 }
 
@@ -34922,7 +34431,7 @@ function noop() {}
 var StaticRouter =
 /*#__PURE__*/
 function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__.default)(StaticRouter, _React$Component);
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(StaticRouter, _React$Component);
 
   function StaticRouter() {
     var _this;
@@ -34973,7 +34482,7 @@ function (_React$Component) {
         context = _this$props2$context === void 0 ? {} : _this$props2$context,
         _this$props2$location = _this$props2.location,
         location = _this$props2$location === void 0 ? "/" : _this$props2$location,
-        rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_7__.default)(_this$props2, ["basename", "context", "location"]);
+        rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_7__["default"])(_this$props2, ["basename", "context", "location"]);
 
     var history = {
       createHref: function createHref(path) {
@@ -34989,7 +34498,7 @@ function (_React$Component) {
       listen: this.handleListen,
       block: this.handleBlock
     };
-    return react__WEBPACK_IMPORTED_MODULE_1__.createElement(Router, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, rest, {
+    return react__WEBPACK_IMPORTED_MODULE_1__.createElement(Router, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__["default"])({}, rest, {
       history: history,
       staticContext: context
     }));
@@ -35006,7 +34515,7 @@ if (true) {
   };
 
   StaticRouter.prototype.componentDidMount = function () {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!this.props.history, "<StaticRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { StaticRouter as Router }`.") : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!this.props.history, "<StaticRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { StaticRouter as Router }`.") : 0;
   };
 }
 
@@ -35017,7 +34526,7 @@ if (true) {
 var Switch =
 /*#__PURE__*/
 function (_React$Component) {
-  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__.default)(Switch, _React$Component);
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(Switch, _React$Component);
 
   function Switch() {
     return _React$Component.apply(this, arguments) || this;
@@ -35029,7 +34538,7 @@ function (_React$Component) {
     var _this = this;
 
     return react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Consumer, null, function (context) {
-      !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You should not use <Switch> outside a <Router>") : 0 : void 0;
+      !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You should not use <Switch> outside a <Router>") : 0 : void 0;
       var location = _this.props.location || context.location;
       var element, match; // We use React.Children.forEach instead of React.Children.toArray().find()
       // here because toArray adds keys to all child elements and we do not want
@@ -35040,7 +34549,7 @@ function (_React$Component) {
         if (match == null && react__WEBPACK_IMPORTED_MODULE_1__.isValidElement(child)) {
           element = child;
           var path = child.props.path || child.props.from;
-          match = path ? matchPath(location.pathname, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, child.props, {
+          match = path ? matchPath(location.pathname, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__["default"])({}, child.props, {
             path: path
           })) : context.match;
         }
@@ -35062,8 +34571,8 @@ if (true) {
   };
 
   Switch.prototype.componentDidUpdate = function (prevProps) {
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!(this.props.location && !prevProps.location), '<Switch> elements should not change from uncontrolled to controlled (or vice versa). You initially used no "location" prop and then provided one on a subsequent render.') : 0;
-     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__.default)(!(!this.props.location && prevProps.location), '<Switch> elements should not change from controlled to uncontrolled (or vice versa). You provided a "location" prop initially but omitted it on a subsequent render.') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!(this.props.location && !prevProps.location), '<Switch> elements should not change from uncontrolled to controlled (or vice versa). You initially used no "location" prop and then provided one on a subsequent render.') : 0;
+     true ? (0,tiny_warning__WEBPACK_IMPORTED_MODULE_9__["default"])(!(!this.props.location && prevProps.location), '<Switch> elements should not change from controlled to uncontrolled (or vice versa). You provided a "location" prop initially but omitted it on a subsequent render.') : 0;
   };
 }
 
@@ -35076,11 +34585,11 @@ function withRouter(Component) {
 
   var C = function C(props) {
     var wrappedComponentRef = props.wrappedComponentRef,
-        remainingProps = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_7__.default)(props, ["wrappedComponentRef"]);
+        remainingProps = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_7__["default"])(props, ["wrappedComponentRef"]);
 
     return react__WEBPACK_IMPORTED_MODULE_1__.createElement(context.Consumer, null, function (context) {
-      !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You should not use <" + displayName + " /> outside a <Router>") : 0 : void 0;
-      return react__WEBPACK_IMPORTED_MODULE_1__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__.default)({}, remainingProps, context, {
+      !context ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You should not use <" + displayName + " /> outside a <Router>") : 0 : void 0;
+      return react__WEBPACK_IMPORTED_MODULE_1__.createElement(Component, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_4__["default"])({}, remainingProps, context, {
         ref: wrappedComponentRef
       }));
     });
@@ -35101,21 +34610,21 @@ function withRouter(Component) {
 var useContext = react__WEBPACK_IMPORTED_MODULE_1__.useContext;
 function useHistory() {
   if (true) {
-    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You must use React >= 16.8 in order to use useHistory()") : 0 : void 0;
+    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You must use React >= 16.8 in order to use useHistory()") : 0 : void 0;
   }
 
   return useContext(historyContext);
 }
 function useLocation() {
   if (true) {
-    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You must use React >= 16.8 in order to use useLocation()") : 0 : void 0;
+    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You must use React >= 16.8 in order to use useLocation()") : 0 : void 0;
   }
 
   return useContext(context).location;
 }
 function useParams() {
   if (true) {
-    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You must use React >= 16.8 in order to use useParams()") : 0 : void 0;
+    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You must use React >= 16.8 in order to use useParams()") : 0 : void 0;
   }
 
   var match = useContext(context).match;
@@ -35123,7 +34632,7 @@ function useParams() {
 }
 function useRouteMatch(path) {
   if (true) {
-    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__.default)(false, "You must use React >= 16.8 in order to use useRouteMatch()") : 0 : void 0;
+    !(typeof useContext === "function") ?  true ? (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_11__["default"])(false, "You must use React >= 16.8 in order to use useRouteMatch()") : 0 : void 0;
   }
 
   var location = useLocation();
@@ -39316,58 +38825,18 @@ if (false) {} else {
 /*!*****************************************************************************!*\
   !*** ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
   \*****************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ ((module) => {
 
 "use strict";
 
 
-var isOldIE = function isOldIE() {
-  var memo;
-  return function memorize() {
-    if (typeof memo === 'undefined') {
-      // Test for IE <= 9 as proposed by Browserhacks
-      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
-      // Tests for existence of standard globals is to allow style-loader
-      // to operate correctly into non-standard environments
-      // @see https://github.com/webpack-contrib/style-loader/issues/177
-      memo = Boolean(window && document && document.all && !window.atob);
-    }
-
-    return memo;
-  };
-}();
-
-var getTarget = function getTarget() {
-  var memo = {};
-  return function memorize(target) {
-    if (typeof memo[target] === 'undefined') {
-      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
-
-      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
-        try {
-          // This will throw an exception if access to iframe is blocked
-          // due to cross-origin restrictions
-          styleTarget = styleTarget.contentDocument.head;
-        } catch (e) {
-          // istanbul ignore next
-          styleTarget = null;
-        }
-      }
-
-      memo[target] = styleTarget;
-    }
-
-    return memo[target];
-  };
-}();
-
-var stylesInDom = [];
+var stylesInDOM = [];
 
 function getIndexByIdentifier(identifier) {
   var result = -1;
 
-  for (var i = 0; i < stylesInDom.length; i++) {
-    if (stylesInDom[i].identifier === identifier) {
+  for (var i = 0; i < stylesInDOM.length; i++) {
+    if (stylesInDOM[i].identifier === identifier) {
       result = i;
       break;
     }
@@ -39386,20 +38855,24 @@ function modulesToDom(list, options) {
     var count = idCountMap[id] || 0;
     var identifier = "".concat(id, " ").concat(count);
     idCountMap[id] = count + 1;
-    var index = getIndexByIdentifier(identifier);
+    var indexByIdentifier = getIndexByIdentifier(identifier);
     var obj = {
       css: item[1],
       media: item[2],
-      sourceMap: item[3]
+      sourceMap: item[3],
+      supports: item[4],
+      layer: item[5]
     };
 
-    if (index !== -1) {
-      stylesInDom[index].references++;
-      stylesInDom[index].updater(obj);
+    if (indexByIdentifier !== -1) {
+      stylesInDOM[indexByIdentifier].references++;
+      stylesInDOM[indexByIdentifier].updater(obj);
     } else {
-      stylesInDom.push({
+      var updater = addElementStyle(obj, options);
+      options.byIndex = i;
+      stylesInDOM.splice(i, 0, {
         identifier: identifier,
-        updater: addStyle(obj, options),
+        updater: updater,
         references: 1
       });
     }
@@ -39410,165 +38883,36 @@ function modulesToDom(list, options) {
   return identifiers;
 }
 
-function insertStyleElement(options) {
-  var style = document.createElement('style');
-  var attributes = options.attributes || {};
+function addElementStyle(obj, options) {
+  var api = options.domAPI(options);
+  api.update(obj);
 
-  if (typeof attributes.nonce === 'undefined') {
-    var nonce =  true ? __webpack_require__.nc : 0;
-
-    if (nonce) {
-      attributes.nonce = nonce;
-    }
-  }
-
-  Object.keys(attributes).forEach(function (key) {
-    style.setAttribute(key, attributes[key]);
-  });
-
-  if (typeof options.insert === 'function') {
-    options.insert(style);
-  } else {
-    var target = getTarget(options.insert || 'head');
-
-    if (!target) {
-      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
-    }
-
-    target.appendChild(style);
-  }
-
-  return style;
-}
-
-function removeStyleElement(style) {
-  // istanbul ignore if
-  if (style.parentNode === null) {
-    return false;
-  }
-
-  style.parentNode.removeChild(style);
-}
-/* istanbul ignore next  */
-
-
-var replaceText = function replaceText() {
-  var textStore = [];
-  return function replace(index, replacement) {
-    textStore[index] = replacement;
-    return textStore.filter(Boolean).join('\n');
-  };
-}();
-
-function applyToSingletonTag(style, index, remove, obj) {
-  var css = remove ? '' : obj.media ? "@media ".concat(obj.media, " {").concat(obj.css, "}") : obj.css; // For old IE
-
-  /* istanbul ignore if  */
-
-  if (style.styleSheet) {
-    style.styleSheet.cssText = replaceText(index, css);
-  } else {
-    var cssNode = document.createTextNode(css);
-    var childNodes = style.childNodes;
-
-    if (childNodes[index]) {
-      style.removeChild(childNodes[index]);
-    }
-
-    if (childNodes.length) {
-      style.insertBefore(cssNode, childNodes[index]);
-    } else {
-      style.appendChild(cssNode);
-    }
-  }
-}
-
-function applyToTag(style, options, obj) {
-  var css = obj.css;
-  var media = obj.media;
-  var sourceMap = obj.sourceMap;
-
-  if (media) {
-    style.setAttribute('media', media);
-  } else {
-    style.removeAttribute('media');
-  }
-
-  if (sourceMap && typeof btoa !== 'undefined') {
-    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
-  } // For old IE
-
-  /* istanbul ignore if  */
-
-
-  if (style.styleSheet) {
-    style.styleSheet.cssText = css;
-  } else {
-    while (style.firstChild) {
-      style.removeChild(style.firstChild);
-    }
-
-    style.appendChild(document.createTextNode(css));
-  }
-}
-
-var singleton = null;
-var singletonCounter = 0;
-
-function addStyle(obj, options) {
-  var style;
-  var update;
-  var remove;
-
-  if (options.singleton) {
-    var styleIndex = singletonCounter++;
-    style = singleton || (singleton = insertStyleElement(options));
-    update = applyToSingletonTag.bind(null, style, styleIndex, false);
-    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
-  } else {
-    style = insertStyleElement(options);
-    update = applyToTag.bind(null, style, options);
-
-    remove = function remove() {
-      removeStyleElement(style);
-    };
-  }
-
-  update(obj);
-  return function updateStyle(newObj) {
+  var updater = function updater(newObj) {
     if (newObj) {
-      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap && newObj.supports === obj.supports && newObj.layer === obj.layer) {
         return;
       }
 
-      update(obj = newObj);
+      api.update(obj = newObj);
     } else {
-      remove();
+      api.remove();
     }
   };
+
+  return updater;
 }
 
 module.exports = function (list, options) {
-  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
-  // tags it will allow on a page
-
-  if (!options.singleton && typeof options.singleton !== 'boolean') {
-    options.singleton = isOldIE();
-  }
-
+  options = options || {};
   list = list || [];
   var lastIdentifiers = modulesToDom(list, options);
   return function update(newList) {
     newList = newList || [];
 
-    if (Object.prototype.toString.call(newList) !== '[object Array]') {
-      return;
-    }
-
     for (var i = 0; i < lastIdentifiers.length; i++) {
       var identifier = lastIdentifiers[i];
       var index = getIndexByIdentifier(identifier);
-      stylesInDom[index].references--;
+      stylesInDOM[index].references--;
     }
 
     var newLastIdentifiers = modulesToDom(newList, options);
@@ -39578,16 +38922,214 @@ module.exports = function (list, options) {
 
       var _index = getIndexByIdentifier(_identifier);
 
-      if (stylesInDom[_index].references === 0) {
-        stylesInDom[_index].updater();
+      if (stylesInDOM[_index].references === 0) {
+        stylesInDOM[_index].updater();
 
-        stylesInDom.splice(_index, 1);
+        stylesInDOM.splice(_index, 1);
       }
     }
 
     lastIdentifiers = newLastIdentifiers;
   };
 };
+
+/***/ }),
+
+/***/ "../node_modules/style-loader/dist/runtime/insertBySelector.js":
+/*!*********************************************************************!*\
+  !*** ../node_modules/style-loader/dist/runtime/insertBySelector.js ***!
+  \*********************************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+var memo = {};
+/* istanbul ignore next  */
+
+function getTarget(target) {
+  if (typeof memo[target] === "undefined") {
+    var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
+
+    if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+      try {
+        // This will throw an exception if access to iframe is blocked
+        // due to cross-origin restrictions
+        styleTarget = styleTarget.contentDocument.head;
+      } catch (e) {
+        // istanbul ignore next
+        styleTarget = null;
+      }
+    }
+
+    memo[target] = styleTarget;
+  }
+
+  return memo[target];
+}
+/* istanbul ignore next  */
+
+
+function insertBySelector(insert, style) {
+  var target = getTarget(insert);
+
+  if (!target) {
+    throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+  }
+
+  target.appendChild(style);
+}
+
+module.exports = insertBySelector;
+
+/***/ }),
+
+/***/ "../node_modules/style-loader/dist/runtime/insertStyleElement.js":
+/*!***********************************************************************!*\
+  !*** ../node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
+  \***********************************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+/* istanbul ignore next  */
+function insertStyleElement(options) {
+  var element = document.createElement("style");
+  options.setAttributes(element, options.attributes);
+  options.insert(element, options.options);
+  return element;
+}
+
+module.exports = insertStyleElement;
+
+/***/ }),
+
+/***/ "../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js":
+/*!***********************************************************************************!*\
+  !*** ../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
+  \***********************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+/* istanbul ignore next  */
+function setAttributesWithoutAttributes(styleElement) {
+  var nonce =  true ? __webpack_require__.nc : 0;
+
+  if (nonce) {
+    styleElement.setAttribute("nonce", nonce);
+  }
+}
+
+module.exports = setAttributesWithoutAttributes;
+
+/***/ }),
+
+/***/ "../node_modules/style-loader/dist/runtime/styleDomAPI.js":
+/*!****************************************************************!*\
+  !*** ../node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
+  \****************************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+/* istanbul ignore next  */
+function apply(styleElement, options, obj) {
+  var css = "";
+
+  if (obj.supports) {
+    css += "@supports (".concat(obj.supports, ") {");
+  }
+
+  if (obj.media) {
+    css += "@media ".concat(obj.media, " {");
+  }
+
+  var needLayer = typeof obj.layer !== "undefined";
+
+  if (needLayer) {
+    css += "@layer".concat(obj.layer.length > 0 ? " ".concat(obj.layer) : "", " {");
+  }
+
+  css += obj.css;
+
+  if (needLayer) {
+    css += "}";
+  }
+
+  if (obj.media) {
+    css += "}";
+  }
+
+  if (obj.supports) {
+    css += "}";
+  }
+
+  var sourceMap = obj.sourceMap;
+
+  if (sourceMap && typeof btoa !== "undefined") {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  } // For old IE
+
+  /* istanbul ignore if  */
+
+
+  options.styleTagTransform(css, styleElement, options.options);
+}
+
+function removeStyleElement(styleElement) {
+  // istanbul ignore if
+  if (styleElement.parentNode === null) {
+    return false;
+  }
+
+  styleElement.parentNode.removeChild(styleElement);
+}
+/* istanbul ignore next  */
+
+
+function domAPI(options) {
+  var styleElement = options.insertStyleElement(options);
+  return {
+    update: function update(obj) {
+      apply(styleElement, options, obj);
+    },
+    remove: function remove() {
+      removeStyleElement(styleElement);
+    }
+  };
+}
+
+module.exports = domAPI;
+
+/***/ }),
+
+/***/ "../node_modules/style-loader/dist/runtime/styleTagTransform.js":
+/*!**********************************************************************!*\
+  !*** ../node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+/* istanbul ignore next  */
+function styleTagTransform(css, styleElement) {
+  if (styleElement.styleSheet) {
+    styleElement.styleSheet.cssText = css;
+  } else {
+    while (styleElement.firstChild) {
+      styleElement.removeChild(styleElement.firstChild);
+    }
+
+    styleElement.appendChild(document.createTextNode(css));
+  }
+}
+
+module.exports = styleTagTransform;
 
 /***/ }),
 
@@ -39751,20 +39293,45 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_core_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./core.sass */ "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./core.sass");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "../node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */ "../node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "../node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "../node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_core_sass__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./core.sass */ "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./core.sass");
 
-            
+      
+      
+      
+      
+      
+      
+      
+      
+      
 
 var options = {};
 
-options.insert = "head";
-options.singleton = false;
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_core_sass__WEBPACK_IMPORTED_MODULE_1__.default, options);
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_core_sass__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_core_sass__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_core_sass__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_core_sass__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_core_sass__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
 
 /***/ }),
 
@@ -39781,7 +39348,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 var react_1 = __importDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js"));
-var lucyPic = __webpack_require__(/*! ../../public/lucy.jpg */ "../public/lucy.jpg").default;
+var lucyPic = (__webpack_require__(/*! ../../public/lucy.jpg */ "../public/lucy.jpg")["default"]);
 function About(props) {
     var t = props.t;
     return (react_1.default.createElement("div", { className: 'about' },
@@ -39789,7 +39356,7 @@ function About(props) {
         react_1.default.createElement("img", { src: lucyPic }),
         react_1.default.createElement("p", null, t('about_me.desc'))));
 }
-exports.default = About;
+exports["default"] = About;
 
 
 /***/ }),
@@ -39942,11 +39509,11 @@ var App = /** @class */ (function (_super) {
         return (react_1.default.createElement(react_router_dom_1.BrowserRouter, null,
             react_1.default.createElement(routeLocalizer_1.default, { routes: this.routes },
                 react_1.default.createElement(navigation_1.default, { routes: this.routes }),
-                react_1.default.createElement("div", { className: 'content' }, react_router_config_1.renderRoutes(this.routes, { t: t })))));
+                react_1.default.createElement("div", { className: 'content' }, (0, react_router_config_1.renderRoutes)(this.routes, { t: t })))));
     };
     return App;
 }(react_1.default.Component));
-exports.default = react_i18next_1.withTranslation()(App);
+exports["default"] = (0, react_i18next_1.withTranslation)()(App);
 
 
 /***/ }),
@@ -39959,13 +39526,63 @@ exports.default = react_i18next_1.withTranslation()(App);
 
 "use strict";
 
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-var react_1 = __importDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js"));
+var react_1 = __importStar(__webpack_require__(/*! react */ "../node_modules/react/index.js"));
 function BookClub(props) {
     var t = props.t;
+    var _a = (0, react_1.useState)(''), name = _a[0], setName = _a[1];
+    var _b = (0, react_1.useState)(''), email = _b[0], setEmail = _b[1];
+    var _c = (0, react_1.useState)(0), debounceTimestamp = _c[0], setDebounceTimestamp = _c[1];
+    var debounceDelay = 500;
+    var handleSubmitClick = function () {
+        // debounce button
+        var now = Date.now();
+        if (now - debounceTimestamp < debounceDelay) {
+            return;
+        }
+        setDebounceTimestamp(Date.now());
+        fetch('http://server.lucyhelder.nl/registration', {
+            method: 'POST',
+            body: JSON.stringify({ name: name, email: email }),
+            headers: {
+                'content-type': 'application/json',
+                'accept': 'application/json',
+            }
+        }).then(function () {
+            // handle addition
+        }).catch(function () {
+            // handle error
+        });
+    };
+    var handleNameChange = function (ev) {
+        setName(ev.target.value);
+    };
+    var handleEmailChange = function (ev) {
+        setEmail(ev.target.value);
+    };
     return (react_1.default.createElement("div", { className: 'book-club' },
         react_1.default.createElement("h1", null, t('book_club.title')),
         react_1.default.createElement("p", null, t('book_club.desc')),
@@ -39981,11 +39598,11 @@ function BookClub(props) {
             react_1.default.createElement("span", null, t('book_club.info.when.value'))),
         react_1.default.createElement("div", { className: 'separator' }),
         react_1.default.createElement("div", { className: 'sign-up' },
-            react_1.default.createElement("input", { id: 'name', placeholder: t('book_club.name_placeholder') }),
-            react_1.default.createElement("input", { placeholder: t('book_club.email_placeholder') }),
-            react_1.default.createElement("button", null, t('book_club.submit')))));
+            react_1.default.createElement("input", { id: 'name', placeholder: t('book_club.name_placeholder'), value: name, onChange: handleNameChange }),
+            react_1.default.createElement("input", { id: 'email', placeholder: t('book_club.email_placeholder'), value: email, onChange: handleEmailChange }),
+            react_1.default.createElement("button", { onClick: handleSubmitClick }, t('book_club.submit')))));
 }
-exports.default = BookClub;
+exports["default"] = BookClub;
 
 
 /***/ }),
@@ -40028,7 +39645,7 @@ var FourOhFour = /** @class */ (function (_super) {
     };
     return FourOhFour;
 }(react_1.default.Component));
-exports.default = FourOhFour;
+exports["default"] = FourOhFour;
 
 
 /***/ }),
@@ -40048,7 +39665,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 var react_1 = __importDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js"));
 var react_i18next_1 = __webpack_require__(/*! react-i18next */ "../node_modules/react-i18next/dist/es/index.js");
 function Home() {
-    var t = react_i18next_1.useTranslation().t;
+    var t = (0, react_i18next_1.useTranslation)().t;
     return (react_1.default.createElement("div", { className: 'home' },
         react_1.default.createElement("h1", null, "Lucy Helder"),
         react_1.default.createElement("div", { className: 'separator' }),
@@ -40059,7 +39676,7 @@ function Home() {
             " - ",
             t('amsterdammer'))));
 }
-exports.default = Home;
+exports["default"] = Home;
 
 
 /***/ }),
@@ -40074,7 +39691,11 @@ exports.default = Home;
 
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
@@ -40141,7 +39762,7 @@ i18next_1.default
         nl: nl_1.default,
     }
 });
-exports.default = i18next_1.default;
+exports["default"] = i18next_1.default;
 
 
 /***/ }),
@@ -40155,7 +39776,7 @@ exports.default = i18next_1.default;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.default = {
+exports["default"] = {
     common: __webpack_require__(/*! ./common.json */ "./lib/localization/locales/en/common.json"),
     routes: __webpack_require__(/*! ./routes.json */ "./lib/localization/locales/en/routes.json"),
 };
@@ -40172,7 +39793,7 @@ exports.default = {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.default = {
+exports["default"] = {
     common: __webpack_require__(/*! ./common.json */ "./lib/localization/locales/nl/common.json"),
     routes: __webpack_require__(/*! ./routes.json */ "./lib/localization/locales/nl/routes.json"),
 };
@@ -40190,7 +39811,11 @@ exports.default = {
 
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
@@ -40213,13 +39838,13 @@ var react_router_dom_1 = __webpack_require__(/*! react-router-dom */ "../node_mo
 var react_i18next_1 = __webpack_require__(/*! react-i18next */ "../node_modules/react-i18next/dist/es/index.js");
 var react_router_config_1 = __webpack_require__(/*! react-router-config */ "../node_modules/react-router-config/esm/react-router-config.js");
 var react_responsive_1 = __webpack_require__(/*! react-responsive */ "../node_modules/react-responsive/dist/react-responsive.js");
-var lucyName = __webpack_require__(/*! ../../public/lucy.svg */ "../public/lucy.svg").default;
+var lucyName = (__webpack_require__(/*! ../../public/lucy.svg */ "../public/lucy.svg")["default"]);
 function Navigation(props) {
-    var _a = react_1.useState(false), menuOpen = _a[0], setMenuOpen = _a[1];
-    var isMobile = react_responsive_1.useMediaQuery({ query: '(max-width: 768px)' });
+    var _a = (0, react_1.useState)(false), menuOpen = _a[0], setMenuOpen = _a[1];
+    var isMobile = (0, react_responsive_1.useMediaQuery)({ query: '(max-width: 768px)' });
     var changeLanguage = function (lang) {
         props.i18n.changeLanguage(lang);
-        var routes = react_router_config_1.matchRoutes(props.routes, props.location.pathname);
+        var routes = (0, react_router_config_1.matchRoutes)(props.routes, props.location.pathname);
         if (routes.length === 1) {
             var route = routes[0];
             var newPathname = route.route.resolvePath && route.route.resolvePath(lang);
@@ -40242,7 +39867,7 @@ function Navigation(props) {
         var underline = props.location.pathname === resolvedPath;
         if (resolvedPath) {
             return (react_1.default.createElement("li", { key: index, className: underline ? 'current' : '' },
-                react_1.default.createElement(react_router_dom_1.Link, { to: resolvedPath }, props.t("routes:" + titleKey))));
+                react_1.default.createElement(react_router_dom_1.Link, { to: resolvedPath }, props.t("routes:".concat(titleKey)))));
         }
         return undefined;
     })));
@@ -40257,7 +39882,7 @@ function Navigation(props) {
             " / ",
             react_1.default.createElement("span", { onClick: function () { return changeLanguage('en'); } }, "EN"))));
 }
-exports.default = react_i18next_1.withTranslation()(react_router_dom_1.withRouter(Navigation));
+exports["default"] = (0, react_i18next_1.withTranslation)()((0, react_router_dom_1.withRouter)(Navigation));
 
 
 /***/ }),
@@ -40280,7 +39905,7 @@ function Pieces(props) {
     return (react_1.default.createElement("div", { className: 'pieces' },
         react_1.default.createElement("h1", null, t('pieces'))));
 }
-exports.default = Pieces;
+exports["default"] = Pieces;
 
 
 /***/ }),
@@ -40302,9 +39927,9 @@ var react_router_config_1 = __webpack_require__(/*! react-router-config */ "../n
 var react_router_dom_1 = __webpack_require__(/*! react-router-dom */ "../node_modules/react-router-dom/esm/react-router-dom.js");
 var react_i18next_1 = __webpack_require__(/*! react-i18next */ "../node_modules/react-i18next/dist/es/index.js");
 function RouteLocalizer(props) {
-    var location = react_router_dom_1.useLocation();
-    var i18n = react_i18next_1.useTranslation().i18n;
-    var extendedRoute = react_router_config_1.matchRoutes(props.routes, location.pathname)[0].route;
+    var location = (0, react_router_dom_1.useLocation)();
+    var i18n = (0, react_i18next_1.useTranslation)().i18n;
+    var extendedRoute = (0, react_router_config_1.matchRoutes)(props.routes, location.pathname)[0].route;
     if (extendedRoute && extendedRoute.resolveLanguage) {
         var desiredLanguage = extendedRoute.resolveLanguage(location.pathname);
         if (i18n.language !== desiredLanguage)
@@ -40312,8 +39937,525 @@ function RouteLocalizer(props) {
     }
     return react_1.default.createElement(react_1.default.Fragment, null, props.children);
 }
-exports.default = RouteLocalizer;
+exports["default"] = RouteLocalizer;
 
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js":
+/*!**********************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _arrayLikeToArray)
+/* harmony export */ });
+function _arrayLikeToArray(arr, len) {
+  if (len == null || len > arr.length) len = arr.length;
+
+  for (var i = 0, arr2 = new Array(len); i < len; i++) {
+    arr2[i] = arr[i];
+  }
+
+  return arr2;
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js":
+/*!********************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _arrayWithHoles)
+/* harmony export */ });
+function _arrayWithHoles(arr) {
+  if (Array.isArray(arr)) return arr;
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js":
+/*!***************************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _assertThisInitialized)
+/* harmony export */ });
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/classCallCheck.js":
+/*!********************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/classCallCheck.js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _classCallCheck)
+/* harmony export */ });
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/createClass.js":
+/*!*****************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/createClass.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _createClass)
+/* harmony export */ });
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/defineProperty.js":
+/*!********************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/defineProperty.js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _defineProperty)
+/* harmony export */ });
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/extends.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/extends.js ***!
+  \*************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _extends)
+/* harmony export */ });
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js":
+/*!********************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _getPrototypeOf)
+/* harmony export */ });
+function _getPrototypeOf(o) {
+  _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+    return o.__proto__ || Object.getPrototypeOf(o);
+  };
+  return _getPrototypeOf(o);
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/inherits.js":
+/*!**************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/inherits.js ***!
+  \**************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _inherits)
+/* harmony export */ });
+/* harmony import */ var _setPrototypeOf_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./setPrototypeOf.js */ "../node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js");
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) (0,_setPrototypeOf_js__WEBPACK_IMPORTED_MODULE_0__["default"])(subClass, superClass);
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/inheritsLoose.js":
+/*!*******************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/inheritsLoose.js ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _inheritsLoose)
+/* harmony export */ });
+/* harmony import */ var _setPrototypeOf_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./setPrototypeOf.js */ "../node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js");
+
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  (0,_setPrototypeOf_js__WEBPACK_IMPORTED_MODULE_0__["default"])(subClass, superClass);
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js":
+/*!**************************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _iterableToArrayLimit)
+/* harmony export */ });
+function _iterableToArrayLimit(arr, i) {
+  if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;
+  var _arr = [];
+  var _n = true;
+  var _d = false;
+  var _e = undefined;
+
+  try {
+    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {
+      _arr.push(_s.value);
+
+      if (i && _arr.length === i) break;
+    }
+  } catch (err) {
+    _d = true;
+    _e = err;
+  } finally {
+    try {
+      if (!_n && _i["return"] != null) _i["return"]();
+    } finally {
+      if (_d) throw _e;
+    }
+  }
+
+  return _arr;
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/nonIterableRest.js":
+/*!*********************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/nonIterableRest.js ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _nonIterableRest)
+/* harmony export */ });
+function _nonIterableRest() {
+  throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/objectSpread.js":
+/*!******************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/objectSpread.js ***!
+  \******************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _objectSpread)
+/* harmony export */ });
+/* harmony import */ var _defineProperty_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./defineProperty.js */ "../node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? Object(arguments[i]) : {};
+    var ownKeys = Object.keys(source);
+
+    if (typeof Object.getOwnPropertySymbols === 'function') {
+      ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {
+        return Object.getOwnPropertyDescriptor(source, sym).enumerable;
+      }));
+    }
+
+    ownKeys.forEach(function (key) {
+      (0,_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]);
+    });
+  }
+
+  return target;
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js":
+/*!*****************************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _objectWithoutProperties)
+/* harmony export */ });
+/* harmony import */ var _objectWithoutPropertiesLoose_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./objectWithoutPropertiesLoose.js */ "../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+  var target = (0,_objectWithoutPropertiesLoose_js__WEBPACK_IMPORTED_MODULE_0__["default"])(source, excluded);
+  var key, i;
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js":
+/*!**********************************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _objectWithoutPropertiesLoose)
+/* harmony export */ });
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js":
+/*!*******************************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _possibleConstructorReturn)
+/* harmony export */ });
+/* harmony import */ var _babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/typeof */ "../node_modules/@babel/runtime/helpers/esm/typeof.js");
+/* harmony import */ var _assertThisInitialized_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assertThisInitialized.js */ "../node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+
+
+function _possibleConstructorReturn(self, call) {
+  if (call && ((0,_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_0__["default"])(call) === "object" || typeof call === "function")) {
+    return call;
+  }
+
+  return (0,_assertThisInitialized_js__WEBPACK_IMPORTED_MODULE_1__["default"])(self);
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js":
+/*!********************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _setPrototypeOf)
+/* harmony export */ });
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/slicedToArray.js":
+/*!*******************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/slicedToArray.js ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _slicedToArray)
+/* harmony export */ });
+/* harmony import */ var _arrayWithHoles_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayWithHoles.js */ "../node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js");
+/* harmony import */ var _iterableToArrayLimit_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iterableToArrayLimit.js */ "../node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js");
+/* harmony import */ var _unsupportedIterableToArray_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./unsupportedIterableToArray.js */ "../node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js");
+/* harmony import */ var _nonIterableRest_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./nonIterableRest.js */ "../node_modules/@babel/runtime/helpers/esm/nonIterableRest.js");
+
+
+
+
+function _slicedToArray(arr, i) {
+  return (0,_arrayWithHoles_js__WEBPACK_IMPORTED_MODULE_0__["default"])(arr) || (0,_iterableToArrayLimit_js__WEBPACK_IMPORTED_MODULE_1__["default"])(arr, i) || (0,_unsupportedIterableToArray_js__WEBPACK_IMPORTED_MODULE_2__["default"])(arr, i) || (0,_nonIterableRest_js__WEBPACK_IMPORTED_MODULE_3__["default"])();
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/typeof.js":
+/*!************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/typeof.js ***!
+  \************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _typeof)
+/* harmony export */ });
+function _typeof(obj) {
+  "@babel/helpers - typeof";
+
+  if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
+    _typeof = function _typeof(obj) {
+      return typeof obj;
+    };
+  } else {
+    _typeof = function _typeof(obj) {
+      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+    };
+  }
+
+  return _typeof(obj);
+}
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js":
+/*!********************************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _unsupportedIterableToArray)
+/* harmony export */ });
+/* harmony import */ var _arrayLikeToArray_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayLikeToArray.js */ "../node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js");
+
+function _unsupportedIterableToArray(o, minLen) {
+  if (!o) return;
+  if (typeof o === "string") return (0,_arrayLikeToArray_js__WEBPACK_IMPORTED_MODULE_0__["default"])(o, minLen);
+  var n = Object.prototype.toString.call(o).slice(8, -1);
+  if (n === "Object" && o.constructor) n = o.constructor.name;
+  if (n === "Map" || n === "Set") return Array.from(o);
+  if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return (0,_arrayLikeToArray_js__WEBPACK_IMPORTED_MODULE_0__["default"])(o, minLen);
+}
 
 /***/ }),
 
@@ -40458,6 +40600,11 @@ module.exports = JSON.parse('{"home":"Home","about":"Over mij","pieces":"Stukjes
 /******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
 /******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
 /******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/nonce */
+/******/ 	(() => {
+/******/ 		__webpack_require__.nc = undefined;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
