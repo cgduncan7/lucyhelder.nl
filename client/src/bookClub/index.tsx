@@ -1,11 +1,19 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 export default function BookClub(props: any) {
   const { t } = props
 
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
+  const [result, setResult] = useState('')
   const [debounceTimestamp, setDebounceTimestamp] = useState(0)
+
+  useEffect(() => {
+    if (result.length > 0) {
+      setTimeout(() => setResult(''), 5000)
+    }
+  }, [result])
+
   const debounceDelay = 500
 
   const handleSubmitClick = () => {
@@ -25,8 +33,10 @@ export default function BookClub(props: any) {
       }
     }).then(() => {
       // handle addition
+      setResult(t('book_club.signup_success'));
     }).catch(() => {
       // handle error
+      setResult(t('book_club.signup_error'));
     })
   }
 
@@ -72,6 +82,7 @@ export default function BookClub(props: any) {
         >
           {t('book_club.submit')}
         </button>
+        <span>{result}</span>
       </div>
     </div>
   )

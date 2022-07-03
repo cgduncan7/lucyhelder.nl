@@ -28,7 +28,9 @@
     },
     "submit": "Inschrijven",
     "name_placeholder": "Naam",
-    "email_placeholder": "Email"
+    "email_placeholder": "Email",
+    "signup_success": "Gelukt!",
+    "signup_error": "Iets ging fout, probeer maar wat later!"
   },
   "dutch_teacher": "Docent Nederlands",
   "language_lover": "Taalliefhebber",

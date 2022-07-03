@@ -28,7 +28,9 @@
     },
     "submit": "Submit",
     "name_placeholder": "Name",
-    "email_placeholder": "Email"
+    "email_placeholder": "Email",
+    "signup_success": "Success!",
+    "signup_error": "Something went wrong, try again later!"
   },
   "dutch_teacher": "Dutch Teacher",
   "language_lover": "Language lover",
