@@ -39564,7 +39564,7 @@ function BookClub(props) {
             return;
         }
         setDebounceTimestamp(Date.now());
-        fetch('http://server.lucyhelder.nl/registration', {
+        fetch('https://server.lucyhelder.nl/registration', {
             method: 'POST',
             body: JSON.stringify({ name: name, email: email }),
             headers: {
