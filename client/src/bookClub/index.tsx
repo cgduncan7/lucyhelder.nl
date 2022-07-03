@@ -16,7 +16,7 @@ export default function BookClub(props: any) {
     }
     setDebounceTimestamp(Date.now())
 
-    fetch('http://server.lucyhelder.nl/registration', {
+    fetch('https://server.lucyhelder.nl/registration', {
       method: 'POST',
       body: JSON.stringify({ name, email }),
       headers: {
