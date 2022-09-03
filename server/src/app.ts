@@ -1,11 +1,11 @@
 import express from 'express'
-import cors from 'cors'
+import cors, { CorsOptions } from 'cors'
 import { router as registrationRouter } from './registration'
 
 const app = express()
 
-const corsOptions = {
-  origin: 'https://lucyhelder.nl'
+const corsOptions: CorsOptions = {
+  origin: /^https?:\/\/lucyhelder.nl/
 }
 
 app.disable('x-powered-by')
